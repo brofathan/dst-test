@@ -76,7 +76,7 @@ return {
     mutated_spiderqueen="default",
     nightmarecreatures="default",
     pigs_setting="default",
-    portalresurection="none",
+    portalresurection="always",
     prefabswaps_start="default",
     reeds="default",
     reeds_regrowth="default",

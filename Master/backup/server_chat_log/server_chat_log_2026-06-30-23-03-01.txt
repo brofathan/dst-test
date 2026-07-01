@@ -1,0 +1,9 @@
+[00:00:49]: [Join Announcement] tarcio594
+[00:02:29]: [Join Announcement] johnpork
+[00:03:23]: [Skin Announcement] johnpork body_waxwell_masquerade
+[00:05:22]: [Join Announcement] profile profile
+[00:06:01]: [Leave Announcement] johnpork
+[00:07:14]: [Join Announcement] johnpork
+[00:07:45]: [Leave Announcement] johnpork
+[00:07:53]: [Leave Announcement] profile profile
+[00:08:10]: [Leave Announcement] tarcio594

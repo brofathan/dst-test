@@ -1,0 +1,1027 @@
+[00:00:00]: 
+System Memory:
+	Memory Load: 57%
+	Available Physical Memory: 6854m/16051m
+	Available Page File: 20361m/33459m
+	Available Virtual Memory: 134213475m/134217727m
+	Available Extended Virtual Memory: 0m
+[00:00:00]: 
+Process Memory:
+	Peak Working Set Size: 33m
+	Working Set Size: 33m
+	Quota Peak Page Pool Usage: 226k
+	Quota Page Pool Usage: 223k
+	Quota Peak Non Paged Pool Usage:21k
+	Quota Non Paged Pool Usage: 15k
+	Page File Usage: 5m
+	Peak Page File Usage: 5m
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/235059957/Cluster_3/Caves/ 
+[00:00:00]: Starting Up
+[00:00:00]: Version: 739495
+[00:00:00]: Current time: Tue Jun 30 22:35:20 2026
+
+[00:00:00]: Don't Starve Together: 739495 WIN32
+[00:00:00]: Build Date: 4188
+[00:00:00]: Mode: 64-bit
+[00:00:00]: Parsing command line
+[00:00:00]: Command Line Arguments: -monitor_parent_process 2988 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_3 -fo -ownernetid 76561198195325685 -ownerdir 235059957 -clouddir 235059957 -backup_log_count 25 -backup_log_period 0 -shard Caves -secondary_log_prefix caves -sigprefix DST_Secondary -token ************************************************************************************ 
+[00:00:00]: Initializing distribution platform
+[00:00:00]: Initializing Minidump handler
+[00:00:00]: ....Done
+[00:00:00]: ....Done
+[00:00:00]: Fixing DPI
+[00:00:00]: ...Done
+[00:00:00]: THREAD - started 'GAClient' (4268)
+[00:00:00]: CurlRequestManager::ClientThread::Main()
+[00:00:00]: ProfileIndex:0.66
+[00:00:00]: Mounting file system databundles/klump.zip successful.
+[00:00:00]: Mounting file system databundles/shaders.zip successful.
+[00:00:00]: Mounting file system databundles/fonts.zip successful.
+[00:00:00]: Mounting file system databundles/anim_dynamic.zip successful.
+[00:00:00]: Mounting file system databundles/bigportraits.zip successful.
+[00:00:01]: Mounting file system databundles/images.zip successful.
+[00:00:01]: Mounting file system databundles/scripts.zip successful.
+[00:00:01]: [Steam] SteamGameServer_Init(10998, 27017)
+[00:00:01]: [Steam] SteamGameServer_Init success
+[00:00:01]: [Connect] PendingConnection::Reset(true)
+[00:00:01]: Platform: 1
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Network tick rate: U=15(2), D=0
+[00:00:01]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is enabled in the firewall.
+[00:00:01]: WindowsFirewall - Application already authorized
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/235059957/client_save/blocklist.txt (Failure)
+[00:00:01]: THREAD - started 'StreamInput' (13300)
+[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/235059957/client_save/adminlist.txt (Failure)
+[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/235059957/client_save/whitelist.txt (Failure)
+[00:00:01]: Offline user ID: OU_76561198195325685
+[00:00:01]: HardwareStats:
+  OS                        
+    name                      Microsoft Windows 11 Home Single Language
+    version                   10.0.26200
+    platformSpecific          SP 0.0
+    architecture              64-bit
+  CPU                       
+    clockSpeed                2300
+    name                      12th Gen Intel(R) Core(TM) i7-12700H
+    manufacturer              GenuineIntel
+    numCores                  14
+    features                  SSE,SSE2,SSE3,SSSE3,SSE41,SSE42,AVX
+  RAM                       
+    megsOfRam                 16384
+  GPU                       
+    megsOfRam                 4095
+    videoModeDescription      
+    name                      NVIDIA GeForce RTX 3050 Ti Laptop GPU
+    driverVersion             32.0.15.9227
+    driverDate                20260401000000.000000-000
+    refreshRate               0
+
+[00:00:01]: cGame::InitializeOnMainThread
+[00:00:01]: Renderer initialize: Okay
+[00:00:01]: AnimManager initialize: Okay
+[00:00:01]: Buffers initialize: Okay
+[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:01]: GameSpecific initialize: Okay
+[00:00:01]: cGame::StartPlaying
+[00:00:01]: AppVersion::GetArchitecture() x64
+[00:00:01]: LOADING LUA
+[00:00:01]: DoLuaFile scripts/main.lua
+[00:00:01]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]:   taskgrouplist:	default	Together	
+[00:00:01]:   taskgrouplist:	classic	Classic	
+[00:00:01]:   taskgrouplist:	cave_default	Underground	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:01]: Running main.lua
+	
+[00:00:01]: Could not load modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:01]: SUCCESS: Loaded modoverrides.lua	
+[00:00:01]: Registering Mods:
+[00:00:01]: No mods registered
+[00:00:01]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:03]: LOADING LUA SUCCESS
+[00:00:03]: PlayerDeaths could not load morgue	
+[00:00:03]: PlayerHistory could not load player_history	
+[00:00:03]: ServerPreferences could not load server_preferences	
+[00:00:03]: ConsoleScreenSettings could not load consolescreen	
+[00:00:03]: bloom_enabled	true	
+[00:00:03]: OnFilesLoaded()	
+[00:00:03]: OnUpdatePurchaseStateComplete	
+[00:00:03]: Klump load on boot started.	
+[00:00:03]: Klump files loaded: 	0	
+[00:00:05]: 	Load FE	
+[00:00:05]: 	Load FE: done	
+[00:00:05]: THREAD - started 'FilesExistAsyncThread' (11468)
+[00:00:05]: FilesExistAsyncThread started (0 files)...
+[00:00:05]: ... FilesExistAsyncThread complete
+[00:00:05]: Check for write access: TRUE
+[00:00:05]: Check for read access: TRUE
+[00:00:05]: Available disk space for save files: 115212 MB
+[00:00:05]: ModIndex: Load sequence finished successfully.	
+[00:00:05]: Reset() returning
+[00:00:05]: [IPC] Signal 'DST_Secondary_Kill' opened  #0000000000000A68
+[00:00:05]: [IPC] Registering handler for signal #0000000000000A68
+[00:00:05]: [IPC] Handle #0000000000000A68 added to the Eventhandles
+[00:00:05]: [IPC] Signal 'DST_Secondary_ShutdownNoSave' opened  #00000000000009C0
+[00:00:05]: [IPC] Registering handler for signal #00000000000009C0
+[00:00:05]: [IPC] Handle #00000000000009C0 added to the Eventhandles
+[00:00:05]: [IPC] Signal 'DST_Secondary_Starting' opened  #0000000000000A6C
+[00:00:05]: [IPC] Sending signal... #0000000000000A6C
+[00:00:06]: [200] Account Communication Success (6)
+[00:00:06]: Cached userid (null) saved to APP:Klei//DoNotStarveTogether/235059957/Cluster_3/Caves/save/cached_userid
+[00:00:06]: Received (KU_ueGiPCrM) from TokenPurpose
+[00:00:06]: Starting Dedicated Server Game	
+[00:00:06]: Network tick rate: U=15(2), D=0
+[00:00:06]: About to start a server with the following settings:
+[00:00:06]:   Dedicated: true
+[00:00:06]:   Online: true
+[00:00:06]:   Passworded: true
+[00:00:06]:   ServerPort: 10998
+[00:00:06]:   SteamAuthPort: 8767
+[00:00:06]:   SteamMasterServerPort: 27017
+[00:00:06]:   ClanID: false
+[00:00:06]:   ClanOnly: false
+[00:00:06]:   ClanAdmin: false
+[00:00:06]:   LanOnly: false
+[00:00:06]:   FriendsOnly: true
+[00:00:06]:   EnableAutosaver: true
+[00:00:06]:   EncodeUserPath: true
+[00:00:06]:   PVP: false
+[00:00:06]:   MaxPlayers: 6
+[00:00:06]:   GameMode: survival
+[00:00:06]:   OverridenDNS: 
+[00:00:06]:   PauseWhenEmpty: true
+[00:00:06]:   IdleTimeout: 1800s
+[00:00:06]:   VoteEnabled: false
+[00:00:06]:   InternetBroadcasting: true
+[00:00:06]: [Warning] Could not confirm port 10998 is open in the firewall. 
+[00:00:06]: [Shard] No shard id specified, generating a random one...
+[00:00:06]: Online Server Started on port: 10998
+[00:00:06]: [ClientObject] Added (pre-auth) on server: guid=2542105349318925966
+[00:00:06]: [ClientObject] Initialized (self/server object, locally trusted) on server: guid=2542105349318925966 userid=KU_ueGiPCrM netid= admin=1
+[00:00:06]: SUCCESS: Loaded modoverrides.lua	
+[00:00:06]: Found a level data override file with these contents:	
+[00:00:06]: 	K: 	background_node_range	 V: 	table: 000000001131B930	
+[00:00:06]: 		K: 	1	 V: 	0	
+[00:00:06]: 		K: 	2	 V: 	1	
+[00:00:06]: 	K: 	desc	 V: 	Delve into the caves... together!	
+[00:00:06]: 	K: 	hideminimap	 V: 	false	
+[00:00:06]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:06]: 	K: 	location	 V: 	cave	
+[00:00:06]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:06]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:06]: 	K: 	name	 V: 	The Caves	
+[00:00:06]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:06]: 	K: 	override_level_string	 V: 	false	
+[00:00:06]: 	K: 	overrides	 V: 	table: 000000001131BF20	
+[00:00:06]: 		K: 	acidrain_enabled	 V: 	always	
+[00:00:06]: 		K: 	atriumgate	 V: 	default	
+[00:00:06]: 		K: 	banana	 V: 	default	
+[00:00:06]: 		K: 	basicresource_regrowth	 V: 	none	
+[00:00:06]: 		K: 	bats	 V: 	default	
+[00:00:06]: 		K: 	bats_setting	 V: 	default	
+[00:00:06]: 		K: 	beefaloheat	 V: 	default	
+[00:00:06]: 		K: 	berrybush	 V: 	default	
+[00:00:06]: 		K: 	boons	 V: 	default	
+[00:00:06]: 		K: 	branching	 V: 	default	
+[00:00:06]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:06]: 		K: 	bunnymen	 V: 	default	
+[00:00:06]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:06]: 		K: 	cave_ponds	 V: 	default	
+[00:00:06]: 		K: 	cave_spiders	 V: 	default	
+[00:00:06]: 		K: 	cavelight	 V: 	default	
+[00:00:06]: 		K: 	chess	 V: 	default	
+[00:00:06]: 		K: 	chest_mimics	 V: 	default	
+[00:00:06]: 		K: 	crow_carnival	 V: 	default	
+[00:00:06]: 		K: 	darkness	 V: 	default	
+[00:00:06]: 		K: 	day	 V: 	default	
+[00:00:06]: 		K: 	daywalker	 V: 	default	
+[00:00:06]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:06]: 		K: 	dustmoths	 V: 	default	
+[00:00:06]: 		K: 	earthquakes	 V: 	default	
+[00:00:06]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:00:06]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:06]: 		K: 	fern	 V: 	default	
+[00:00:06]: 		K: 	fissure	 V: 	default	
+[00:00:06]: 		K: 	flint	 V: 	default	
+[00:00:06]: 		K: 	flower_cave	 V: 	default	
+[00:00:06]: 		K: 	flower_cave_regrowth	 V: 	default	
+[00:00:06]: 		K: 	fruitfly	 V: 	default	
+[00:00:06]: 		K: 	ghostenabled	 V: 	none	
+[00:00:06]: 		K: 	ghostsanitydrain	 V: 	always	
+[00:00:06]: 		K: 	grass	 V: 	default	
+[00:00:06]: 		K: 	grassgekkos	 V: 	default	
+[00:00:06]: 		K: 	hallowed_nights	 V: 	default	
+[00:00:06]: 		K: 	healthpenalty	 V: 	always	
+[00:00:06]: 		K: 	hunger	 V: 	default	
+[00:00:06]: 		K: 	itemmimics	 V: 	default	
+[00:00:06]: 		K: 	krampus	 V: 	default	
+[00:00:06]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:06]: 		K: 	lessdamagetaken	 V: 	none	
+[00:00:06]: 		K: 	lichen	 V: 	default	
+[00:00:06]: 		K: 	liefs	 V: 	default	
+[00:00:06]: 		K: 	lightflier_flower_regrowth	 V: 	default	
+[00:00:06]: 		K: 	lightfliers	 V: 	default	
+[00:00:06]: 		K: 	loop	 V: 	default	
+[00:00:06]: 		K: 	marshbush	 V: 	default	
+[00:00:06]: 		K: 	merms	 V: 	default	
+[00:00:06]: 		K: 	molebats	 V: 	default	
+[00:00:06]: 		K: 	moles_setting	 V: 	default	
+[00:00:06]: 		K: 	monkey	 V: 	default	
+[00:00:06]: 		K: 	monkey_setting	 V: 	default	
+[00:00:06]: 		K: 	moon_spider	 V: 	default	
+[00:00:06]: 		K: 	mushgnome	 V: 	default	
+[00:00:06]: 		K: 	mushroom	 V: 	default	
+[00:00:06]: 		K: 	mushtree	 V: 	default	
+[00:00:06]: 		K: 	mushtree_moon_regrowth	 V: 	default	
+[00:00:06]: 		K: 	mushtree_regrowth	 V: 	default	
+[00:00:06]: 		K: 	mutated_birds	 V: 	default	
+[00:00:06]: 		K: 	mutated_merm	 V: 	default	
+[00:00:06]: 		K: 	mutated_spiderqueen	 V: 	default	
+[00:00:06]: 		K: 	nightmarecreatures	 V: 	default	
+[00:00:06]: 		K: 	pigs_setting	 V: 	default	
+[00:00:06]: 		K: 	portalresurection	 V: 	always	
+[00:00:06]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:06]: 		K: 	reeds	 V: 	default	
+[00:00:06]: 		K: 	reeds_regrowth	 V: 	default	
+[00:00:06]: 		K: 	regrowth	 V: 	default	
+[00:00:06]: 		K: 	resettime	 V: 	default	
+[00:00:06]: 		K: 	rifts_enabled_cave	 V: 	default	
+[00:00:06]: 		K: 	rifts_frequency_cave	 V: 	default	
+[00:00:06]: 		K: 	roads	 V: 	never	
+[00:00:06]: 		K: 	rock	 V: 	default	
+[00:00:06]: 		K: 	rocky	 V: 	default	
+[00:00:06]: 		K: 	rocky_setting	 V: 	default	
+[00:00:06]: 		K: 	sapling	 V: 	default	
+[00:00:06]: 		K: 	season_start	 V: 	default	
+[00:00:06]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:06]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:06]: 		K: 	slurper	 V: 	default	
+[00:00:06]: 		K: 	slurtles	 V: 	default	
+[00:00:06]: 		K: 	slurtles_setting	 V: 	default	
+[00:00:06]: 		K: 	snurtles	 V: 	default	
+[00:00:06]: 		K: 	spawnmode	 V: 	fixed	
+[00:00:06]: 		K: 	spawnprotection	 V: 	default	
+[00:00:06]: 		K: 	specialevent	 V: 	default	
+[00:00:06]: 		K: 	spider_dropper	 V: 	default	
+[00:00:06]: 		K: 	spider_hider	 V: 	default	
+[00:00:06]: 		K: 	spider_spitter	 V: 	default	
+[00:00:06]: 		K: 	spider_warriors	 V: 	default	
+[00:00:06]: 		K: 	spiderqueen	 V: 	default	
+[00:00:06]: 		K: 	spiders	 V: 	default	
+[00:00:06]: 		K: 	spiders_setting	 V: 	default	
+[00:00:06]: 		K: 	start_location	 V: 	caves	
+[00:00:06]: 		K: 	task_set	 V: 	cave_default	
+[00:00:06]: 		K: 	temperaturedamage	 V: 	default	
+[00:00:06]: 		K: 	tentacles	 V: 	default	
+[00:00:06]: 		K: 	toadstool	 V: 	default	
+[00:00:06]: 		K: 	touchstone	 V: 	default	
+[00:00:06]: 		K: 	tree_rock	 V: 	default	
+[00:00:06]: 		K: 	tree_rock_regrowth	 V: 	default	
+[00:00:06]: 		K: 	trees	 V: 	default	
+[00:00:06]: 		K: 	twiggytrees_regrowth	 V: 	default	
+[00:00:06]: 		K: 	weather	 V: 	default	
+[00:00:06]: 		K: 	winters_feast	 V: 	default	
+[00:00:06]: 		K: 	world_size	 V: 	default	
+[00:00:06]: 		K: 	wormattacks	 V: 	default	
+[00:00:06]: 		K: 	wormattacks_boss	 V: 	default	
+[00:00:06]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:06]: 		K: 	wormlights	 V: 	default	
+[00:00:06]: 		K: 	worms	 V: 	default	
+[00:00:06]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:00:06]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:00:06]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:00:06]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:00:06]: 		K: 	year_of_the_dragonfly	 V: 	default	
+[00:00:06]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:00:06]: 		K: 	year_of_the_knight	 V: 	default	
+[00:00:06]: 		K: 	year_of_the_pig	 V: 	default	
+[00:00:06]: 		K: 	year_of_the_snake	 V: 	default	
+[00:00:06]: 		K: 	year_of_the_varg	 V: 	default	
+[00:00:06]: 	K: 	required_prefabs	 V: 	table: 000000001131BB10	
+[00:00:06]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:06]: 	K: 	settings_desc	 V: 	Delve into the caves... together!	
+[00:00:06]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:06]: 	K: 	settings_name	 V: 	The Caves	
+[00:00:06]: 	K: 	substitutes	 V: 	table: 000000001131C290	
+[00:00:06]: 	K: 	version	 V: 	4	
+[00:00:06]: 	K: 	worldgen_desc	 V: 	Delve into the caves... together!	
+[00:00:06]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:06]: 	K: 	worldgen_name	 V: 	The Caves	
+[00:00:06]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:06]: Overwriting savedata with level data file.	
+[00:00:06]: Not applying world gen overrides.	
+[00:00:06]: Collecting garbage...
+[00:00:06]: lua_gc took 0.08 seconds
+[00:00:06]: ~ShardLuaProxy()
+[00:00:06]: ~cEventLeaderboardProxy()
+[00:00:06]: ~ItemServerLuaProxy()
+[00:00:06]: ~InventoryLuaProxy()
+[00:00:06]: ~NetworkLuaProxy()
+[00:00:06]: ~SimLuaProxy()
+[00:00:06]: lua_close took 0.08 seconds
+[00:00:06]: ReleaseAll
+[00:00:06]: ReleaseAll Finished
+[00:00:06]: cGame::StartPlaying
+[00:00:06]: AppVersion::GetArchitecture() x64
+[00:00:06]: LOADING LUA
+[00:00:06]: DoLuaFile scripts/main.lua
+[00:00:06]: DoLuaFile loading buffer scripts/main.lua
+[00:00:07]:   taskgrouplist:	default	Together	
+[00:00:07]:   taskgrouplist:	classic	Classic	
+[00:00:07]:   taskgrouplist:	cave_default	Underground	
+[00:00:07]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:07]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:07]: Running main.lua
+	
+[00:00:07]: loaded modindex	
+[00:00:07]: ModIndex: Beginning normal load sequence for dedicated server.
+	
+[00:00:07]: SUCCESS: Loaded modoverrides.lua	
+[00:00:07]: Registering Mods:
+[00:00:07]: No mods registered
+[00:00:07]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:07]: LOADING LUA SUCCESS
+[00:00:07]: PlayerDeaths could not load morgue	
+[00:00:07]: PlayerHistory could not load player_history	
+[00:00:07]: ServerPreferences could not load server_preferences	
+[00:00:07]: ConsoleScreenSettings could not load consolescreen	
+[00:00:07]: bloom_enabled	true	
+[00:00:07]: OnFilesLoaded()	
+[00:00:07]: OnUpdatePurchaseStateComplete	
+[00:00:07]: SUCCESS: Loaded modoverrides.lua	
+[00:00:07]: Found a level data override file with these contents:	
+[00:00:07]: 	K: 	background_node_range	 V: 	table: 000000001C83F460	
+[00:00:07]: 		K: 	1	 V: 	0	
+[00:00:07]: 		K: 	2	 V: 	1	
+[00:00:07]: 	K: 	desc	 V: 	Delve into the caves... together!	
+[00:00:07]: 	K: 	hideminimap	 V: 	false	
+[00:00:07]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:07]: 	K: 	location	 V: 	cave	
+[00:00:07]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:07]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:07]: 	K: 	name	 V: 	The Caves	
+[00:00:07]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:07]: 	K: 	override_level_string	 V: 	false	
+[00:00:07]: 	K: 	overrides	 V: 	table: 000000001C83F8C0	
+[00:00:07]: 		K: 	acidrain_enabled	 V: 	always	
+[00:00:07]: 		K: 	atriumgate	 V: 	default	
+[00:00:07]: 		K: 	banana	 V: 	default	
+[00:00:07]: 		K: 	basicresource_regrowth	 V: 	none	
+[00:00:07]: 		K: 	bats	 V: 	default	
+[00:00:07]: 		K: 	bats_setting	 V: 	default	
+[00:00:07]: 		K: 	beefaloheat	 V: 	default	
+[00:00:07]: 		K: 	berrybush	 V: 	default	
+[00:00:07]: 		K: 	boons	 V: 	default	
+[00:00:07]: 		K: 	branching	 V: 	default	
+[00:00:07]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:07]: 		K: 	bunnymen	 V: 	default	
+[00:00:07]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:07]: 		K: 	cave_ponds	 V: 	default	
+[00:00:07]: 		K: 	cave_spiders	 V: 	default	
+[00:00:07]: 		K: 	cavelight	 V: 	default	
+[00:00:07]: 		K: 	chess	 V: 	default	
+[00:00:07]: 		K: 	chest_mimics	 V: 	default	
+[00:00:07]: 		K: 	crow_carnival	 V: 	default	
+[00:00:07]: 		K: 	darkness	 V: 	default	
+[00:00:07]: 		K: 	day	 V: 	default	
+[00:00:07]: 		K: 	daywalker	 V: 	default	
+[00:00:07]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:07]: 		K: 	dustmoths	 V: 	default	
+[00:00:07]: 		K: 	earthquakes	 V: 	default	
+[00:00:07]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:00:07]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:07]: 		K: 	fern	 V: 	default	
+[00:00:07]: 		K: 	fissure	 V: 	default	
+[00:00:07]: 		K: 	flint	 V: 	default	
+[00:00:07]: 		K: 	flower_cave	 V: 	default	
+[00:00:07]: 		K: 	flower_cave_regrowth	 V: 	default	
+[00:00:07]: 		K: 	fruitfly	 V: 	default	
+[00:00:07]: 		K: 	ghostenabled	 V: 	none	
+[00:00:07]: 		K: 	ghostsanitydrain	 V: 	always	
+[00:00:07]: 		K: 	grass	 V: 	default	
+[00:00:07]: 		K: 	grassgekkos	 V: 	default	
+[00:00:07]: 		K: 	hallowed_nights	 V: 	default	
+[00:00:07]: 		K: 	healthpenalty	 V: 	always	
+[00:00:07]: 		K: 	hunger	 V: 	default	
+[00:00:07]: 		K: 	itemmimics	 V: 	default	
+[00:00:07]: 		K: 	krampus	 V: 	default	
+[00:00:07]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:07]: 		K: 	lessdamagetaken	 V: 	none	
+[00:00:07]: 		K: 	lichen	 V: 	default	
+[00:00:07]: 		K: 	liefs	 V: 	default	
+[00:00:07]: 		K: 	lightflier_flower_regrowth	 V: 	default	
+[00:00:07]: 		K: 	lightfliers	 V: 	default	
+[00:00:07]: 		K: 	loop	 V: 	default	
+[00:00:07]: 		K: 	marshbush	 V: 	default	
+[00:00:07]: 		K: 	merms	 V: 	default	
+[00:00:07]: 		K: 	molebats	 V: 	default	
+[00:00:07]: 		K: 	moles_setting	 V: 	default	
+[00:00:07]: 		K: 	monkey	 V: 	default	
+[00:00:07]: 		K: 	monkey_setting	 V: 	default	
+[00:00:07]: 		K: 	moon_spider	 V: 	default	
+[00:00:07]: 		K: 	mushgnome	 V: 	default	
+[00:00:07]: 		K: 	mushroom	 V: 	default	
+[00:00:07]: 		K: 	mushtree	 V: 	default	
+[00:00:07]: 		K: 	mushtree_moon_regrowth	 V: 	default	
+[00:00:07]: 		K: 	mushtree_regrowth	 V: 	default	
+[00:00:07]: 		K: 	mutated_birds	 V: 	default	
+[00:00:07]: 		K: 	mutated_merm	 V: 	default	
+[00:00:07]: 		K: 	mutated_spiderqueen	 V: 	default	
+[00:00:07]: 		K: 	nightmarecreatures	 V: 	default	
+[00:00:07]: 		K: 	pigs_setting	 V: 	default	
+[00:00:07]: 		K: 	portalresurection	 V: 	always	
+[00:00:07]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:07]: 		K: 	reeds	 V: 	default	
+[00:00:07]: 		K: 	reeds_regrowth	 V: 	default	
+[00:00:07]: 		K: 	regrowth	 V: 	default	
+[00:00:07]: 		K: 	resettime	 V: 	default	
+[00:00:07]: 		K: 	rifts_enabled_cave	 V: 	default	
+[00:00:07]: 		K: 	rifts_frequency_cave	 V: 	default	
+[00:00:07]: 		K: 	roads	 V: 	never	
+[00:00:07]: 		K: 	rock	 V: 	default	
+[00:00:07]: 		K: 	rocky	 V: 	default	
+[00:00:07]: 		K: 	rocky_setting	 V: 	default	
+[00:00:07]: 		K: 	sapling	 V: 	default	
+[00:00:07]: 		K: 	season_start	 V: 	default	
+[00:00:07]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:07]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:07]: 		K: 	slurper	 V: 	default	
+[00:00:07]: 		K: 	slurtles	 V: 	default	
+[00:00:07]: 		K: 	slurtles_setting	 V: 	default	
+[00:00:07]: 		K: 	snurtles	 V: 	default	
+[00:00:07]: 		K: 	spawnmode	 V: 	fixed	
+[00:00:07]: 		K: 	spawnprotection	 V: 	default	
+[00:00:07]: 		K: 	specialevent	 V: 	default	
+[00:00:07]: 		K: 	spider_dropper	 V: 	default	
+[00:00:07]: 		K: 	spider_hider	 V: 	default	
+[00:00:07]: 		K: 	spider_spitter	 V: 	default	
+[00:00:07]: 		K: 	spider_warriors	 V: 	default	
+[00:00:07]: 		K: 	spiderqueen	 V: 	default	
+[00:00:07]: 		K: 	spiders	 V: 	default	
+[00:00:07]: 		K: 	spiders_setting	 V: 	default	
+[00:00:07]: 		K: 	start_location	 V: 	caves	
+[00:00:07]: 		K: 	task_set	 V: 	cave_default	
+[00:00:07]: 		K: 	temperaturedamage	 V: 	default	
+[00:00:07]: 		K: 	tentacles	 V: 	default	
+[00:00:07]: 		K: 	toadstool	 V: 	default	
+[00:00:07]: 		K: 	touchstone	 V: 	default	
+[00:00:07]: 		K: 	tree_rock	 V: 	default	
+[00:00:07]: 		K: 	tree_rock_regrowth	 V: 	default	
+[00:00:07]: 		K: 	trees	 V: 	default	
+[00:00:07]: 		K: 	twiggytrees_regrowth	 V: 	default	
+[00:00:07]: 		K: 	weather	 V: 	default	
+[00:00:07]: 		K: 	winters_feast	 V: 	default	
+[00:00:07]: 		K: 	world_size	 V: 	default	
+[00:00:07]: 		K: 	wormattacks	 V: 	default	
+[00:00:07]: 		K: 	wormattacks_boss	 V: 	default	
+[00:00:07]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:07]: 		K: 	wormlights	 V: 	default	
+[00:00:07]: 		K: 	worms	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_dragonfly	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_knight	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_pig	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_snake	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_varg	 V: 	default	
+[00:00:07]: 	K: 	required_prefabs	 V: 	table: 000000001C83EEC0	
+[00:00:07]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:07]: 	K: 	settings_desc	 V: 	Delve into the caves... together!	
+[00:00:07]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:07]: 	K: 	settings_name	 V: 	The Caves	
+[00:00:07]: 	K: 	substitutes	 V: 	table: 000000001C83EE70	
+[00:00:07]: 	K: 	version	 V: 	4	
+[00:00:07]: 	K: 	worldgen_desc	 V: 	Delve into the caves... together!	
+[00:00:07]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:07]: 	K: 	worldgen_name	 V: 	The Caves	
+[00:00:07]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:07]: Overwriting savedata with level data file.	
+[00:00:07]: Not applying world gen overrides.	
+[00:00:07]: [IPC] Signal 'DST_Secondary_WorldGen' opened  #0000000000000AE0
+[00:00:07]: [IPC] Sending signal... #0000000000000AE0
+[00:00:07]: WorldSim::SimThread::SimThread()
+[00:00:07]: ABOUT TO INSTALL STACKTRACE
+[00:00:07]: DoLuaFile scripts/stacktrace.lua
+[00:00:07]: DoLuaFile loading buffer scripts/stacktrace.lua
+[00:00:07]: INSTALLED STACKTRACE
+[00:00:07]: Engine Seed: (1782833727 + 3754291291) & 0x7FFFFFFF = 1242157722
+[00:00:07]: WorldSim::SimThread::SimThread() complete
+[00:00:07]: THREAD - started 'WorldSim' (14952)
+[00:00:07]: WorldSim::SimThread::Main()
+[00:00:07]: DoLuaFile scripts/worldgen_main.lua
+[00:00:07]: DoLuaFile loading buffer scripts/worldgen_main.lua
+[00:00:07]: Check for write access: TRUE
+[00:00:07]: Check for read access: TRUE
+[00:00:07]: Available disk space for save files: 115212 MB
+[00:00:07]: ModIndex: Load sequence finished successfully.	
+[00:00:07]: Reset() returning
+[00:00:07]: DLC enabled : 	false	
+[00:00:07]:   taskgrouplist:	default	Together	
+[00:00:07]:   taskgrouplist:	classic	Classic	
+[00:00:07]:   taskgrouplist:	cave_default	Underground	
+[00:00:07]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:07]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:07]: running worldgen_main.lua
+	
+[00:00:07]: SEED = 	1242157722	
+[00:00:07]: Generating world with these parameters:	
+[00:00:07]: level_type	SURVIVAL	
+[00:00:07]: level_data:	
+[00:00:07]: 	K: 	background_node_range	 V: 	table: 000000001B4EF660	
+[00:00:07]: 		K: 	1	 V: 	0	
+[00:00:07]: 		K: 	2	 V: 	1	
+[00:00:07]: 	K: 	desc	 V: 	Delve into the caves... together!	
+[00:00:07]: 	K: 	hideminimap	 V: 	false	
+[00:00:07]: 	K: 	id	 V: 	DST_CAVE	
+[00:00:07]: 	K: 	location	 V: 	cave	
+[00:00:07]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:07]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:07]: 	K: 	name	 V: 	The Caves	
+[00:00:07]: 	K: 	numrandom_set_pieces	 V: 	0	
+[00:00:07]: 	K: 	override_level_string	 V: 	false	
+[00:00:07]: 	K: 	overrides	 V: 	table: 000000001B4F0010	
+[00:00:07]: 		K: 	acidrain_enabled	 V: 	always	
+[00:00:07]: 		K: 	atriumgate	 V: 	default	
+[00:00:07]: 		K: 	banana	 V: 	default	
+[00:00:07]: 		K: 	basicresource_regrowth	 V: 	none	
+[00:00:07]: 		K: 	bats	 V: 	default	
+[00:00:07]: 		K: 	bats_setting	 V: 	default	
+[00:00:07]: 		K: 	beefaloheat	 V: 	default	
+[00:00:07]: 		K: 	berrybush	 V: 	default	
+[00:00:07]: 		K: 	boons	 V: 	default	
+[00:00:07]: 		K: 	branching	 V: 	default	
+[00:00:07]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:07]: 		K: 	bunnymen	 V: 	default	
+[00:00:07]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:07]: 		K: 	cave_ponds	 V: 	default	
+[00:00:07]: 		K: 	cave_spiders	 V: 	default	
+[00:00:07]: 		K: 	cavelight	 V: 	default	
+[00:00:07]: 		K: 	chess	 V: 	default	
+[00:00:07]: 		K: 	chest_mimics	 V: 	default	
+[00:00:07]: 		K: 	crow_carnival	 V: 	default	
+[00:00:07]: 		K: 	darkness	 V: 	default	
+[00:00:07]: 		K: 	day	 V: 	default	
+[00:00:07]: 		K: 	daywalker	 V: 	default	
+[00:00:07]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:07]: 		K: 	dustmoths	 V: 	default	
+[00:00:07]: 		K: 	earthquakes	 V: 	default	
+[00:00:07]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:00:07]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:07]: 		K: 	fern	 V: 	default	
+[00:00:07]: 		K: 	fissure	 V: 	default	
+[00:00:07]: 		K: 	flint	 V: 	default	
+[00:00:07]: 		K: 	flower_cave	 V: 	default	
+[00:00:07]: 		K: 	flower_cave_regrowth	 V: 	default	
+[00:00:07]: 		K: 	fruitfly	 V: 	default	
+[00:00:07]: 		K: 	ghostenabled	 V: 	none	
+[00:00:07]: 		K: 	ghostsanitydrain	 V: 	always	
+[00:00:07]: 		K: 	grass	 V: 	default	
+[00:00:07]: 		K: 	grassgekkos	 V: 	default	
+[00:00:07]: 		K: 	hallowed_nights	 V: 	default	
+[00:00:07]: 		K: 	healthpenalty	 V: 	always	
+[00:00:07]: 		K: 	hunger	 V: 	default	
+[00:00:07]: 		K: 	itemmimics	 V: 	default	
+[00:00:07]: 		K: 	krampus	 V: 	default	
+[00:00:07]: 		K: 	layout_mode	 V: 	RestrictNodesByKey	
+[00:00:07]: 		K: 	lessdamagetaken	 V: 	none	
+[00:00:07]: 		K: 	lichen	 V: 	default	
+[00:00:07]: 		K: 	liefs	 V: 	default	
+[00:00:07]: 		K: 	lightflier_flower_regrowth	 V: 	default	
+[00:00:07]: 		K: 	lightfliers	 V: 	default	
+[00:00:07]: 		K: 	loop	 V: 	default	
+[00:00:07]: 		K: 	marshbush	 V: 	default	
+[00:00:07]: 		K: 	merms	 V: 	default	
+[00:00:07]: 		K: 	molebats	 V: 	default	
+[00:00:07]: 		K: 	moles_setting	 V: 	default	
+[00:00:07]: 		K: 	monkey	 V: 	default	
+[00:00:07]: 		K: 	monkey_setting	 V: 	default	
+[00:00:07]: 		K: 	moon_spider	 V: 	default	
+[00:00:07]: 		K: 	mushgnome	 V: 	default	
+[00:00:07]: 		K: 	mushroom	 V: 	default	
+[00:00:07]: 		K: 	mushtree	 V: 	default	
+[00:00:07]: 		K: 	mushtree_moon_regrowth	 V: 	default	
+[00:00:07]: 		K: 	mushtree_regrowth	 V: 	default	
+[00:00:07]: 		K: 	mutated_birds	 V: 	default	
+[00:00:07]: 		K: 	mutated_merm	 V: 	default	
+[00:00:07]: 		K: 	mutated_spiderqueen	 V: 	default	
+[00:00:07]: 		K: 	nightmarecreatures	 V: 	default	
+[00:00:07]: 		K: 	pigs_setting	 V: 	default	
+[00:00:07]: 		K: 	portalresurection	 V: 	always	
+[00:00:07]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:07]: 		K: 	reeds	 V: 	default	
+[00:00:07]: 		K: 	reeds_regrowth	 V: 	default	
+[00:00:07]: 		K: 	regrowth	 V: 	default	
+[00:00:07]: 		K: 	resettime	 V: 	default	
+[00:00:07]: 		K: 	rifts_enabled_cave	 V: 	default	
+[00:00:07]: 		K: 	rifts_frequency_cave	 V: 	default	
+[00:00:07]: 		K: 	roads	 V: 	never	
+[00:00:07]: 		K: 	rock	 V: 	default	
+[00:00:07]: 		K: 	rocky	 V: 	default	
+[00:00:07]: 		K: 	rocky_setting	 V: 	default	
+[00:00:07]: 		K: 	sapling	 V: 	default	
+[00:00:07]: 		K: 	season_start	 V: 	default	
+[00:00:07]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:07]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:07]: 		K: 	slurper	 V: 	default	
+[00:00:07]: 		K: 	slurtles	 V: 	default	
+[00:00:07]: 		K: 	slurtles_setting	 V: 	default	
+[00:00:07]: 		K: 	snurtles	 V: 	default	
+[00:00:07]: 		K: 	spawnmode	 V: 	fixed	
+[00:00:07]: 		K: 	spawnprotection	 V: 	default	
+[00:00:07]: 		K: 	specialevent	 V: 	default	
+[00:00:07]: 		K: 	spider_dropper	 V: 	default	
+[00:00:07]: 		K: 	spider_hider	 V: 	default	
+[00:00:07]: 		K: 	spider_spitter	 V: 	default	
+[00:00:07]: 		K: 	spider_warriors	 V: 	default	
+[00:00:07]: 		K: 	spiderqueen	 V: 	default	
+[00:00:07]: 		K: 	spiders	 V: 	default	
+[00:00:07]: 		K: 	spiders_setting	 V: 	default	
+[00:00:07]: 		K: 	start_location	 V: 	caves	
+[00:00:07]: 		K: 	task_set	 V: 	cave_default	
+[00:00:07]: 		K: 	temperaturedamage	 V: 	default	
+[00:00:07]: 		K: 	tentacles	 V: 	default	
+[00:00:07]: 		K: 	toadstool	 V: 	default	
+[00:00:07]: 		K: 	touchstone	 V: 	default	
+[00:00:07]: 		K: 	tree_rock	 V: 	default	
+[00:00:07]: 		K: 	tree_rock_regrowth	 V: 	default	
+[00:00:07]: 		K: 	trees	 V: 	default	
+[00:00:07]: 		K: 	twiggytrees_regrowth	 V: 	default	
+[00:00:07]: 		K: 	weather	 V: 	default	
+[00:00:07]: 		K: 	winters_feast	 V: 	default	
+[00:00:07]: 		K: 	world_size	 V: 	default	
+[00:00:07]: 		K: 	wormattacks	 V: 	default	
+[00:00:07]: 		K: 	wormattacks_boss	 V: 	default	
+[00:00:07]: 		K: 	wormhole_prefab	 V: 	tentacle_pillar	
+[00:00:07]: 		K: 	wormlights	 V: 	default	
+[00:00:07]: 		K: 	worms	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_dragonfly	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_knight	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_pig	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_snake	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_varg	 V: 	default	
+[00:00:07]: 	K: 	required_prefabs	 V: 	table: 000000001B4EEFD0	
+[00:00:07]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:07]: 	K: 	settings_desc	 V: 	Delve into the caves... together!	
+[00:00:07]: 	K: 	settings_id	 V: 	DST_CAVE	
+[00:00:07]: 	K: 	settings_name	 V: 	The Caves	
+[00:00:07]: 	K: 	substitutes	 V: 	table: 000000001B4EF2A0	
+[00:00:07]: 	K: 	version	 V: 	4	
+[00:00:07]: 	K: 	worldgen_desc	 V: 	Delve into the caves... together!	
+[00:00:07]: 	K: 	worldgen_id	 V: 	DST_CAVE	
+[00:00:07]: 	K: 	worldgen_name	 V: 	The Caves	
+[00:00:07]: 
+#######
+#
+# Generating SURVIVAL Mode Level
+#
+#######
+	
+[00:00:07]: Prefab Swap Selection: regular grass	
+[00:00:07]: Prefab Swap Selection: twiggy trees	
+[00:00:07]: Prefab Swap Selection: regular berries	
+[00:00:08]: New size:	425	default	
+[00:00:08]: Creating story...	
+[00:00:08]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:08]: [Story Gen] RestrictNodesByKey	
+[00:00:08]: Finding valid start task...	
+[00:00:08]:    ...picked 	CaveExitTask8	
+[00:00:08]: Has start node	SinkholeCopses	
+[00:00:08]: Adding Background Nodes	
+[00:00:08]: [Story Gen] Adding Cove Nodes	
+[00:00:08]: Warning! Couldn't find a spot in AtriumMaze for WeaponBoon	
+[00:00:08]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:08]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:08]: GenerateVoronoiMap [100]:
+[00:00:10]: ...Done.
+[00:00:10]: ... story created	
+[00:00:10]: Baking map...	425	
+[00:00:10]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:10]: [WorldSimActual::ConvertToTileMap]
+[00:00:10]: [ConvertToTileMap]
+[00:00:10]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:10]: [WorldSimActual::SeparateIslands]
+[00:00:10]: [SeparateIslands]
+[00:00:10]: [WorldSimActual::SeparateIslands] complete
+[00:00:10]: Map Baked!	
+[00:00:10]: [WorldSimActual::ForceConnectivity]
+[00:00:10]: [GenerateLandmasses]
+[00:00:10]: [GenerateLandmasses] islands: 7
+[00:00:10]: [MergeConnectedLandmasses] true
+[00:00:10]: [WorldSimActual::ForceConnectivity] complete
+[00:00:10]: Encoding...	
+[00:00:10]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:10]: Encoding... DONE	
+[00:00:10]: Checking Tags	
+[00:00:10]: Tag: Labyrinth	
+[00:00:10]: Tag: Maze	
+[00:00:10]: Populating voronoi...	
+[00:00:10]: Warning! Could not find a spot for TentaclePillar in node RockyLand:BG_37:BGRockyCaveRoom	
+[00:00:10]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:10]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:10]: Warning! Could not find a spot for CornerWall in node Residential3:0:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall in node Residential3:0:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall in node Residential3:0:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:10]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask9:1:GreenMushSinkhole	
+[00:00:10]: Warning! Could not find a spot for StraightWall in node Residential2:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for TentaclePillarToAtrium in node GreenForest:0:GreenMushNoise	
+[00:00:10]: Warning! Could not find a spot for RabbitTown in node CaveExitTask10:1:GreenMushRabbits	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:10]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:10]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:10]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:10]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:10]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:10]: Warning! Could not find a spot for Mudlights in node CaveSwamp:0:TentacleMud	
+[00:00:10]: Warning! Could not find a spot for RabbitTown in node RabbitTown:0:RabbitTown	
+[00:00:10]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:10]: Warning! Could not find a spot for PondSinkhole in node PleasantSinkhole:0:SinkholeOasis	
+[00:00:10]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:10]: [ReplaceSingleNonLandTiles] Replaced 28 tiles.
+[00:00:10]: DetectDisconnect	
+[00:00:10]: disconnected tiles...	326	
+[00:00:11]: Removing entity on IMPASSABLE	sanityrock	193	359.5	-78, 0, 588	
+[00:00:11]: Removing entity on IMPASSABLE	pandoraschest	15.5	308.5	-788, 0, 384	
+[00:00:11]: Removing entity on IMPASSABLE	wall_stone_2	346.625	132.125	536.5, 0, -321.5	
+[00:00:11]: Removing entity on IMPASSABLE	wall_stone_2	342.375	134.6075	519.5, 0, -311.57	
+[00:00:11]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
+[00:00:11]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
+[00:00:11]: Checking Required Prefab sacred_chest has at least 1 instances (1 found).	
+[00:00:11]: Checking Required Prefab tentacle_pillar_atrium has at least 2 instances (1 found).	
+[00:00:11]: PANIC: missing required prefab [tentacle_pillar_atrium]! Expected 2, got 1	
+[00:00:11]: An error occured during world gen we will retry! [was 	1	 of 	5	]	
+[00:00:11]: New size:	425	default	
+[00:00:11]: Creating story...	
+[00:00:11]: [Story Gen] Generate nodes. Starting at: 'MudWorld'	
+[00:00:11]: [Story Gen] RestrictNodesByKey	
+[00:00:11]: Finding valid start task...	
+[00:00:11]:    ...picked 	CaveExitTask3	
+[00:00:11]: Has start node	SinkholeCopses	
+[00:00:11]: Adding Background Nodes	
+[00:00:11]: [Story Gen] Adding Cove Nodes	
+[00:00:11]: Warning! Couldn't find a spot in AtriumMaze for WeaponBoon	
+[00:00:11]: [WorldSimActual::WorldGen_InitializeNodePoints]
+[00:00:11]: [WorldSimActual::WorldGen_VoronoiPass]
+[00:00:11]: GenerateVoronoiMap [100]:
+[00:00:13]: ...Done.
+[00:00:13]: ... story created	
+[00:00:13]: Baking map...	425	
+[00:00:13]: [WorldSimActual::WorldGen_Commit] worldgen success.
+[00:00:13]: [WorldSimActual::ConvertToTileMap]
+[00:00:13]: [ConvertToTileMap]
+[00:00:13]: [WorldSimActual::ConvertToTileMap] complete
+[00:00:13]: [WorldSimActual::SeparateIslands]
+[00:00:13]: [SeparateIslands]
+[00:00:13]: [WorldSimActual::SeparateIslands] complete
+[00:00:13]: Map Baked!	
+[00:00:13]: [WorldSimActual::ForceConnectivity]
+[00:00:13]: [GenerateLandmasses]
+[00:00:13]: [GenerateLandmasses] islands: 13
+[00:00:13]: [MergeConnectedLandmasses] true
+[00:00:13]: [WorldSimActual::ForceConnectivity] complete
+[00:00:13]: Encoding...	
+[00:00:13]: [WorldSimActual::CreateNodeIdTileMap]
+[00:00:13]: Encoding... DONE	
+[00:00:13]: Checking Tags	
+[00:00:13]: Tag: Labyrinth	
+[00:00:13]: Tag: Maze	
+[00:00:13]: Populating voronoi...	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential3:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential3:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential3:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:13]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:13]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask6:1:SinkholeCopses	
+[00:00:13]: Warning! Could not find a spot for CornerWall in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:0:Vacant	
+[00:00:13]: Warning! Could not find a spot for EvergreenSinkhole in node CaveExitTask9:1:GreenMushSinkhole	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential2:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential2:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall in node Residential3:1:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall in node Residential3:1:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall in node Residential3:1:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential3:1:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential3:1:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential3:1:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential3:1:Vacant	
+[00:00:13]: Warning! Could not find a spot for RabbitTown in node GreenForest:1:GreenMushRabbits	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential:2:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential:4:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential:4:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential:4:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall in node Residential:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for StraightWall2 in node Residential:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:13]: Warning! Could not find a spot for CornerWall2 in node Residential:3:Vacant	
+[00:00:13]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:13]: [ReplaceSingleNonLandTiles] Replaced 38 tiles.
+[00:00:13]: DetectDisconnect	
+[00:00:13]: disconnected tiles...	1317	
+[00:00:13]: Removing entity on IMPASSABLE	pandoraschest	11.5	241.5	-804, 0, 116	
+[00:00:13]: Removing entity on IMPASSABLE	pandoraschest	11.5	255.5	-804, 0, 172	
+[00:00:13]: Removing entity on IMPASSABLE	wall_stone_2	342.39	283.39	519.56, 0, 283.56	
+[00:00:13]: Removing entity on IMPASSABLE	wall_stone_2	334.3575	283.625	487.43, 0, 284.5	
+[00:00:13]: Checking Required Prefab atrium_gate has at least 1 instances (1 found).	
+[00:00:13]: Checking Required Prefab minotaur_spawner has at least 1 instances (1 found).	
+[00:00:13]: Checking Required Prefab sacred_chest has at least 1 instances (1 found).	
+[00:00:13]: Checking Required Prefab tentacle_pillar_atrium has at least 2 instances (2 found).	
+[00:00:13]: Checking Required Prefab archive_orchestrina_main has at least 1 instances (1 found).	
+[00:00:13]: Checking Required Prefab shadowthrall_centipede_spawner has at least 1 instances (1 found).	
+[00:00:13]: Checking Required Prefab archive_lockbox_dispencer has at least 3 instances (4 found).	
+[00:00:13]: [ReplaceSingleNonLandTiles] Validating...
+[00:00:13]: [ReplaceSingleNonLandTiles] Replaced 0 tiles.
+[00:00:13]: Done cave map gen!	
+[00:00:13]: Checking map...	
+[00:00:13]: Generation complete, injecting world entities.	
+[00:00:13]: Injected world entities.	
+[00:00:14]: WorldSim::SimThread::Main() complete
+[00:00:14]: Serializing world: session/138B2E2EEFD2F542/0000000002
+[00:00:14]: Klump load on boot started.	
+[00:00:14]: Klump files loaded: 	0	
+[00:00:14]: 	Unload FE	
+[00:00:14]: 	Unload FE done	
+[00:00:16]: 	LOAD BE	
+[00:00:28]: 	LOAD BE: done	
+[00:00:28]: Begin Session: 138B2E2EEFD2F542
+[00:00:28]: saving to server_temp/server_save	
+[00:00:29]: OVERRIDE: setting	healthpenalty	to	always	
+[00:00:29]: OVERRIDE: setting	acidrain_enabled	to	always	
+[00:00:29]: OVERRIDE: setting	lessdamagetaken	to	none	
+[00:00:29]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:00:29]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:00:29]: Loading 19 new character(s)	
+[00:00:30]: Total 19 character(s) loaded	
+[00:00:34]: Loading Nav Grid	
+[00:00:34]: World generated on build 739495 with save version: 5.23, using seed: 1242157722	
+[00:00:34]: [Shard] Secondary shard is waiting for LUA...
+[00:00:34]: OVERRIDE: setting	ghostenabled	to	none	
+[00:00:34]: OVERRIDE: setting	basicresource_regrowth	to	none	
+[00:00:34]: OVERRIDE: setting	portalresurection	to	always	
+[00:00:34]: OVERRIDE: setting	spawnmode	to	fixed	
+[00:00:34]: OVERRIDE: setting	ghostsanitydrain	to	always	
+[00:00:35]: Reconstructing topology	
+[00:00:35]: 	...Sorting points	
+[00:00:35]: 	...Sorting edges	
+[00:00:35]: 	...Connecting nodes	
+[00:00:35]: 	...Validating connections	
+[00:00:35]: 	...Housekeeping	
+[00:00:35]: 	...Done!	
+[00:00:35]: 1 uploads added to server. From server_temp
+[00:00:35]: About to start a shard with these settings:
+[00:00:35]:   ShardName: Caves
+[00:00:35]:   ShardID: 2337268065
+[00:00:35]:   ShardRole: SECONDARY
+[00:00:35]:   MasterHost: 127.0.0.1
+[00:00:35]:   MasterBind: (null)
+[00:00:35]:   MasterPort: 10888
+[00:00:35]: [Shard] Connecting to master...
+[00:00:35]: Telling Client our new session identifier: 138B2E2EEFD2F542
+[00:00:35]: [Shard] Sending secondary shard information to master...
+[00:00:36]: Skipping portal[1] (no available shard [Master] connected)	
+[00:00:36]: Skipping portal[oceanwhirlbigportal] (no available shard [Master] connected)	
+[00:00:36]: Skipping portal[2] (no available shard [Master] connected)	
+[00:00:36]: Skipping portal[3] (no available shard [Master] connected)	
+[00:00:36]: Skipping portal[4] (no available shard [Master] connected)	
+[00:00:36]: Skipping portal[5] (no available shard [Master] connected)	
+[00:00:36]: Skipping portal[6] (no available shard [Master] connected)	
+[00:00:36]: Skipping portal[7] (no available shard [Master] connected)	
+[00:00:36]: Skipping portal[8] (no available shard [Master] connected)	
+[00:00:36]: Skipping portal[9] (no available shard [Master] connected)	
+[00:00:36]: Skipping portal[10] (no available shard [Master] connected)	
+[00:00:36]: Received MasterInfoPacket row KU_ueGiPCrM region ap-southeast-1
+[00:00:36]: Obtaining secondary shard IP from ap-southeast-1 lobby
+[00:00:37]: [Shard] secondary shard is now ready!
+[00:00:37]: World 1(Master) is now connected	
+[00:00:37]: Validating portal[1] <-> 1[1] (active)	
+[00:00:37]: Validating portal[oceanwhirlbigportal] <-> 1[oceanwhirlbigportal] (disabled)	
+[00:00:37]: Validating portal[2] <-> 1[2] (active)	
+[00:00:37]: Validating portal[3] <-> 1[3] (active)	
+[00:00:37]: Validating portal[4] <-> 1[4] (active)	
+[00:00:37]: Validating portal[5] <-> 1[5] (active)	
+[00:00:37]: Validating portal[6] <-> 1[6] (active)	
+[00:00:37]: Validating portal[7] <-> 1[7] (active)	
+[00:00:37]: Validating portal[8] <-> 1[8] (active)	
+[00:00:37]: Validating portal[9] <-> 1[9] (active)	
+[00:00:37]: Validating portal[10] <-> 1[10] (active)	
+[00:00:37]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:00:37]: [SyncWorldSettings] applying temperaturedamage = default from master shard.	
+[00:00:37]: [SyncWorldSettings] applying spawnmode = fixed from master shard.	
+[00:00:37]: [SyncWorldSettings] applying lessdamagetaken = none from master shard.	
+[00:00:37]: [SyncWorldSettings] applying ghostenabled = none from master shard.	
+[00:00:37]: [SyncWorldSettings] applying shadowcreatures = default from master shard.	
+[00:00:37]: [SyncWorldSettings] applying resettime = default from master shard.	
+[00:00:37]: [SyncWorldSettings] applying krampus = default from master shard.	
+[00:00:37]: [SyncWorldSettings] applying ghostsanitydrain = always from master shard.	
+[00:00:37]: [SyncWorldSettings] applying healthpenalty = always from master shard.	
+[00:00:37]: [SyncWorldSettings] applying dropeverythingondespawn = default from master shard.	
+[00:00:37]: [SyncWorldSettings] applying darkness = default from master shard.	
+[00:00:37]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:00:37]: component hauntable already exists on entity 103045 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:00:37]: [SyncWorldSettings] applying brightmarecreatures = default from master shard.	
+[00:00:37]: [SyncWorldSettings] applying hunger = default from master shard.	
+[00:00:37]: [SyncWorldSettings] applying basicresource_regrowth = none from master shard.	
+[00:00:37]: [SyncWorldSettings] recieved world settings from master shard.	true	
+[00:00:37]: [SyncWorldSettings] applying temperaturedamage = default from master shard.	
+[00:00:37]: [SyncWorldSettings] applying spawnmode = fixed from master shard.	
+[00:00:37]: [SyncWorldSettings] applying lessdamagetaken = none from master shard.	
+[00:00:37]: [SyncWorldSettings] applying ghostenabled = none from master shard.	
+[00:00:37]: [SyncWorldSettings] applying shadowcreatures = default from master shard.	
+[00:00:37]: [SyncWorldSettings] applying resettime = default from master shard.	
+[00:00:37]: [SyncWorldSettings] applying krampus = default from master shard.	
+[00:00:37]: [SyncWorldSettings] applying ghostsanitydrain = always from master shard.	
+[00:00:37]: [SyncWorldSettings] applying healthpenalty = always from master shard.	
+[00:00:37]: [SyncWorldSettings] applying dropeverythingondespawn = default from master shard.	
+[00:00:37]: [SyncWorldSettings] applying darkness = default from master shard.	
+[00:00:37]: [SyncWorldSettings] applying portalresurection = always from master shard.	
+[00:00:37]: component hauntable already exists on entity 103045 - multiplayer_portal!	scripts/prefabs/multiplayer_portal.lua:47 in (upvalue) OnGetPortalRez (Lua) <45-54>	
+[00:00:37]: [SyncWorldSettings] applying brightmarecreatures = default from master shard.	
+[00:00:37]: [SyncWorldSettings] applying hunger = default from master shard.	
+[00:00:37]: [SyncWorldSettings] applying basicresource_regrowth = none from master shard.	
+[00:00:38]: [Shard] secondary shard LUA is now ready!
+[00:00:38]: [IPC] Signal 'DST_Secondary_Ready' opened  #0000000000000ABC
+[00:00:38]: [IPC] Sending signal... #0000000000000ABC
+[00:00:38]: Sim paused
+[00:01:39]: Sim unpaused
+[00:09:40]: Available disk space for save files: 115205 MB
+[00:09:41]: Serializing world: session/138B2E2EEFD2F542/0000000003
+[00:17:41]: Available disk space for save files: 115191 MB
+[00:17:41]: Serializing world: session/138B2E2EEFD2F542/0000000004
+[00:18:23]: Server Autopaused	
+[00:18:43]: Server Unpaused	
+[00:18:45]: [Shard] We have been disconnected from the master. Waiting to reconnect...
+[00:18:45]: Sim paused
+[00:18:46]: [IPC] Received shutdown signal.
+[00:18:46]: Available disk space for save files: 115187 MB
+[00:18:46]: Serializing world: session/138B2E2EEFD2F542/0000000005
+[00:18:46]: [Shard] Stopping shard mode
+[00:18:46]: [Steam] SendUserDisconnect for ''
+[00:18:46]: Collecting garbage...
+[00:18:46]: lua_gc took 0.17 seconds
+[00:18:46]: ~ShardLuaProxy()
+[00:18:46]: ~cEventLeaderboardProxy()
+[00:18:46]: ~ItemServerLuaProxy()
+[00:18:46]: ~InventoryLuaProxy()
+[00:18:46]: ~NetworkLuaProxy()
+[00:18:46]: ~SimLuaProxy()
+[00:18:46]: lua_close took 0.15 seconds
+[00:18:47]: CurlRequestManager::ClientThread::Main() complete
+[00:18:47]: HttpClient2 discarded 0 callbacks.
+[00:18:47]: Shutting down

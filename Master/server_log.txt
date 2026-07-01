@@ -1,8 +1,8 @@
 [00:00:00]: 
 System Memory:
-	Memory Load: 53%
-	Available Physical Memory: 7484m/16051m
-	Available Page File: 19071m/33459m
+	Memory Load: 59%
+	Available Physical Memory: 6462m/16051m
+	Available Page File: 19623m/33459m
 	Available Virtual Memory: 134213475m/134217727m
 	Available Extended Virtual Memory: 0m
 [00:00:00]: 
@@ -15,25 +15,25 @@ Process Memory:
 	Quota Non Paged Pool Usage: 15k
 	Page File Usage: 5m
 	Peak Page File Usage: 5m
-[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/235059957/Cluster_2/Master/ 
+[00:00:00]: PersistRootStorage is now APP:Klei//DoNotStarveTogether/235059957/Cluster_3/Master/ 
 [00:00:00]: Starting Up
 [00:00:00]: Version: 739495
-[00:00:00]: Current time: Sun Jun 28 21:19:59 2026
+[00:00:00]: Current time: Tue Jun 30 23:03:01 2026
 
 [00:00:00]: Don't Starve Together: 739495 WIN32
 [00:00:00]: Build Date: 4188
 [00:00:00]: Mode: 64-bit
 [00:00:00]: Parsing command line
-[00:00:00]: Command Line Arguments: -monitor_parent_process 13532 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_2 -fo -ownernetid 76561198195325685 -ownerdir 235059957 -clouddir 235059957 -backup_log_count 25 -backup_log_period 0 -shard Master -secondary_log_prefix master -sigprefix DST_Master -token ************************************************************************************ 
+[00:00:00]: Command Line Arguments: -monitor_parent_process 2988 -persistent_storage_root APP:Klei/ -conf_dir DoNotStarveTogether -cluster Cluster_3 -fo -ownernetid 76561198195325685 -ownerdir 235059957 -clouddir 235059957 -backup_log_count 25 -backup_log_period 0 -shard Master -secondary_log_prefix master -sigprefix DST_Master -token ************************************************************************************ 
 [00:00:00]: Initializing distribution platform
 [00:00:00]: Initializing Minidump handler
 [00:00:00]: ....Done
 [00:00:00]: ....Done
 [00:00:00]: Fixing DPI
 [00:00:00]: ...Done
-[00:00:00]: THREAD - started 'GAClient' (13792)
+[00:00:00]: THREAD - started 'GAClient' (14444)
 [00:00:00]: CurlRequestManager::ClientThread::Main()
-[00:00:00]: ProfileIndex:1.35
+[00:00:00]: ProfileIndex:0.66
 [00:00:00]: Mounting file system databundles/klump.zip successful.
 [00:00:00]: Mounting file system databundles/shaders.zip successful.
 [00:00:00]: Mounting file system databundles/fonts.zip successful.
@@ -42,19 +42,19 @@ Process Memory:
 [00:00:00]: Mounting file system databundles/images.zip successful.
 [00:00:00]: Mounting file system databundles/scripts.zip successful.
 [00:00:00]: [Steam] SteamGameServer_Init(10999, 27016)
-[00:00:01]: [Steam] SteamGameServer_Init success
-[00:00:01]: [Connect] PendingConnection::Reset(true)
-[00:00:01]: Platform: 1
-[00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: Network tick rate: U=15(2), D=0
-[00:00:01]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is enabled in the firewall.
-[00:00:01]: WindowsFirewall - Application already authorized
-[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/235059957/client_save/blocklist.txt (Failure)
-[00:00:01]: THREAD - started 'StreamInput' (5308)
-[00:00:01]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/235059957/client_save/adminlist.txt (Failure)
-[00:00:01]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/235059957/client_save/whitelist.txt (Failure)
-[00:00:01]: Offline user ID: OU_76561198195325685
-[00:00:01]: HardwareStats:
+[00:00:00]: [Steam] SteamGameServer_Init success
+[00:00:00]: [Connect] PendingConnection::Reset(true)
+[00:00:00]: Platform: 1
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Network tick rate: U=15(2), D=0
+[00:00:00]: Authorized application C:\Program Files (x86)\Steam\steamapps\common\Don't Starve Together\bin64\dontstarve_dedicated_server_nullrenderer_x64.exe is enabled in the firewall.
+[00:00:00]: WindowsFirewall - Application already authorized
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/235059957/client_save/blocklist.txt (Failure)
+[00:00:00]: THREAD - started 'StreamInput' (10436)
+[00:00:00]: OnLoadPermissionList: APP:Klei//DoNotStarveTogether/235059957/client_save/adminlist.txt (Failure)
+[00:00:00]: OnLoadUserIdList: APP:Klei//DoNotStarveTogether/235059957/client_save/whitelist.txt (Failure)
+[00:00:00]: Offline user ID: OU_76561198195325685
+[00:00:00]: HardwareStats:
   OS                        
     name                      Microsoft Windows 11 Home Single Language
     version                   10.0.26200
@@ -76,1043 +76,1460 @@ Process Memory:
     driverDate                20260401000000.000000-000
     refreshRate               0
 
-[00:00:01]: cGame::InitializeOnMainThread
-[00:00:01]: Renderer initialize: Okay
-[00:00:01]: AnimManager initialize: Okay
-[00:00:01]: Buffers initialize: Okay
-[00:00:01]: cDontStarveGame::DoGameSpecificInitialize()
-[00:00:01]: GameSpecific initialize: Okay
-[00:00:01]: cGame::StartPlaying
-[00:00:01]: AppVersion::GetArchitecture() x64
-[00:00:01]: LOADING LUA
-[00:00:01]: DoLuaFile scripts/main.lua
-[00:00:01]: DoLuaFile loading buffer scripts/main.lua
-[00:00:02]:   taskgrouplist:	default	Together	
-[00:00:02]:   taskgrouplist:	classic	Classic	
-[00:00:02]:   taskgrouplist:	cave_default	Underground	
-[00:00:02]:   taskgrouplist:	lavaarena_taskset	The Forge	
-[00:00:02]:   taskgrouplist:	quagmire_taskset	The Gorge	
-[00:00:02]: Running main.lua
+[00:00:00]: cGame::InitializeOnMainThread
+[00:00:00]: Renderer initialize: Okay
+[00:00:00]: AnimManager initialize: Okay
+[00:00:00]: Buffers initialize: Okay
+[00:00:00]: cDontStarveGame::DoGameSpecificInitialize()
+[00:00:00]: GameSpecific initialize: Okay
+[00:00:00]: cGame::StartPlaying
+[00:00:00]: AppVersion::GetArchitecture() x64
+[00:00:00]: LOADING LUA
+[00:00:00]: DoLuaFile scripts/main.lua
+[00:00:00]: DoLuaFile loading buffer scripts/main.lua
+[00:00:01]:   taskgrouplist:	default	Together	
+[00:00:01]:   taskgrouplist:	classic	Classic	
+[00:00:01]:   taskgrouplist:	cave_default	Underground	
+[00:00:01]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:01]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:01]: Running main.lua
 	
-[00:00:02]: loaded modindex	
-[00:00:02]: ModIndex: Beginning normal load sequence for dedicated server.
+[00:00:01]: loaded modindex	
+[00:00:01]: ModIndex: Beginning normal load sequence for dedicated server.
 	
-[00:00:02]: SUCCESS: Loaded modoverrides.lua	
-[00:00:02]: Registering Mods:
-[00:00:02]: No mods registered
-[00:00:02]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
-[00:00:04]: LOADING LUA SUCCESS
-[00:00:04]: PlayerDeaths could not load morgue	
-[00:00:04]: PlayerHistory could not load player_history	
-[00:00:04]: ServerPreferences could not load server_preferences	
-[00:00:04]: ConsoleScreenSettings could not load consolescreen	
-[00:00:04]: bloom_enabled	true	
-[00:00:04]: OnFilesLoaded()	
-[00:00:04]: OnUpdatePurchaseStateComplete	
-[00:00:04]: Klump load on boot started.	
-[00:00:04]: Klump files loaded: 	0	
-[00:00:07]: 	Load FE	
-[00:00:08]: 	Load FE: done	
-[00:00:08]: THREAD - started 'FilesExistAsyncThread' (14840)
-[00:00:08]: FilesExistAsyncThread started (0 files)...
-[00:00:08]: ... FilesExistAsyncThread complete
-[00:00:08]: Check for write access: TRUE
-[00:00:08]: Check for read access: TRUE
-[00:00:08]: Available disk space for save files: 113677 MB
-[00:00:08]: ModIndex: Load sequence finished successfully.	
-[00:00:08]: Reset() returning
-[00:00:08]: [IPC] Signal 'DST_Master_Kill' opened  #0000000000000A74
-[00:00:08]: [IPC] Registering handler for signal #0000000000000A74
-[00:00:08]: [IPC] Handle #0000000000000A74 added to the Eventhandles
-[00:00:08]: [IPC] Signal 'DST_Master_ShutdownNoSave' opened  #0000000000000AA4
-[00:00:08]: [IPC] Registering handler for signal #0000000000000AA4
-[00:00:08]: [IPC] Handle #0000000000000AA4 added to the Eventhandles
-[00:00:08]: [IPC] Signal 'DST_Master_Starting' opened  #0000000000000A54
-[00:00:08]: [IPC] Sending signal... #0000000000000A54
-[00:00:09]: [200] Account Communication Success (6)
-[00:00:09]: Cached userid (null) saved to APP:Klei//DoNotStarveTogether/235059957/Cluster_2/Master/save/cached_userid
-[00:00:09]: Received (KU_ueGiPCrM) from TokenPurpose
-[00:00:09]: Starting Dedicated Server Game	
-[00:00:09]: Network tick rate: U=15(2), D=0
-[00:00:09]: About to start a server with the following settings:
-[00:00:09]:   Dedicated: true
-[00:00:09]:   Online: true
-[00:00:09]:   Passworded: true
-[00:00:09]:   ServerPort: 10999
-[00:00:09]:   SteamAuthPort: 8766
-[00:00:09]:   SteamMasterServerPort: 27016
-[00:00:09]:   ClanID: false
-[00:00:09]:   ClanOnly: false
-[00:00:09]:   ClanAdmin: false
-[00:00:09]:   LanOnly: false
-[00:00:09]:   FriendsOnly: true
-[00:00:09]:   EnableAutosaver: true
-[00:00:09]:   EncodeUserPath: true
-[00:00:09]:   PVP: false
-[00:00:09]:   MaxPlayers: 6
-[00:00:09]:   GameMode: survival
-[00:00:09]:   OverridenDNS: 
-[00:00:09]:   PauseWhenEmpty: true
-[00:00:09]:   IdleTimeout: 1800s
-[00:00:09]:   VoteEnabled: false
-[00:00:09]:   InternetBroadcasting: true
-[00:00:09]: [Warning] Could not confirm port 10999 is open in the firewall. 
-[00:00:09]: Online Server Started on port: 10999
-[00:00:09]: [ClientObject] Added (pre-auth) on server: guid=401102792464778148
-[00:00:09]: [ClientObject] Initialized (self/server object, locally trusted) on server: guid=401102792464778148 userid=KU_ueGiPCrM netid= admin=1
-[00:00:09]: SUCCESS: Loaded modoverrides.lua	
-[00:00:09]: Found a level data override file with these contents:	
-[00:00:09]: 	K: 	desc	 V: 	The standard Don't Starve experience.	
-[00:00:09]: 	K: 	hideminimap	 V: 	false	
-[00:00:09]: 	K: 	id	 V: 	SURVIVAL_TOGETHER	
-[00:00:09]: 	K: 	location	 V: 	forest	
-[00:00:09]: 	K: 	max_playlist_position	 V: 	999	
-[00:00:09]: 	K: 	min_playlist_position	 V: 	0	
-[00:00:09]: 	K: 	name	 V: 	Survival	
-[00:00:09]: 	K: 	numrandom_set_pieces	 V: 	4	
-[00:00:09]: 	K: 	override_level_string	 V: 	false	
-[00:00:09]: 	K: 	overrides	 V: 	table: 000000001C94D4C0	
-[00:00:09]: 		K: 	alternatehunt	 V: 	default	
-[00:00:09]: 		K: 	angrybees	 V: 	default	
-[00:00:09]: 		K: 	antliontribute	 V: 	default	
-[00:00:09]: 		K: 	autumn	 V: 	default	
-[00:00:09]: 		K: 	balatro	 V: 	default	
-[00:00:09]: 		K: 	bananabush_portalrate	 V: 	default	
-[00:00:09]: 		K: 	basicresource_regrowth	 V: 	none	
-[00:00:09]: 		K: 	bats_setting	 V: 	default	
-[00:00:09]: 		K: 	bearger	 V: 	default	
-[00:00:09]: 		K: 	beefalo	 V: 	default	
-[00:00:09]: 		K: 	beefaloheat	 V: 	default	
-[00:00:09]: 		K: 	beequeen	 V: 	default	
-[00:00:09]: 		K: 	bees	 V: 	default	
-[00:00:09]: 		K: 	bees_setting	 V: 	default	
-[00:00:09]: 		K: 	berrybush	 V: 	default	
-[00:00:09]: 		K: 	birds	 V: 	default	
-[00:00:09]: 		K: 	boons	 V: 	default	
-[00:00:09]: 		K: 	branching	 V: 	default	
-[00:00:09]: 		K: 	brightmarecreatures	 V: 	default	
-[00:00:09]: 		K: 	bunnymen_setting	 V: 	default	
-[00:00:09]: 		K: 	butterfly	 V: 	default	
-[00:00:09]: 		K: 	buzzard	 V: 	default	
-[00:00:09]: 		K: 	cactus	 V: 	default	
-[00:00:09]: 		K: 	cactus_regrowth	 V: 	default	
-[00:00:09]: 		K: 	carrot	 V: 	default	
-[00:00:09]: 		K: 	carrots_regrowth	 V: 	default	
-[00:00:09]: 		K: 	catcoon	 V: 	default	
-[00:00:09]: 		K: 	catcoons	 V: 	default	
-[00:00:09]: 		K: 	chess	 V: 	default	
-[00:00:09]: 		K: 	cookiecutters	 V: 	default	
-[00:00:09]: 		K: 	crabking	 V: 	default	
-[00:00:09]: 		K: 	crow_carnival	 V: 	default	
-[00:00:09]: 		K: 	darkness	 V: 	default	
-[00:00:09]: 		K: 	day	 V: 	default	
-[00:00:09]: 		K: 	daywalker2	 V: 	default	
-[00:00:09]: 		K: 	deciduousmonster	 V: 	default	
-[00:00:09]: 		K: 	deciduoustree_regrowth	 V: 	default	
-[00:00:09]: 		K: 	deerclops	 V: 	default	
-[00:00:09]: 		K: 	dragonfly	 V: 	default	
-[00:00:09]: 		K: 	dropeverythingondespawn	 V: 	default	
-[00:00:09]: 		K: 	evergreen_regrowth	 V: 	default	
-[00:00:09]: 		K: 	extrastartingitems	 V: 	default	
-[00:00:09]: 		K: 	eyeofterror	 V: 	default	
-[00:00:09]: 		K: 	fishschools	 V: 	default	
-[00:00:09]: 		K: 	flint	 V: 	default	
-[00:00:09]: 		K: 	flowers	 V: 	default	
-[00:00:09]: 		K: 	flowers_regrowth	 V: 	default	
-[00:00:09]: 		K: 	frograin	 V: 	default	
-[00:00:09]: 		K: 	frogs	 V: 	default	
-[00:00:09]: 		K: 	fruitfly	 V: 	default	
-[00:00:09]: 		K: 	ghostenabled	 V: 	none	
-[00:00:09]: 		K: 	ghostsanitydrain	 V: 	always	
-[00:00:09]: 		K: 	gnarwail	 V: 	default	
-[00:00:09]: 		K: 	goosemoose	 V: 	default	
-[00:00:09]: 		K: 	grass	 V: 	default	
-[00:00:09]: 		K: 	grassgekkos	 V: 	default	
-[00:00:09]: 		K: 	hallowed_nights	 V: 	default	
-[00:00:09]: 		K: 	has_ocean	 V: 	true	
-[00:00:09]: 		K: 	healthpenalty	 V: 	always	
-[00:00:09]: 		K: 	hound_mounds	 V: 	default	
-[00:00:09]: 		K: 	houndmound	 V: 	default	
-[00:00:09]: 		K: 	hounds	 V: 	default	
-[00:00:09]: 		K: 	hunger	 V: 	default	
-[00:00:09]: 		K: 	hunt	 V: 	default	
-[00:00:09]: 		K: 	junkyard	 V: 	default	
-[00:00:09]: 		K: 	keep_disconnected_tiles	 V: 	true	
-[00:00:09]: 		K: 	klaus	 V: 	default	
-[00:00:09]: 		K: 	krampus	 V: 	default	
-[00:00:09]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
-[00:00:09]: 		K: 	lessdamagetaken	 V: 	none	
-[00:00:09]: 		K: 	liefs	 V: 	default	
-[00:00:09]: 		K: 	lightcrab_portalrate	 V: 	default	
-[00:00:09]: 		K: 	lightning	 V: 	default	
-[00:00:09]: 		K: 	lightninggoat	 V: 	default	
-[00:00:09]: 		K: 	loop	 V: 	default	
-[00:00:09]: 		K: 	lunarhail_frequency	 V: 	default	
-[00:00:09]: 		K: 	lureplants	 V: 	default	
-[00:00:09]: 		K: 	malbatross	 V: 	default	
-[00:00:09]: 		K: 	marshbush	 V: 	default	
-[00:00:09]: 		K: 	merm	 V: 	default	
-[00:00:09]: 		K: 	merms	 V: 	default	
-[00:00:09]: 		K: 	meteorshowers	 V: 	default	
-[00:00:09]: 		K: 	meteorspawner	 V: 	default	
-[00:00:09]: 		K: 	moles	 V: 	default	
-[00:00:09]: 		K: 	moles_setting	 V: 	default	
-[00:00:09]: 		K: 	monkeytail_portalrate	 V: 	default	
-[00:00:09]: 		K: 	moon_berrybush	 V: 	default	
-[00:00:09]: 		K: 	moon_bullkelp	 V: 	default	
-[00:00:09]: 		K: 	moon_carrot	 V: 	default	
-[00:00:09]: 		K: 	moon_fissure	 V: 	default	
-[00:00:09]: 		K: 	moon_fruitdragon	 V: 	default	
-[00:00:09]: 		K: 	moon_hotspring	 V: 	default	
-[00:00:09]: 		K: 	moon_rock	 V: 	default	
-[00:00:09]: 		K: 	moon_sapling	 V: 	default	
-[00:00:09]: 		K: 	moon_spider	 V: 	default	
-[00:00:09]: 		K: 	moon_spiders	 V: 	default	
-[00:00:09]: 		K: 	moon_starfish	 V: 	default	
-[00:00:09]: 		K: 	moon_tree	 V: 	default	
-[00:00:09]: 		K: 	moon_tree_regrowth	 V: 	default	
-[00:00:09]: 		K: 	mosquitos	 V: 	default	
-[00:00:09]: 		K: 	mushroom	 V: 	default	
-[00:00:09]: 		K: 	mutated_bearger	 V: 	default	
-[00:00:09]: 		K: 	mutated_bird_gestalt	 V: 	default	
-[00:00:09]: 		K: 	mutated_birds	 V: 	default	
-[00:00:09]: 		K: 	mutated_buzzard_gestalt	 V: 	default	
-[00:00:09]: 		K: 	mutated_deerclops	 V: 	default	
-[00:00:09]: 		K: 	mutated_hounds	 V: 	default	
-[00:00:09]: 		K: 	mutated_merm	 V: 	default	
-[00:00:09]: 		K: 	mutated_spiderqueen	 V: 	default	
-[00:00:09]: 		K: 	mutated_warg	 V: 	default	
-[00:00:09]: 		K: 	no_joining_islands	 V: 	true	
-[00:00:09]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
-[00:00:09]: 		K: 	ocean_bullkelp	 V: 	default	
-[00:00:09]: 		K: 	ocean_otterdens	 V: 	default	
-[00:00:09]: 		K: 	ocean_seastack	 V: 	ocean_default	
-[00:00:09]: 		K: 	ocean_shoal	 V: 	default	
-[00:00:09]: 		K: 	ocean_waterplant	 V: 	ocean_default	
-[00:00:09]: 		K: 	ocean_wobsterden	 V: 	default	
-[00:00:09]: 		K: 	otters_setting	 V: 	default	
-[00:00:09]: 		K: 	palmcone_seed_portalrate	 V: 	default	
-[00:00:09]: 		K: 	palmconetree	 V: 	default	
-[00:00:09]: 		K: 	palmconetree_regrowth	 V: 	default	
-[00:00:09]: 		K: 	penguins	 V: 	default	
-[00:00:09]: 		K: 	penguins_moon	 V: 	default	
-[00:00:09]: 		K: 	perd	 V: 	default	
-[00:00:09]: 		K: 	petrification	 V: 	default	
-[00:00:09]: 		K: 	pigs	 V: 	default	
-[00:00:09]: 		K: 	pigs_setting	 V: 	default	
-[00:00:09]: 		K: 	pirateraids	 V: 	default	
-[00:00:09]: 		K: 	ponds	 V: 	default	
-[00:00:09]: 		K: 	portal_spawnrate	 V: 	default	
-[00:00:09]: 		K: 	portalresurection	 V: 	none	
-[00:00:09]: 		K: 	powder_monkey_portalrate	 V: 	default	
-[00:00:09]: 		K: 	prefabswaps_start	 V: 	default	
-[00:00:09]: 		K: 	rabbits	 V: 	default	
-[00:00:09]: 		K: 	rabbits_setting	 V: 	default	
-[00:00:09]: 		K: 	reeds	 V: 	default	
-[00:00:09]: 		K: 	reeds_regrowth	 V: 	default	
-[00:00:09]: 		K: 	regrowth	 V: 	default	
-[00:00:09]: 		K: 	resettime	 V: 	default	
-[00:00:09]: 		K: 	rifts_enabled	 V: 	default	
-[00:00:09]: 		K: 	rifts_frequency	 V: 	default	
-[00:00:09]: 		K: 	roads	 V: 	default	
-[00:00:09]: 		K: 	rock	 V: 	default	
-[00:00:09]: 		K: 	rock_ice	 V: 	default	
-[00:00:09]: 		K: 	saltstack_regrowth	 V: 	default	
-[00:00:09]: 		K: 	sapling	 V: 	default	
-[00:00:09]: 		K: 	season_start	 V: 	default	
-[00:00:09]: 		K: 	seasonalstartingitems	 V: 	default	
-[00:00:09]: 		K: 	shadowcreatures	 V: 	default	
-[00:00:09]: 		K: 	sharkboi	 V: 	default	
-[00:00:09]: 		K: 	sharks	 V: 	default	
-[00:00:09]: 		K: 	spawnmode	 V: 	fixed	
-[00:00:09]: 		K: 	spawnprotection	 V: 	default	
-[00:00:09]: 		K: 	specialevent	 V: 	default	
-[00:00:09]: 		K: 	spider_warriors	 V: 	default	
-[00:00:09]: 		K: 	spiderqueen	 V: 	default	
-[00:00:09]: 		K: 	spiders	 V: 	default	
-[00:00:09]: 		K: 	spiders_setting	 V: 	default	
-[00:00:09]: 		K: 	spring	 V: 	default	
-[00:00:09]: 		K: 	squid	 V: 	default	
-[00:00:09]: 		K: 	stageplays	 V: 	default	
-[00:00:09]: 		K: 	start_location	 V: 	default	
-[00:00:09]: 		K: 	summer	 V: 	default	
-[00:00:09]: 		K: 	summerhounds	 V: 	default	
-[00:00:09]: 		K: 	tallbirds	 V: 	default	
-[00:00:09]: 		K: 	task_set	 V: 	default	
-[00:00:09]: 		K: 	temperaturedamage	 V: 	default	
-[00:00:09]: 		K: 	tentacles	 V: 	default	
-[00:00:09]: 		K: 	terrariumchest	 V: 	default	
-[00:00:09]: 		K: 	touchstone	 V: 	default	
-[00:00:09]: 		K: 	trees	 V: 	default	
-[00:00:09]: 		K: 	tumbleweed	 V: 	default	
-[00:00:09]: 		K: 	twiggytrees_regrowth	 V: 	default	
-[00:00:09]: 		K: 	walrus	 V: 	default	
-[00:00:09]: 		K: 	walrus_setting	 V: 	default	
-[00:00:09]: 		K: 	wanderingtrader_enabled	 V: 	always	
-[00:00:09]: 		K: 	wasps	 V: 	default	
-[00:00:09]: 		K: 	weather	 V: 	default	
-[00:00:09]: 		K: 	wildfires	 V: 	default	
-[00:00:09]: 		K: 	winter	 V: 	default	
-[00:00:09]: 		K: 	winterhounds	 V: 	default	
-[00:00:09]: 		K: 	winters_feast	 V: 	default	
-[00:00:09]: 		K: 	wobsters	 V: 	default	
-[00:00:09]: 		K: 	world_size	 V: 	default	
-[00:00:09]: 		K: 	wormhole_prefab	 V: 	wormhole	
-[00:00:09]: 		K: 	year_of_the_beefalo	 V: 	default	
-[00:00:09]: 		K: 	year_of_the_bunnyman	 V: 	default	
-[00:00:09]: 		K: 	year_of_the_carrat	 V: 	default	
-[00:00:09]: 		K: 	year_of_the_catcoon	 V: 	default	
-[00:00:09]: 		K: 	year_of_the_dragonfly	 V: 	default	
-[00:00:09]: 		K: 	year_of_the_gobbler	 V: 	default	
-[00:00:09]: 		K: 	year_of_the_knight	 V: 	default	
-[00:00:09]: 		K: 	year_of_the_pig	 V: 	default	
-[00:00:09]: 		K: 	year_of_the_snake	 V: 	default	
-[00:00:09]: 		K: 	year_of_the_varg	 V: 	default	
-[00:00:09]: 	K: 	playstyle	 V: 	survival	
-[00:00:09]: 	K: 	random_set_pieces	 V: 	table: 000000001C94D830	
-[00:00:09]: 		K: 	1	 V: 	Sculptures_2	
-[00:00:09]: 		K: 	2	 V: 	Sculptures_3	
-[00:00:09]: 		K: 	3	 V: 	Sculptures_4	
-[00:00:09]: 		K: 	4	 V: 	Sculptures_5	
-[00:00:09]: 		K: 	5	 V: 	Chessy_1	
-[00:00:09]: 		K: 	6	 V: 	Chessy_2	
-[00:00:09]: 		K: 	7	 V: 	Chessy_3	
-[00:00:09]: 		K: 	8	 V: 	Chessy_4	
-[00:00:09]: 		K: 	9	 V: 	Chessy_5	
-[00:00:09]: 		K: 	10	 V: 	Chessy_6	
-[00:00:09]: 		K: 	11	 V: 	Maxwell1	
-[00:00:09]: 		K: 	12	 V: 	Maxwell2	
-[00:00:09]: 		K: 	13	 V: 	Maxwell3	
-[00:00:09]: 		K: 	14	 V: 	Maxwell4	
-[00:00:09]: 		K: 	15	 V: 	Maxwell6	
-[00:00:09]: 		K: 	16	 V: 	Maxwell7	
-[00:00:09]: 		K: 	17	 V: 	Warzone_1	
-[00:00:09]: 		K: 	18	 V: 	Warzone_2	
-[00:00:09]: 		K: 	19	 V: 	Warzone_3	
-[00:00:09]: 	K: 	required_prefabs	 V: 	table: 000000001C94D880	
-[00:00:09]: 		K: 	1	 V: 	multiplayer_portal	
-[00:00:09]: 	K: 	required_setpieces	 V: 	table: 000000001C94CE80	
-[00:00:09]: 		K: 	1	 V: 	Sculptures_1	
-[00:00:09]: 		K: 	2	 V: 	Maxwell5	
-[00:00:09]: 	K: 	settings_desc	 V: 	The standard Don't Starve experience.	
-[00:00:09]: 	K: 	settings_id	 V: 	SURVIVAL_TOGETHER	
-[00:00:09]: 	K: 	settings_name	 V: 	Survival	
-[00:00:09]: 	K: 	substitutes	 V: 	table: 000000001C94DCE0	
-[00:00:09]: 	K: 	version	 V: 	4	
-[00:00:09]: 	K: 	worldgen_desc	 V: 	The standard Don't Starve experience.	
-[00:00:09]: 	K: 	worldgen_id	 V: 	SURVIVAL_TOGETHER	
-[00:00:09]: 	K: 	worldgen_name	 V: 	Survival	
-[00:00:09]: Loaded and applied level data override from ../leveldataoverride.lua	
-[00:00:09]: Overwriting savedata with level data file.	
-[00:00:09]: Not applying world gen overrides.	
-[00:00:09]: Collecting garbage...
-[00:00:09]: lua_gc took 0.11 seconds
-[00:00:09]: ~ShardLuaProxy()
-[00:00:09]: ~cEventLeaderboardProxy()
-[00:00:09]: ~ItemServerLuaProxy()
-[00:00:09]: ~InventoryLuaProxy()
-[00:00:09]: ~NetworkLuaProxy()
-[00:00:09]: ~SimLuaProxy()
-[00:00:09]: lua_close took 0.10 seconds
-[00:00:09]: ReleaseAll
-[00:00:09]: ReleaseAll Finished
-[00:00:09]: cGame::StartPlaying
-[00:00:09]: AppVersion::GetArchitecture() x64
-[00:00:09]: LOADING LUA
-[00:00:09]: DoLuaFile scripts/main.lua
-[00:00:09]: DoLuaFile loading buffer scripts/main.lua
-[00:00:10]:   taskgrouplist:	default	Together	
-[00:00:10]:   taskgrouplist:	classic	Classic	
-[00:00:10]:   taskgrouplist:	cave_default	Underground	
-[00:00:10]:   taskgrouplist:	lavaarena_taskset	The Forge	
-[00:00:10]:   taskgrouplist:	quagmire_taskset	The Gorge	
-[00:00:10]: Running main.lua
+[00:00:01]: SUCCESS: Loaded modoverrides.lua	
+[00:00:01]: Registering Mods:
+[00:00:01]: No mods registered
+[00:00:01]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:02]: LOADING LUA SUCCESS
+[00:00:02]: PlayerDeaths could not load morgue	
+[00:00:02]: PlayerHistory could not load player_history	
+[00:00:02]: ServerPreferences could not load server_preferences	
+[00:00:02]: ConsoleScreenSettings could not load consolescreen	
+[00:00:02]: bloom_enabled	true	
+[00:00:02]: OnFilesLoaded()	
+[00:00:02]: OnUpdatePurchaseStateComplete	
+[00:00:02]: Klump load on boot started.	
+[00:00:02]: Klump files loaded: 	0	
+[00:00:05]: 	Load FE	
+[00:00:06]: 	Load FE: done	
+[00:00:06]: THREAD - started 'FilesExistAsyncThread' (15520)
+[00:00:06]: FilesExistAsyncThread started (0 files)...
+[00:00:06]: ... FilesExistAsyncThread complete
+[00:00:06]: Check for write access: TRUE
+[00:00:06]: Check for read access: TRUE
+[00:00:06]: Available disk space for save files: 115178 MB
+[00:00:06]: ModIndex: Load sequence finished successfully.	
+[00:00:06]: Reset() returning
+[00:00:06]: [IPC] Signal 'DST_Master_Kill' opened  #0000000000000A20
+[00:00:06]: [IPC] Registering handler for signal #0000000000000A20
+[00:00:06]: [IPC] Handle #0000000000000A20 added to the Eventhandles
+[00:00:06]: [IPC] Signal 'DST_Master_ShutdownNoSave' opened  #0000000000000A08
+[00:00:06]: [IPC] Registering handler for signal #0000000000000A08
+[00:00:06]: [IPC] Handle #0000000000000A08 added to the Eventhandles
+[00:00:06]: [IPC] Signal 'DST_Master_Starting' opened  #0000000000000A54
+[00:00:06]: [IPC] Sending signal... #0000000000000A54
+[00:00:06]: [200] Account Communication Success (6)
+[00:00:06]: Cached userid (null) saved to APP:Klei//DoNotStarveTogether/235059957/Cluster_3/Master/save/cached_userid
+[00:00:06]: Received (KU_ueGiPCrM) from TokenPurpose
+[00:00:06]: Starting Dedicated Server Game	
+[00:00:06]: Network tick rate: U=15(2), D=0
+[00:00:06]: About to start a server with the following settings:
+[00:00:06]:   Dedicated: true
+[00:00:06]:   Online: true
+[00:00:06]:   Passworded: true
+[00:00:06]:   ServerPort: 10999
+[00:00:06]:   SteamAuthPort: 8766
+[00:00:06]:   SteamMasterServerPort: 27016
+[00:00:06]:   ClanID: false
+[00:00:06]:   ClanOnly: false
+[00:00:06]:   ClanAdmin: false
+[00:00:06]:   LanOnly: false
+[00:00:06]:   FriendsOnly: true
+[00:00:06]:   EnableAutosaver: true
+[00:00:06]:   EncodeUserPath: true
+[00:00:06]:   PVP: false
+[00:00:06]:   MaxPlayers: 6
+[00:00:06]:   GameMode: survival
+[00:00:06]:   OverridenDNS: 
+[00:00:06]:   PauseWhenEmpty: true
+[00:00:06]:   IdleTimeout: 1800s
+[00:00:06]:   VoteEnabled: false
+[00:00:06]:   InternetBroadcasting: true
+[00:00:07]: [Warning] Could not confirm port 10999 is open in the firewall. 
+[00:00:07]: Online Server Started on port: 10999
+[00:00:07]: [ClientObject] Added (pre-auth) on server: guid=413885625386421188
+[00:00:07]: [ClientObject] Initialized (self/server object, locally trusted) on server: guid=413885625386421188 userid=KU_ueGiPCrM netid= admin=1
+[00:00:07]: SUCCESS: Loaded modoverrides.lua	
+[00:00:07]: Found a level data override file with these contents:	
+[00:00:07]: 	K: 	custom_settings_desc	 V: 		
+[00:00:07]: 	K: 	custom_settings_id	 V: 	CUSTOM_BISA RESPAWN + GANTI CHAR	
+[00:00:07]: 	K: 	custom_settings_name	 V: 	bisa respawn + ganti char	
+[00:00:07]: 	K: 	custom_worldgen_desc	 V: 		
+[00:00:07]: 	K: 	custom_worldgen_id	 V: 	CUSTOM_BISA RESPAWN + GANTI CHAR	
+[00:00:07]: 	K: 	custom_worldgen_name	 V: 	bisa respawn + ganti char	
+[00:00:07]: 	K: 	desc	 V: 	The standard Don't Starve experience.	
+[00:00:07]: 	K: 	hideminimap	 V: 	false	
+[00:00:07]: 	K: 	id	 V: 	SURVIVAL_TOGETHER	
+[00:00:07]: 	K: 	location	 V: 	forest	
+[00:00:07]: 	K: 	max_playlist_position	 V: 	999	
+[00:00:07]: 	K: 	min_playlist_position	 V: 	0	
+[00:00:07]: 	K: 	name	 V: 	Survival	
+[00:00:07]: 	K: 	numrandom_set_pieces	 V: 	4	
+[00:00:07]: 	K: 	override_level_string	 V: 	false	
+[00:00:07]: 	K: 	overrides	 V: 	table: 000000001CB1DE50	
+[00:00:07]: 		K: 	alternatehunt	 V: 	default	
+[00:00:07]: 		K: 	angrybees	 V: 	default	
+[00:00:07]: 		K: 	antliontribute	 V: 	default	
+[00:00:07]: 		K: 	autumn	 V: 	default	
+[00:00:07]: 		K: 	balatro	 V: 	default	
+[00:00:07]: 		K: 	bananabush_portalrate	 V: 	default	
+[00:00:07]: 		K: 	basicresource_regrowth	 V: 	none	
+[00:00:07]: 		K: 	bats_setting	 V: 	default	
+[00:00:07]: 		K: 	bearger	 V: 	default	
+[00:00:07]: 		K: 	beefalo	 V: 	default	
+[00:00:07]: 		K: 	beefaloheat	 V: 	default	
+[00:00:07]: 		K: 	beequeen	 V: 	default	
+[00:00:07]: 		K: 	bees	 V: 	default	
+[00:00:07]: 		K: 	bees_setting	 V: 	default	
+[00:00:07]: 		K: 	berrybush	 V: 	default	
+[00:00:07]: 		K: 	birds	 V: 	default	
+[00:00:07]: 		K: 	boons	 V: 	default	
+[00:00:07]: 		K: 	branching	 V: 	default	
+[00:00:07]: 		K: 	brightmarecreatures	 V: 	default	
+[00:00:07]: 		K: 	bunnymen_setting	 V: 	default	
+[00:00:07]: 		K: 	butterfly	 V: 	default	
+[00:00:07]: 		K: 	buzzard	 V: 	default	
+[00:00:07]: 		K: 	cactus	 V: 	default	
+[00:00:07]: 		K: 	cactus_regrowth	 V: 	default	
+[00:00:07]: 		K: 	carrot	 V: 	default	
+[00:00:07]: 		K: 	carrots_regrowth	 V: 	default	
+[00:00:07]: 		K: 	catcoon	 V: 	default	
+[00:00:07]: 		K: 	catcoons	 V: 	default	
+[00:00:07]: 		K: 	chess	 V: 	default	
+[00:00:07]: 		K: 	cookiecutters	 V: 	default	
+[00:00:07]: 		K: 	crabking	 V: 	default	
+[00:00:07]: 		K: 	crow_carnival	 V: 	default	
+[00:00:07]: 		K: 	darkness	 V: 	default	
+[00:00:07]: 		K: 	day	 V: 	default	
+[00:00:07]: 		K: 	daywalker2	 V: 	default	
+[00:00:07]: 		K: 	deciduousmonster	 V: 	default	
+[00:00:07]: 		K: 	deciduoustree_regrowth	 V: 	default	
+[00:00:07]: 		K: 	deerclops	 V: 	default	
+[00:00:07]: 		K: 	dragonfly	 V: 	default	
+[00:00:07]: 		K: 	dropeverythingondespawn	 V: 	default	
+[00:00:07]: 		K: 	evergreen_regrowth	 V: 	default	
+[00:00:07]: 		K: 	extrastartingitems	 V: 	default	
+[00:00:07]: 		K: 	eyeofterror	 V: 	default	
+[00:00:07]: 		K: 	fishschools	 V: 	default	
+[00:00:07]: 		K: 	flint	 V: 	default	
+[00:00:07]: 		K: 	flowers	 V: 	default	
+[00:00:07]: 		K: 	flowers_regrowth	 V: 	default	
+[00:00:07]: 		K: 	frograin	 V: 	default	
+[00:00:07]: 		K: 	frogs	 V: 	default	
+[00:00:07]: 		K: 	fruitfly	 V: 	default	
+[00:00:07]: 		K: 	ghostenabled	 V: 	none	
+[00:00:07]: 		K: 	ghostsanitydrain	 V: 	always	
+[00:00:07]: 		K: 	gnarwail	 V: 	default	
+[00:00:07]: 		K: 	goosemoose	 V: 	default	
+[00:00:07]: 		K: 	grass	 V: 	default	
+[00:00:07]: 		K: 	grassgekkos	 V: 	default	
+[00:00:07]: 		K: 	hallowed_nights	 V: 	default	
+[00:00:07]: 		K: 	has_ocean	 V: 	true	
+[00:00:07]: 		K: 	healthpenalty	 V: 	always	
+[00:00:07]: 		K: 	hound_mounds	 V: 	default	
+[00:00:07]: 		K: 	houndmound	 V: 	default	
+[00:00:07]: 		K: 	hounds	 V: 	default	
+[00:00:07]: 		K: 	hunger	 V: 	default	
+[00:00:07]: 		K: 	hunt	 V: 	default	
+[00:00:07]: 		K: 	junkyard	 V: 	default	
+[00:00:07]: 		K: 	keep_disconnected_tiles	 V: 	true	
+[00:00:07]: 		K: 	klaus	 V: 	default	
+[00:00:07]: 		K: 	krampus	 V: 	default	
+[00:00:07]: 		K: 	layout_mode	 V: 	LinkNodesByKeys	
+[00:00:07]: 		K: 	lessdamagetaken	 V: 	none	
+[00:00:07]: 		K: 	liefs	 V: 	default	
+[00:00:07]: 		K: 	lightcrab_portalrate	 V: 	default	
+[00:00:07]: 		K: 	lightning	 V: 	default	
+[00:00:07]: 		K: 	lightninggoat	 V: 	default	
+[00:00:07]: 		K: 	loop	 V: 	default	
+[00:00:07]: 		K: 	lunarhail_frequency	 V: 	default	
+[00:00:07]: 		K: 	lureplants	 V: 	default	
+[00:00:07]: 		K: 	malbatross	 V: 	default	
+[00:00:07]: 		K: 	marshbush	 V: 	default	
+[00:00:07]: 		K: 	merm	 V: 	default	
+[00:00:07]: 		K: 	merms	 V: 	default	
+[00:00:07]: 		K: 	meteorshowers	 V: 	default	
+[00:00:07]: 		K: 	meteorspawner	 V: 	default	
+[00:00:07]: 		K: 	moles	 V: 	default	
+[00:00:07]: 		K: 	moles_setting	 V: 	default	
+[00:00:07]: 		K: 	monkeytail_portalrate	 V: 	default	
+[00:00:07]: 		K: 	moon_berrybush	 V: 	default	
+[00:00:07]: 		K: 	moon_bullkelp	 V: 	default	
+[00:00:07]: 		K: 	moon_carrot	 V: 	default	
+[00:00:07]: 		K: 	moon_fissure	 V: 	default	
+[00:00:07]: 		K: 	moon_fruitdragon	 V: 	default	
+[00:00:07]: 		K: 	moon_hotspring	 V: 	default	
+[00:00:07]: 		K: 	moon_rock	 V: 	default	
+[00:00:07]: 		K: 	moon_sapling	 V: 	default	
+[00:00:07]: 		K: 	moon_spider	 V: 	default	
+[00:00:07]: 		K: 	moon_spiders	 V: 	default	
+[00:00:07]: 		K: 	moon_starfish	 V: 	default	
+[00:00:07]: 		K: 	moon_tree	 V: 	default	
+[00:00:07]: 		K: 	moon_tree_regrowth	 V: 	default	
+[00:00:07]: 		K: 	mosquitos	 V: 	default	
+[00:00:07]: 		K: 	mushroom	 V: 	default	
+[00:00:07]: 		K: 	mutated_bearger	 V: 	default	
+[00:00:07]: 		K: 	mutated_bird_gestalt	 V: 	default	
+[00:00:07]: 		K: 	mutated_birds	 V: 	default	
+[00:00:07]: 		K: 	mutated_buzzard_gestalt	 V: 	default	
+[00:00:07]: 		K: 	mutated_deerclops	 V: 	default	
+[00:00:07]: 		K: 	mutated_hounds	 V: 	default	
+[00:00:07]: 		K: 	mutated_merm	 V: 	default	
+[00:00:07]: 		K: 	mutated_spiderqueen	 V: 	default	
+[00:00:07]: 		K: 	mutated_warg	 V: 	default	
+[00:00:07]: 		K: 	no_joining_islands	 V: 	true	
+[00:00:07]: 		K: 	no_wormholes_to_disconnected_tiles	 V: 	true	
+[00:00:07]: 		K: 	ocean_bullkelp	 V: 	default	
+[00:00:07]: 		K: 	ocean_otterdens	 V: 	default	
+[00:00:07]: 		K: 	ocean_seastack	 V: 	ocean_default	
+[00:00:07]: 		K: 	ocean_shoal	 V: 	default	
+[00:00:07]: 		K: 	ocean_waterplant	 V: 	ocean_default	
+[00:00:07]: 		K: 	ocean_wobsterden	 V: 	default	
+[00:00:07]: 		K: 	otters_setting	 V: 	default	
+[00:00:07]: 		K: 	palmcone_seed_portalrate	 V: 	default	
+[00:00:07]: 		K: 	palmconetree	 V: 	default	
+[00:00:07]: 		K: 	palmconetree_regrowth	 V: 	default	
+[00:00:07]: 		K: 	penguins	 V: 	default	
+[00:00:07]: 		K: 	penguins_moon	 V: 	default	
+[00:00:07]: 		K: 	perd	 V: 	default	
+[00:00:07]: 		K: 	petrification	 V: 	default	
+[00:00:07]: 		K: 	pigs	 V: 	default	
+[00:00:07]: 		K: 	pigs_setting	 V: 	default	
+[00:00:07]: 		K: 	pirateraids	 V: 	default	
+[00:00:07]: 		K: 	ponds	 V: 	default	
+[00:00:07]: 		K: 	portal_spawnrate	 V: 	default	
+[00:00:07]: 		K: 	portalresurection	 V: 	always	
+[00:00:07]: 		K: 	powder_monkey_portalrate	 V: 	default	
+[00:00:07]: 		K: 	prefabswaps_start	 V: 	default	
+[00:00:07]: 		K: 	rabbits	 V: 	default	
+[00:00:07]: 		K: 	rabbits_setting	 V: 	default	
+[00:00:07]: 		K: 	reeds	 V: 	default	
+[00:00:07]: 		K: 	reeds_regrowth	 V: 	default	
+[00:00:07]: 		K: 	regrowth	 V: 	default	
+[00:00:07]: 		K: 	resettime	 V: 	default	
+[00:00:07]: 		K: 	rifts_enabled	 V: 	default	
+[00:00:07]: 		K: 	rifts_frequency	 V: 	default	
+[00:00:07]: 		K: 	roads	 V: 	default	
+[00:00:07]: 		K: 	rock	 V: 	default	
+[00:00:07]: 		K: 	rock_ice	 V: 	default	
+[00:00:07]: 		K: 	saltstack_regrowth	 V: 	default	
+[00:00:07]: 		K: 	sapling	 V: 	default	
+[00:00:07]: 		K: 	season_start	 V: 	default	
+[00:00:07]: 		K: 	seasonalstartingitems	 V: 	default	
+[00:00:07]: 		K: 	shadowcreatures	 V: 	default	
+[00:00:07]: 		K: 	sharkboi	 V: 	default	
+[00:00:07]: 		K: 	sharks	 V: 	default	
+[00:00:07]: 		K: 	spawnmode	 V: 	fixed	
+[00:00:07]: 		K: 	spawnprotection	 V: 	default	
+[00:00:07]: 		K: 	specialevent	 V: 	default	
+[00:00:07]: 		K: 	spider_warriors	 V: 	default	
+[00:00:07]: 		K: 	spiderqueen	 V: 	default	
+[00:00:07]: 		K: 	spiders	 V: 	default	
+[00:00:07]: 		K: 	spiders_setting	 V: 	default	
+[00:00:07]: 		K: 	spring	 V: 	default	
+[00:00:07]: 		K: 	squid	 V: 	default	
+[00:00:07]: 		K: 	stageplays	 V: 	default	
+[00:00:07]: 		K: 	start_location	 V: 	default	
+[00:00:07]: 		K: 	summer	 V: 	default	
+[00:00:07]: 		K: 	summerhounds	 V: 	default	
+[00:00:07]: 		K: 	tallbirds	 V: 	default	
+[00:00:07]: 		K: 	task_set	 V: 	default	
+[00:00:07]: 		K: 	temperaturedamage	 V: 	default	
+[00:00:07]: 		K: 	tentacles	 V: 	default	
+[00:00:07]: 		K: 	terrariumchest	 V: 	default	
+[00:00:07]: 		K: 	touchstone	 V: 	default	
+[00:00:07]: 		K: 	trees	 V: 	default	
+[00:00:07]: 		K: 	tumbleweed	 V: 	default	
+[00:00:07]: 		K: 	twiggytrees_regrowth	 V: 	default	
+[00:00:07]: 		K: 	walrus	 V: 	default	
+[00:00:07]: 		K: 	walrus_setting	 V: 	default	
+[00:00:07]: 		K: 	wanderingtrader_enabled	 V: 	always	
+[00:00:07]: 		K: 	wasps	 V: 	default	
+[00:00:07]: 		K: 	weather	 V: 	default	
+[00:00:07]: 		K: 	wildfires	 V: 	default	
+[00:00:07]: 		K: 	winter	 V: 	default	
+[00:00:07]: 		K: 	winterhounds	 V: 	default	
+[00:00:07]: 		K: 	winters_feast	 V: 	default	
+[00:00:07]: 		K: 	wobsters	 V: 	default	
+[00:00:07]: 		K: 	world_size	 V: 	default	
+[00:00:07]: 		K: 	wormhole_prefab	 V: 	wormhole	
+[00:00:07]: 		K: 	year_of_the_beefalo	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_bunnyman	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_carrat	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_catcoon	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_dragonfly	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_gobbler	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_knight	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_pig	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_snake	 V: 	default	
+[00:00:07]: 		K: 	year_of_the_varg	 V: 	default	
+[00:00:07]: 	K: 	playstyle	 V: 	survival	
+[00:00:07]: 	K: 	random_set_pieces	 V: 	table: 000000001CB1EC60	
+[00:00:07]: 		K: 	1	 V: 	Sculptures_2	
+[00:00:07]: 		K: 	2	 V: 	Sculptures_3	
+[00:00:07]: 		K: 	3	 V: 	Sculptures_4	
+[00:00:07]: 		K: 	4	 V: 	Sculptures_5	
+[00:00:07]: 		K: 	5	 V: 	Chessy_1	
+[00:00:07]: 		K: 	6	 V: 	Chessy_2	
+[00:00:07]: 		K: 	7	 V: 	Chessy_3	
+[00:00:07]: 		K: 	8	 V: 	Chessy_4	
+[00:00:07]: 		K: 	9	 V: 	Chessy_5	
+[00:00:07]: 		K: 	10	 V: 	Chessy_6	
+[00:00:07]: 		K: 	11	 V: 	Maxwell1	
+[00:00:07]: 		K: 	12	 V: 	Maxwell2	
+[00:00:07]: 		K: 	13	 V: 	Maxwell3	
+[00:00:07]: 		K: 	14	 V: 	Maxwell4	
+[00:00:07]: 		K: 	15	 V: 	Maxwell6	
+[00:00:07]: 		K: 	16	 V: 	Maxwell7	
+[00:00:07]: 		K: 	17	 V: 	Warzone_1	
+[00:00:07]: 		K: 	18	 V: 	Warzone_2	
+[00:00:07]: 		K: 	19	 V: 	Warzone_3	
+[00:00:07]: 	K: 	required_prefabs	 V: 	table: 000000001CB1E8A0	
+[00:00:07]: 		K: 	1	 V: 	multiplayer_portal	
+[00:00:07]: 	K: 	required_setpieces	 V: 	table: 000000001CB1E8F0	
+[00:00:07]: 		K: 	1	 V: 	Sculptures_1	
+[00:00:07]: 		K: 	2	 V: 	Maxwell5	
+[00:00:07]: 	K: 	settings_desc	 V: 	The standard Don't Starve experience.	
+[00:00:07]: 	K: 	settings_id	 V: 	SURVIVAL_TOGETHER	
+[00:00:07]: 	K: 	settings_name	 V: 	Survival	
+[00:00:07]: 	K: 	substitutes	 V: 	table: 000000001CB1DF90	
+[00:00:07]: 	K: 	version	 V: 	4	
+[00:00:07]: 	K: 	worldgen_desc	 V: 	The standard Don't Starve experience.	
+[00:00:07]: 	K: 	worldgen_id	 V: 	SURVIVAL_TOGETHER	
+[00:00:07]: 	K: 	worldgen_name	 V: 	Survival	
+[00:00:07]: Loaded and applied level data override from ../leveldataoverride.lua	
+[00:00:07]: Overwriting savedata with level data file.	
+[00:00:07]: Not applying world gen overrides.	
+[00:00:07]: Collecting garbage...
+[00:00:07]: lua_gc took 0.09 seconds
+[00:00:07]: ~ShardLuaProxy()
+[00:00:07]: ~cEventLeaderboardProxy()
+[00:00:07]: ~ItemServerLuaProxy()
+[00:00:07]: ~InventoryLuaProxy()
+[00:00:07]: ~NetworkLuaProxy()
+[00:00:07]: ~SimLuaProxy()
+[00:00:07]: lua_close took 0.08 seconds
+[00:00:07]: ReleaseAll
+[00:00:07]: ReleaseAll Finished
+[00:00:07]: cGame::StartPlaying
+[00:00:07]: AppVersion::GetArchitecture() x64
+[00:00:07]: LOADING LUA
+[00:00:07]: DoLuaFile scripts/main.lua
+[00:00:07]: DoLuaFile loading buffer scripts/main.lua
+[00:00:07]:   taskgrouplist:	default	Together	
+[00:00:07]:   taskgrouplist:	classic	Classic	
+[00:00:07]:   taskgrouplist:	cave_default	Underground	
+[00:00:07]:   taskgrouplist:	lavaarena_taskset	The Forge	
+[00:00:07]:   taskgrouplist:	quagmire_taskset	The Gorge	
+[00:00:08]: Running main.lua
 	
-[00:00:10]: loaded modindex	
-[00:00:10]: ModIndex: Beginning normal load sequence for dedicated server.
+[00:00:08]: loaded modindex	
+[00:00:08]: ModIndex: Beginning normal load sequence for dedicated server.
 	
-[00:00:10]: SUCCESS: Loaded modoverrides.lua	
-[00:00:10]: Registering Mods:
-[00:00:10]: No mods registered
-[00:00:11]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
-[00:00:11]: LOADING LUA SUCCESS
-[00:00:11]: PlayerDeaths could not load morgue	
-[00:00:11]: PlayerHistory could not load player_history	
-[00:00:11]: ServerPreferences could not load server_preferences	
-[00:00:11]: ConsoleScreenSettings could not load consolescreen	
-[00:00:11]: bloom_enabled	true	
-[00:00:11]: OnFilesLoaded()	
-[00:00:11]: OnUpdatePurchaseStateComplete	
-[00:00:11]: Loading world: session/7D9616F763A8761F/0000000013	
-[00:00:11]: Save file is at version 5.23	
-[00:00:11]: Klump load on boot started.	
-[00:00:11]: Klump files loaded: 	0	
-[00:00:11]: 	Unload FE	
-[00:00:11]: 	Unload FE done	
-[00:00:15]: 	LOAD BE	
-[00:00:36]: 	LOAD BE: done	
-[00:00:36]: Begin Session: 7D9616F763A8761F
-[00:00:36]: saving to server_temp/server_save	
-[00:00:36]: OVERRIDE: setting	healthpenalty	to	always	
-[00:00:36]: OVERRIDE: setting	wanderingtrader_enabled	to	always	
-[00:00:36]: OVERRIDE: setting	lessdamagetaken	to	none	
-[00:00:36]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
-[00:00:36]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
-[00:00:36]: Loading 19 new character(s)	
-[00:00:38]: Total 19 character(s) loaded	
-[00:00:39]: Loading Nav Grid	
-[00:00:39]: World generated on build 739495 with save version: 5.23, using seed: 286609453	
-[00:00:39]: setting 	summerlength	15	
-[00:00:39]: setting 	cavemoonphase	full	
-[00:00:39]: setting 	iscavefullmoon	false	
-[00:00:39]: setting 	isnightmaredawn	false	
-[00:00:39]: setting 	elapseddaysinseason	10	
-[00:00:39]: setting 	isfullmoon	false	
-[00:00:39]: setting 	moisture	1232.9230957031	
-[00:00:39]: setting 	springlength	20	
-[00:00:39]: setting 	islunarhailing	false	
-[00:00:39]: setting 	isnightmarewild	false	
-[00:00:39]: setting 	nightmaretimeinphase	0	
-[00:00:39]: setting 	precipitationrate	0	
-[00:00:39]: setting 	israining	false	
-[00:00:39]: setting 	iswet	false	
-[00:00:39]: setting 	isnewmoon	false	
-[00:00:39]: setting 	iscavewaxingmoon	false	
-[00:00:39]: setting 	iswinter	false	
-[00:00:39]: setting 	isnightmarewarn	false	
-[00:00:39]: setting 	cavephase	day	
-[00:00:39]: setting 	temperature	20.933160050377	
-[00:00:39]: setting 	isacidraining	false	
-[00:00:39]: setting 	lunarhailrate	0	
-[00:00:39]: setting 	season	autumn	
-[00:00:39]: setting 	wetness	0	
-[00:00:39]: setting 	timeinphase	0.081457392374675	
-[00:00:39]: setting 	iscaveday	true	
-[00:00:39]: setting 	moistureceil	5846.2670898438	
-[00:00:39]: setting 	isday	true	
-[00:00:39]: setting 	winterlength	15	
-[00:00:39]: setting 	remainingdaysinseason	10	
-[00:00:39]: setting 	issnowcovered	false	
-[00:00:39]: setting 	isalterawake	false	
-[00:00:39]: setting 	isnightmarecalm	false	
-[00:00:39]: setting 	isnight	false	
-[00:00:39]: setting 	isdusk	false	
-[00:00:39]: setting 	isspring	false	
-[00:00:39]: setting 	isautumn	true	
-[00:00:39]: setting 	issnowing	false	
-[00:00:39]: setting 	lunarhaillevel	0	
-[00:00:39]: setting 	pop	0.15064220460187	
-[00:00:39]: setting 	snowlevel	0	
-[00:00:39]: setting 	iswaxingmoon	false	
-[00:00:39]: setting 	autumnlength	20	
-[00:00:39]: setting 	phase	day	
-[00:00:39]: setting 	nightmaretime	0	
-[00:00:39]: setting 	iscavedusk	false	
-[00:00:39]: setting 	cycles	10	
-[00:00:39]: setting 	nightmarephase	none	
-[00:00:39]: setting 	seasonprogress	0.75	
-[00:00:39]: setting 	moonphase	full	
-[00:00:39]: setting 	iscavenight	false	
-[00:00:39]: setting 	iscavenewmoon	false	
-[00:00:39]: setting 	issummer	false	
-[00:00:39]: setting 	precipitation	none	
-[00:00:39]: setting 	time	0.040728696187337	
-[00:00:39]: OVERRIDE: setting	ghostenabled	to	none	
-[00:00:39]: OVERRIDE: setting	basicresource_regrowth	to	none	
-[00:00:39]: OVERRIDE: setting	portalresurection	to	none	
-[00:00:39]: OVERRIDE: setting	spawnmode	to	fixed	
-[00:00:39]: OVERRIDE: setting	ghostsanitydrain	to	always	
-[00:00:44]: Reconstructing topology	
-[00:00:44]: 	...Sorting points	
-[00:00:44]: 	...Sorting edges	
-[00:00:44]: 	...Connecting nodes	
-[00:00:44]: 	...Validating connections	
-[00:00:44]: 	...Housekeeping	
-[00:00:44]: 	...Done!	
-[00:00:44]: 1 uploads added to server. From server_temp
-[00:00:44]: About to start a shard with these settings:
-[00:00:44]:   ShardName: Master
-[00:00:44]:   ShardID: 1
-[00:00:44]:   ShardRole: MASTER
-[00:00:44]:   MasterHost: (null)
-[00:00:44]:   MasterBind: 127.0.0.1
-[00:00:44]:   MasterPort: 10888
-[00:00:44]: [Shard] Starting master server
-[00:00:44]: [Warning] Could not confirm port 10888 is open in the firewall. 
-[00:00:44]: [Shard] Shard server started on port: 10888
-[00:00:44]: [IPC] Signal 'DST_Master_Ready' opened  #0000000000000B54
-[00:00:44]: [IPC] Sending signal... #0000000000000B54
-[00:00:44]: Telling Client our new session identifier: 7D9616F763A8761F
-[00:00:44]: Check for write access: TRUE
-[00:00:44]: Check for read access: TRUE
-[00:00:44]: Available disk space for save files: 113677 MB
-[00:00:44]: ModIndex: Load sequence finished successfully.	
-[00:00:44]: Reset() returning
-[00:00:45]: Validating portal[9] <-> 4023110734[9] (inactive)	
-[00:00:45]: Validating portal[oceanwhirlbigportal] <-> 4023110734[oceanwhirlbigportal] (inactive)	
-[00:00:45]: Validating portal[4] <-> 4023110734[4] (inactive)	
-[00:00:45]: Validating portal[5] <-> 4023110734[5] (inactive)	
-[00:00:45]: Validating portal[8] <-> 4023110734[8] (inactive)	
-[00:00:45]: Validating portal[7] <-> 4023110734[7] (inactive)	
-[00:00:45]: Validating portal[6] <-> 4023110734[6] (inactive)	
-[00:00:45]: Validating portal[1] <-> 4023110734[1] (inactive)	
-[00:00:46]: Validating portal[2] <-> 4023110734[2] (inactive)	
-[00:00:46]: Validating portal[3] <-> 4023110734[3] (inactive)	
-[00:00:47]: Server registered via geo DNS in ap-southeast-1
-[00:00:47]: Sim paused
-[00:00:53]: [Shard] Secondary shard Caves(4023110734) connected: [LAN] 127.0.0.1
-[00:00:54]: [Shard] Secondary Caves(4023110734) ready!
-[00:00:54]: World 4023110734(Caves) is now connected	
-[00:00:54]: [SyncWorldSettings] Sending master world option ghostsanitydrain = always to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Sending master world option darkness = default to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Sending master world option resettime = default to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Sending master world option hunger = default to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Sending master world option healthpenalty = always to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Sending master world option temperaturedamage = default to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Sending master world option spawnmode = fixed to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Sending master world option shadowcreatures = default to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Sending master world option ghostenabled = none to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Sending master world option brightmarecreatures = default to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Sending master world option lessdamagetaken = none to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Sending master world option portalresurection = none to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Sending master world option basicresource_regrowth = none to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Sending master world option krampus = default to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Sending master world option dropeverythingondespawn = default to secondary shards.	
-[00:00:54]: Validating portal[9] <-> 4023110734[9] (disabled)	
-[00:00:54]: Validating portal[oceanwhirlbigportal] <-> 4023110734[oceanwhirlbigportal] (active)	
-[00:00:54]: Validating portal[4] <-> 4023110734[4] (disabled)	
-[00:00:54]: Validating portal[5] <-> 4023110734[5] (disabled)	
-[00:00:54]: Validating portal[8] <-> 4023110734[8] (disabled)	
-[00:00:54]: Validating portal[7] <-> 4023110734[7] (disabled)	
-[00:00:54]: Validating portal[6] <-> 4023110734[6] (disabled)	
-[00:00:54]: Validating portal[1] <-> 4023110734[1] (disabled)	
-[00:00:54]: Validating portal[2] <-> 4023110734[2] (disabled)	
-[00:00:54]: Validating portal[3] <-> 4023110734[3] (disabled)	
-[00:00:54]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = always to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Resyncing master world option darkness = default to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Resyncing master world option resettime = default to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Resyncing master world option hunger = default to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Resyncing master world option healthpenalty = always to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Resyncing master world option temperaturedamage = default to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Resyncing master world option spawnmode = fixed to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Resyncing master world option shadowcreatures = default to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Resyncing master world option ghostenabled = none to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Resyncing master world option brightmarecreatures = default to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Resyncing master world option lessdamagetaken = none to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Resyncing master world option portalresurection = none to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = none to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Resyncing master world option krampus = default to secondary shards.	
-[00:00:54]: [SyncWorldSettings] Resyncing master world option dropeverythingondespawn = default to secondary shards.	
-[00:00:56]: New incoming connection 127.0.0.1|56803 <8683550413322781974>
-[00:00:56]: Client connected from [LAN] 127.0.0.1|56803 <8683550413322781974>
-[00:00:56]: [ClientObject] Added (pre-auth) on server: guid=8683550413322781974
-[00:00:56]: ValidateGameSessionToken GUID<8683550413322781974>
-[00:00:56]: Client authenticated: (KU_ueGiPCrM) tarcio594
-[00:00:56]: [Steam] Authenticated host '76561198195325685'
-[00:00:59]: There is no active event to validate against.
-[00:00:59]: [Shard] Read save location file for (KU_ueGiPCrM)
-[00:00:59]: [ClientObject] Initialized (authenticated) on server: guid=8683550413322781974 userid=KU_ueGiPCrM netid=76561198195325685 admin=1
-[00:01:42]: Resuming user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000013
-[00:01:42]: User ID	KU_ueGiPCrM	assigned ownership to entity	117518 - walter	
-[00:01:42]: Locking loaded Woby for 117518 - walter	
-[00:01:42]: Spawning player at: [Load] (-258.69, 0.00, 92.93)	
-[00:01:42]: Sim unpaused
-[00:03:08]: [P2P] Session request for '76561198354745564'
-[00:03:13]: [P2P] Create session: 209.34.150.31|1 '76561198354745564'
-[00:03:13]: [P2P] Received from 209.34.150.31|1 '76561198354745564'
-[00:03:13]: [P2P] Sent to 209.34.150.31|1 '76561198354745564'
-[00:03:16]: New incoming connection 209.34.150.31|1 <998990933955780417>
-[00:03:16]: Client connected from 209.34.150.31|1 <998990933955780417>
-[00:03:16]: [ClientObject] Added (pre-auth) on server: guid=998990933955780417
-[00:03:16]: ValidateGameSessionToken GUID<998990933955780417>
-[00:03:17]: Client authenticated: (KU_Nveabhbk) profiling profiling
-[00:03:17]: [Steam] SendUserConnectAndAuthenticate for '76561198354745564'
-[00:03:17]: [Steam] Authenticated client '76561198354745564'
-[00:03:19]: There is no active event to validate against.
-[00:03:19]: [Shard] Read save location file for (KU_Nveabhbk)
-[00:03:19]: [ClientObject] Initialized (authenticated) on server: guid=998990933955780417 userid=KU_Nveabhbk netid=76561198354745564 admin=0
-[00:03:46]: [P2P] Session request for '76561198351064892'
-[00:03:51]: [P2P] Create session: 209.34.150.32|1 '76561198351064892'
-[00:03:51]: [P2P] Received from 209.34.150.32|1 '76561198351064892'
-[00:03:51]: [P2P] Sent to 209.34.150.32|1 '76561198351064892'
-[00:04:04]: New incoming connection 209.34.150.32|1 <9754321396218112496>
-[00:04:04]: Client connected from 209.34.150.32|1 <9754321396218112496>
-[00:04:04]: [ClientObject] Added (pre-auth) on server: guid=9754321396218112496
-[00:04:04]: ValidateGameSessionToken GUID<9754321396218112496>
-[00:04:04]: Client authenticated: (KU_LTP5EzVJ) johnpork
-[00:04:04]: [Steam] SendUserConnectAndAuthenticate for '76561198351064892'
-[00:04:04]: [Steam] Authenticated client '76561198351064892'
-[00:04:06]: There is no active event to validate against.
-[00:04:06]: [Shard] Read save location file for (KU_LTP5EzVJ)
-[00:04:06]: [ClientObject] Initialized (authenticated) on server: guid=9754321396218112496 userid=KU_LTP5EzVJ netid=76561198351064892 admin=0
-[00:04:36]: Resuming user: session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000012
-[00:04:36]: User ID	KU_LTP5EzVJ	assigned ownership to entity	118708 - walter	
-[00:04:36]: Unlocking loaded Woby for 118708 - walter	
-[00:04:36]: Spawning player at: [Load] (-214.00, 0.00, 86.00)	
-[00:05:10]: Resuming user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000013
-[00:05:11]: User ID	KU_Nveabhbk	assigned ownership to entity	118758 - walter	
-[00:05:11]: Locking loaded Woby for 118758 - walter	
-[00:05:11]: Spawning player at: [Load] (-151.17, 0.00, 4.67)	
-[00:09:23]: Available disk space for save files: 113667 MB
-[00:09:24]: Serializing user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000014
-[00:09:24]: Serializing user: session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000014
-[00:09:24]: Serializing user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000014
-[00:09:24]: Serializing world: session/7D9616F763A8761F/0000000014
-[00:09:24]: Rate limiting RPCs from	118708 - walter	KU_LTP5EzVJ	last one being ID	48	
-[00:10:46]: Rate limiting RPCs from	118708 - walter	KU_LTP5EzVJ	last one being ID	48	
-[00:10:57]: Rate limiting RPCs from	118708 - walter	KU_LTP5EzVJ	last one being ID	48	
-[00:16:29]: Deleting user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000015
-[00:16:34]: Deleting user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000015
-[00:16:34]: Resuming user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000015
-[00:16:56]: Deleting user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000015
-[00:17:01]: Deleting user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000015
-[00:17:01]: Resuming user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000015
-[00:17:23]: Spawn request: webber from tarcio594
-[00:17:23]: Skin request: () () (hand_shortgloves_navy_midnight) (legs_pants_basic_blue_sky) (feet_warly_pirate)
-[00:17:23]: Skill Selection request: 0
-[00:17:23]: User ID	KU_ueGiPCrM	assigned ownership to entity	125676 - webber	
-[00:17:23]: Spawning player at: [Fixed] (-214.00, 0.00, 86.00)	
-[00:17:23]: Serializing user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000015
-[00:17:24]: Available disk space for save files: 113664 MB
-[00:17:24]: Serializing user: session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000015
-[00:17:24]: Serializing user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000015
-[00:17:25]: Serializing world: session/7D9616F763A8761F/0000000015
-[00:18:51]: Validating portal[4] <-> 4023110734[4] (active)	
-[00:19:52]: Activating portal[4] to 4023110734 by 118708 - walter	
-[00:19:52]: Serializing user: session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000016
-[00:19:52]: [Shard] Migration request: (KU_LTP5EzVJ) to Caves(4023110734)
-[00:19:52]: [Shard] Begin migration #1 for (KU_LTP5EzVJ)
-[00:19:52]: [Shard] #1 Master(1) -> Caves(4023110734)
-[00:19:52]: [Shard] #1 <- session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000016
-[00:19:52]: [Shard] Writing save location file for (KU_LTP5EzVJ)
-[00:19:52]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
-[00:19:53]: [Steam] SendUserDisconnect for '76561198351064892'
-[00:19:53]: [Shard] (KU_LTP5EzVJ) disconnected from Master(1)
-[00:20:07]: [Shard] Completed migration #1 for player (KU_LTP5EzVJ)
-[00:23:18]: [Shard] Begin migration #2 for (KU_LTP5EzVJ)
-[00:23:18]: [Shard] #2 Caves(4023110734) -> Master(1)
-[00:23:18]: [Shard] #2 -> session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000016
-[00:23:18]: [Shard] Received migration #2 data for (KU_LTP5EzVJ)
-[00:23:18]: [Shard] Writing save location file for (KU_LTP5EzVJ)
-[00:23:31]: [Shard] (KU_LTP5EzVJ) disconnected from Caves(4023110734)
-[00:24:21]: [P2P] Received from 209.34.150.32|1 '76561198351064892'
-[00:24:21]: [P2P] Sent to 209.34.150.32|1 '76561198351064892'
-[00:24:27]: New incoming connection 209.34.150.32|1 <8313264452644896061>
-[00:24:27]: Client connected from 209.34.150.32|1 <8313264452644896061>
-[00:24:27]: [ClientObject] Added (pre-auth) on server: guid=8313264452644896061
-[00:24:27]: ValidateGameSessionToken GUID<8313264452644896061>
-[00:24:28]: Client authenticated: (KU_LTP5EzVJ) johnpork
-[00:24:28]: [Steam] SendUserConnectAndAuthenticate for '76561198351064892'
-[00:24:28]: [Steam] Authenticated client '76561198351064892'
-[00:24:28]: [Shard] Completed incoming migration #2 for (KU_LTP5EzVJ)
-[00:24:28]: [ClientObject] Initialized (authenticated) on server: guid=8313264452644896061 userid=KU_LTP5EzVJ netid=76561198351064892 admin=0
-[00:24:28]: [Shard] Completed migration #2 for player (KU_LTP5EzVJ)
-[00:24:53]: Spawn request: walter from profiling profiling
-[00:24:53]: Skin request: () () () () ()
-[00:24:53]: Skill Selection request: 0
-[00:24:53]: User ID	KU_Nveabhbk	assigned ownership to entity	126450 - walter	
-[00:24:53]: Spawning player at: [Fixed] (-214.00, 0.00, 86.00)	
-[00:24:53]: Serializing user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000016
-[00:24:58]: Resuming user: session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000016
-[00:24:58]: User ID	KU_LTP5EzVJ	assigned ownership to entity	126486 - walter	
-[00:24:59]: Unlocking loaded Woby for 126486 - walter	
-[00:24:59]: Migrating prefab walter will spawn close to portal ID: 4	
-[00:24:59]: Spawning player at: [Load] (-89.43, 0.00, 266.50)	
-[00:25:25]: Available disk space for save files: 113944 MB
-[00:25:25]: Serializing user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000016
-[00:25:25]: Serializing user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000016
-[00:25:25]: Serializing user: session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000016
-[00:25:25]: Serializing world: session/7D9616F763A8761F/0000000016
-[00:30:09]: [200] Account Communication Success (6)
-[00:30:09]: Received (KU_ueGiPCrM) from TokenPurpose
-[00:30:20]: Rate limiting RPCs from	126486 - walter	KU_LTP5EzVJ	last one being ID	48	
-[00:33:25]: Available disk space for save files: 113934 MB
-[00:33:26]: Serializing user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000017
-[00:33:26]: Serializing user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000017
-[00:33:26]: Serializing user: session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000017
-[00:33:26]: Serializing world: session/7D9616F763A8761F/0000000017
-[00:34:42]: Rate limiting RPCs from	126486 - walter	KU_LTP5EzVJ	last one being ID	48	
-[00:40:25]: Deleting user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000018
-[00:40:30]: Deleting user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000018
-[00:40:30]: Resuming user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000018
-[00:40:37]: Spawn request: woodie from profiling profiling
-[00:40:37]: Skin request: () (body_buttons_blue_sapphire) (hand_webber_wrestler) (legs_wanda_steampunk) ()
-[00:40:37]: Skill Selection request: 0
-[00:40:37]: User ID	KU_Nveabhbk	assigned ownership to entity	131240 - woodie	
-[00:40:37]: Spawning player at: [Fixed] (-214.00, 0.00, 86.00)	
-[00:40:37]: Serializing user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000018
-[00:41:26]: Available disk space for save files: 113936 MB
-[00:41:26]: Serializing user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000018
-[00:41:26]: Serializing user: session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000018
-[00:41:26]: Serializing user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000018
-[00:41:27]: Serializing world: session/7D9616F763A8761F/0000000018
-[00:42:22]: Deleting user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000019
-[00:42:28]: Deleting user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000019
-[00:42:28]: Resuming user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000019
-[00:42:32]: Spawn request: woodie from profiling profiling
-[00:42:32]: Skin request: () (body_buttons_blue_sapphire) (hand_webber_wrestler) (legs_wanda_steampunk) ()
-[00:42:32]: Skill Selection request: 0
-[00:42:32]: User ID	KU_Nveabhbk	assigned ownership to entity	131810 - woodie	
-[00:42:32]: Spawning player at: [Fixed] (-214.00, 0.00, 86.00)	
-[00:42:32]: Serializing user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000019
-[00:44:36]: A timer with the name 	steallootcooldown	 already exists on 	132095 - otter	!	
-[00:49:27]: Available disk space for save files: 113928 MB
-[00:49:27]: Serializing user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000019
-[00:49:27]: Serializing user: session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000019
-[00:49:27]: Serializing user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000019
-[00:49:27]: Serializing world: session/7D9616F763A8761F/0000000019
-[00:53:20]: Deleting user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000020
-[00:53:26]: Deleting user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000020
-[00:53:26]: Resuming user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000020
-[00:53:47]: Spawn request: wilson from tarcio594
-[00:53:47]: Skin request: () () () () ()
-[00:53:47]: Skill Selection request: 0
-[00:53:47]: User ID	KU_ueGiPCrM	assigned ownership to entity	135364 - wilson	
-[00:53:47]: Spawning player at: [Fixed] (-214.00, 0.00, 86.00)	
-[00:53:47]: Serializing user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000020
-[00:57:27]: Available disk space for save files: 113920 MB
-[00:57:27]: Serializing user: session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000020
-[00:57:27]: Serializing user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000020
-[00:57:27]: Serializing user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000020
-[00:57:27]: Serializing world: session/7D9616F763A8761F/0000000020
-[00:57:32]: Could not find anim [spawn] in bank [FROMNUM]
-[00:57:33]: Could not find anim [spawn] in bank [FROMNUM]
-[01:00:09]: [200] Account Communication Success (6)
-[01:00:09]: Received (KU_ueGiPCrM) from TokenPurpose
-[01:03:20]: [Steam] SendUserDisconnect for '76561198351064892'
-[01:03:20]: Connection lost to 209.34.150.32|1 <8313264452644896061>
-[01:03:20]: [Shard] (KU_LTP5EzVJ) disconnected from Master(1)
-[01:03:20]: Serializing user: session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000021
-[01:03:28]: [P2P] Connection failed for '76561198351064892' because of error code 4(The connection timed out because the target user didn't respond.).
-[01:05:27]: Available disk space for save files: 113907 MB
-[01:05:28]: Serializing user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000021
-[01:05:28]: Serializing user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000021
-[01:05:28]: Serializing world: session/7D9616F763A8761F/0000000021
-[01:07:19]: [P2P] Received from 209.34.150.32|1 '76561198351064892'
-[01:07:19]: [P2P] Sent to 209.34.150.32|1 '76561198351064892'
-[01:07:28]: New incoming connection 209.34.150.32|1 <6182170432491835714>
-[01:07:28]: Client connected from 209.34.150.32|1 <6182170432491835714>
-[01:07:28]: [ClientObject] Added (pre-auth) on server: guid=6182170432491835714
-[01:07:28]: ValidateGameSessionToken GUID<6182170432491835714>
-[01:07:29]: Client authenticated: (KU_LTP5EzVJ) johnpork
-[01:07:29]: [Steam] SendUserConnectAndAuthenticate for '76561198351064892'
-[01:07:29]: [Steam] Authenticated client '76561198351064892'
-[01:07:31]: There is no active event to validate against.
-[01:07:31]: [Shard] Read save location file for (KU_LTP5EzVJ)
-[01:07:31]: [ClientObject] Initialized (authenticated) on server: guid=6182170432491835714 userid=KU_LTP5EzVJ netid=76561198351064892 admin=0
-[01:07:55]: Resuming user: session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000021
-[01:07:55]: User ID	KU_LTP5EzVJ	assigned ownership to entity	137334 - walter	
-[01:07:55]: Unlocking loaded Woby for 137334 - walter	
-[01:07:55]: Spawning player at: [Load] (-253.18, 0.00, 107.48)	
-[01:12:42]: Deleting user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000022
-[01:12:47]: Deleting user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000022
-[01:12:47]: Resuming user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000022
-[01:12:51]: Spawn request: woodie from profiling profiling
-[01:12:51]: Skin request: () (body_buttons_blue_sapphire) (hand_webber_wrestler) (legs_wanda_steampunk) ()
-[01:12:51]: Skill Selection request: 0
-[01:12:51]: User ID	KU_Nveabhbk	assigned ownership to entity	138092 - woodie	
-[01:12:51]: Spawning player at: [Fixed] (-214.00, 0.00, 86.00)	
-[01:12:51]: Serializing user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000022
-[01:13:28]: Available disk space for save files: 113902 MB
-[01:13:28]: Serializing user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000022
-[01:13:28]: Serializing user: session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000022
-[01:13:28]: Serializing user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000022
-[01:13:28]: Serializing world: session/7D9616F763A8761F/0000000022
-[01:13:32]: [Steam] SendUserDisconnect for '76561198354745564'
-[01:13:32]: Connection lost to 209.34.150.31|1 <998990933955780417>
-[01:13:32]: [Shard] (KU_Nveabhbk) disconnected from Master(1)
-[01:13:32]: [Steam] SendUserDisconnect for '76561198351064892'
-[01:13:32]: Connection lost to 209.34.150.32|1 <6182170432491835714>
-[01:13:32]: [Shard] (KU_LTP5EzVJ) disconnected from Master(1)
-[01:13:33]: Serializing user: session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000023
-[01:13:33]: Serializing user: session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000023
-[01:13:34]: CURL ERROR: (lobby-v2.klei.com) [35]Unknown SSL protocol error in connection to lobby-v2.klei.com:443 
-[01:13:34]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
-[01:13:35]: CURL ERROR: (lobby-v2.klei.com) [7]Failed to connect to lobby-v2.klei.com port 443: Bad access
-[01:13:35]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
-[01:13:35]: CURL ERROR: (lobby-v2.klei.com) [7]Failed to connect to lobby-v2.klei.com port 443: Bad access
-[01:13:35]: [Http] Curl failed[0] with HTTP_0, retrying (0 times). Response: __
-[01:13:35]: CURL ERROR: (lobby-v2.klei.com) [7]Failed to connect to lobby-v2.klei.com port 443: Bad access
-[01:13:35]: Failed to send server broadcast message
-[01:13:42]: CURL ERROR: (dst.metrics.klei.com) [28]Connection timed out after 5000 milliseconds
-[01:13:42]: CURL ERROR: (dst.metrics.klei.com) [28]Connection timed out after 5000 milliseconds
-[01:13:45]: [P2P] Connection failed for '76561198354745564' because of error code 4(The connection timed out because the target user didn't respond.).
-[01:13:45]: [P2P] Connection failed for '76561198351064892' because of error code 4(The connection timed out because the target user didn't respond.).
-[01:14:16]: CURL ERROR: (lobby-v2.klei.com) [7]Failed to connect to lobby-v2.klei.com port 443: Timed out
-[01:14:16]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
-[01:14:26]: CURL ERROR: (lobby-v2.klei.com) [7]Failed to connect to lobby-v2.klei.com port 443: Network unreachable
-[01:14:26]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
-[01:14:26]: CURL ERROR: (lobby-v2.klei.com) [7]Failed to connect to lobby-v2.klei.com port 443: Network unreachable
-[01:14:26]: [Http] Curl failed[0] with HTTP_0, retrying (0 times). Response: __
-[01:14:26]: CURL ERROR: (lobby-v2.klei.com) [7]Failed to connect to lobby-v2.klei.com port 443: Network unreachable
-[01:14:26]: Failed to send server broadcast message
-[01:14:36]: Server Autopaused	
-[01:14:38]: Server Unpaused	
-[01:15:29]: Server Autopaused	
-[01:15:31]: Server Unpaused	
-[01:15:32]: Server Autopaused	
-[01:15:33]: Server Unpaused	
-[01:16:57]: CURL ERROR: (dst.metrics.klei.com) [28]Resolving timed out after 5032 milliseconds
-[01:16:57]: CURL ERROR: (dst.metrics.klei.com) [28]Resolving timed out after 5032 milliseconds
-[01:16:57]: CURL ERROR: (dst.metrics.klei.com) [28]Resolving timed out after 5032 milliseconds
-[01:16:57]: CURL ERROR: (dst.metrics.klei.com) [28]Resolving timed out after 5032 milliseconds
-[01:16:57]: CURL ERROR: (dst.metrics.klei.com) [28]Resolving timed out after 5032 milliseconds
-[01:18:12]: CURL ERROR: (dst.metrics.klei.com) [28]Resolving timed out after 5032 milliseconds
-[01:18:47]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:18:47]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
-[01:19:00]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:19:00]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
-[01:19:12]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:19:12]: [Http] Curl failed[0] with HTTP_0, retrying (0 times). Response: __
-[01:19:24]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:19:24]: Failed to send server broadcast message
-[01:21:33]: Available disk space for save files: 113900 MB
-[01:21:34]: Serializing user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000023
-[01:21:34]: Serializing world: session/7D9616F763A8761F/0000000023
-[01:21:45]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:21:45]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
-[01:21:45]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:21:45]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
-[01:21:45]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:21:45]: [Http] Curl failed[0] with HTTP_0, retrying (0 times). Response: __
-[01:21:46]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:21:46]: Failed to send server broadcast message
-[01:21:53]: CURL ERROR: (dst.metrics.klei.com) [6]Could not resolve host: dst.metrics.klei.com
-[01:21:53]: CURL ERROR: (dst.metrics.klei.com) [6]Could not resolve host: dst.metrics.klei.com
-[01:22:22]: Deleting user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000024
-[01:22:22]: CURL ERROR: (dst.metrics.klei.com) [6]Could not resolve host: dst.metrics.klei.com
-[01:22:27]: Deleting user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000024
-[01:22:27]: Sim paused
-[01:22:27]: Resuming user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000024
-[01:22:27]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:22:27]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
-[01:22:28]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:22:28]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
-[01:22:28]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:22:28]: [Http] Curl failed[0] with HTTP_0, retrying (0 times). Response: __
-[01:22:28]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:22:28]: Failed to send server broadcast message
-[01:22:39]: Spawn request: wilson from tarcio594
-[01:22:39]: Skin request: () () () () ()
-[01:22:39]: Skill Selection request: 1
-[01:22:39]: User ID	KU_ueGiPCrM	assigned ownership to entity	138837 - wilson	
-[01:22:39]: Spawning player at: [Fixed] (-214.00, 0.00, 86.00)	
-[01:22:39]: Serializing user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000024
-[01:22:39]: Sim unpaused
-[01:22:40]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:22:40]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
-[01:22:40]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:22:40]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
-[01:22:40]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:22:40]: [Http] Curl failed[0] with HTTP_0, retrying (0 times). Response: __
-[01:22:41]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:22:41]: Failed to send server broadcast message
-[01:23:25]: Deleting user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000024
-[01:23:30]: CURL ERROR: (dst.metrics.klei.com) [28]Resolving timed out after 5032 milliseconds
-[01:23:30]: CURL ERROR: (dst.metrics.klei.com) [28]Resolving timed out after 5032 milliseconds
-[01:23:31]: Deleting user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000024
-[01:23:31]: Sim paused
-[01:23:31]: Resuming user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000024
-[01:23:31]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:23:31]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
-[01:23:31]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:23:31]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
-[01:23:31]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:23:31]: [Http] Curl failed[0] with HTTP_0, retrying (0 times). Response: __
-[01:23:32]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:23:32]: Failed to send server broadcast message
-[01:23:32]: [P2P] Session timed out for '76561198354745564'
-[01:23:32]: [P2P] Remove session: 209.34.150.31|1 '76561198354745564'
-[01:23:32]: [P2P] Session timed out for '76561198351064892'
-[01:23:32]: [P2P] Remove session: 209.34.150.32|1 '76561198351064892'
-[01:23:35]: Spawn request: wilson from tarcio594
-[01:23:35]: Skin request: () () () () ()
-[01:23:35]: Skill Selection request: 1
-[01:23:35]: User ID	KU_ueGiPCrM	assigned ownership to entity	138859 - wilson	
-[01:23:35]: Spawning player at: [Fixed] (-214.00, 0.00, 86.00)	
-[01:23:35]: Serializing user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000024
-[01:23:35]: Sim unpaused
-[01:23:48]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:23:48]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
-[01:23:48]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:23:48]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
-[01:23:49]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:23:49]: [Http] Curl failed[0] with HTTP_0, retrying (0 times). Response: __
-[01:23:49]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:23:49]: Failed to send server broadcast message
-[01:27:09]: CURL ERROR: (dst.metrics.klei.com) [6]Could not resolve host: dst.metrics.klei.com
-[01:27:09]: CURL ERROR: (dst.metrics.klei.com) [6]Could not resolve host: dst.metrics.klei.com
-[01:27:09]: CURL ERROR: (dst.metrics.klei.com) [6]Could not resolve host: dst.metrics.klei.com
-[01:27:09]: CURL ERROR: (dst.metrics.klei.com) [6]Could not resolve host: dst.metrics.klei.com
-[01:28:36]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:28:36]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
-[01:28:36]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:28:36]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
-[01:28:36]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:28:36]: [Http] Curl failed[0] with HTTP_0, retrying (0 times). Response: __
-[01:28:37]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:28:37]: Failed to send server broadcast message
-[01:28:39]: CURL ERROR: (dst.metrics.klei.com) [28]Resolving timed out after 5031 milliseconds
-[01:29:50]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:29:50]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
-[01:29:50]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:29:50]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
-[01:29:50]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:29:50]: [Http] Curl failed[0] with HTTP_0, retrying (0 times). Response: __
-[01:29:50]: Available disk space for save files: 113888 MB
-[01:29:50]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:29:51]: Serializing user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000024
-[01:29:51]: Serializing world: session/7D9616F763A8761F/0000000024
-[01:29:51]: Failed to send server broadcast message
-[01:30:20]: CURL ERROR: (login.kleientertainment.com) [6]Could not resolve host: login.kleientertainment.com
-[01:30:20]: [0] Account Failed (6): ""
-[01:30:20]: [Warning] Empty error code received, dumping response:
-[01:30:20]: 
-[01:30:20]: [IPC] Signal 'DST_Master_ErrStartup' opened  #00000000000008B4
-[01:30:20]: [IPC] Sending signal... #00000000000008B4
-[01:30:20]: [Connect] PendingConnection::Reset(true)
-[01:31:57]: CURL ERROR: (dst.metrics.klei.com) [28]Resolving timed out after 5031 milliseconds
-[01:32:10]: CURL ERROR: (dst.metrics.klei.com) [6]Could not resolve host: dst.metrics.klei.com
-[01:32:10]: CURL ERROR: (dst.metrics.klei.com) [6]Could not resolve host: dst.metrics.klei.com
-[01:33:40]: CURL ERROR: (dst.metrics.klei.com) [6]Could not resolve host: dst.metrics.klei.com
-[01:35:02]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:35:02]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
-[01:35:14]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:35:14]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
-[01:35:26]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:35:26]: [Http] Curl failed[0] with HTTP_0, retrying (0 times). Response: __
-[01:35:38]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:35:39]: Failed to send server broadcast message
-[01:35:57]: Server Paused	
-[01:35:58]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:35:58]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
-[01:35:58]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:35:58]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
-[01:35:58]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:35:58]: [Http] Curl failed[0] with HTTP_0, retrying (0 times). Response: __
-[01:35:59]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:35:59]: Failed to send server broadcast message
-[01:41:10]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:41:10]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
-[01:41:10]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:41:10]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
-[01:41:10]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:41:10]: [Http] Curl failed[0] with HTTP_0, retrying (0 times). Response: __
-[01:41:10]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:41:10]: Failed to send server broadcast message
-[01:46:09]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:46:09]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
-[01:46:10]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:46:10]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
-[01:46:10]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:46:10]: [Http] Curl failed[0] with HTTP_0, retrying (0 times). Response: __
-[01:46:10]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:46:10]: Failed to send server broadcast message
-[01:50:58]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:50:58]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
-[01:50:58]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:50:58]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
-[01:50:58]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:50:58]: [Http] Curl failed[0] with HTTP_0, retrying (0 times). Response: __
-[01:50:58]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:50:58]: Failed to send server broadcast message
-[01:56:09]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:56:09]: [Http] Curl failed[0] with HTTP_0, retrying (2 times). Response: __
-[01:56:20]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:56:20]: [Http] Curl failed[0] with HTTP_0, retrying (1 times). Response: __
-[01:56:31]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:56:31]: [Http] Curl failed[0] with HTTP_0, retrying (0 times). Response: __
-[01:56:43]: CURL ERROR: (lobby-v2.klei.com) [6]Could not resolve host: lobby-v2.klei.com
-[01:56:43]: Failed to send server broadcast message
-[01:57:02]: [Http] Curl failed[1] with HTTP_404, retrying (2 times). Response: _{"Error":{"Code":"E_NOT_IN_DB"}}_
-[01:57:02]: [Http] Curl failed[1] with HTTP_404, retrying (1 times). Response: _{"Error":{"Code":"E_NOT_IN_DB"}}_
-[01:57:02]: [Http] Curl failed[1] with HTTP_404, retrying (0 times). Response: _{"Error":{"Code":"E_NOT_IN_DB"}}_
-[01:57:02]: [Error] Master Server Broadcast Error: E_NOT_IN_DB
-[01:57:02]: Master Server Broadcast will try to broadcast a new listing.
-[01:57:06]: Server registered via geo DNS in ap-southeast-1
-[02:00:09]: [200] Account Communication Success (6)
-[02:00:09]: Received (KU_ueGiPCrM) from TokenPurpose
-[02:05:40]: Server Unpaused	
-[02:05:42]: New time stamps for everyone at	1782663941	
-[02:05:54]: Server Paused	
-[02:13:12]: Server Unpaused	
-[02:14:51]: Available disk space for save files: 113857 MB
-[02:14:52]: Serializing user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000025
-[02:14:52]: Serializing world: session/7D9616F763A8761F/0000000025
-[02:14:55]: Server Paused	
-[02:15:04]: [Steam] SendUserDisconnect for '76561198195325685'
-[02:15:04]: [Shard] (KU_ueGiPCrM) disconnected from Master(1)
-[02:15:04]: Server Unpaused	
-[02:15:04]: [IPC] Received shutdown signal.
-[02:15:04]: Available disk space for save files: 113853 MB
-[02:15:04]: Serializing user: session/7D9616F763A8761F/A7N2GGM69JAM/0000000026
-[02:15:04]: Serializing world: session/7D9616F763A8761F/0000000026
-[02:15:04]: Truncating to snapshot #26...
-[02:15:04]:  - session/7D9616F763A8761F/0000000008
-[02:15:04]:  - session/7D9616F763A8761F/0000000009
-[02:15:04]:  - session/7D9616F763A8761F/0000000010
-[02:15:04]:  - session/7D9616F763A8761F/0000000011
-[02:15:04]:  - session/7D9616F763A8761F/0000000012
-[02:15:04]:  - session/7D9616F763A8761F/0000000013
-[02:15:04]:  - session/7D9616F763A8761F/0000000014
-[02:15:04]:  - session/7D9616F763A8761F/0000000015
-[02:15:04]:  - session/7D9616F763A8761F/0000000016
-[02:15:04]:  - session/7D9616F763A8761F/0000000017
-[02:15:04]:  - session/7D9616F763A8761F/0000000018
-[02:15:04]:  - session/7D9616F763A8761F/0000000019
-[02:15:04]:  - session/7D9616F763A8761F/0000000020
-[02:15:04]:  - session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000020
-[02:15:04]:  - session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000019
-[02:15:04]:  - session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000018
-[02:15:04]:  - session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000017
-[02:15:04]:  - session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000016
-[02:15:04]:  - session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000015
-[02:15:04]:  - session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000014
-[02:15:04]:  - session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000012
-[02:15:04]:  - session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000011
-[02:15:04]:  - session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000010
-[02:15:04]:  - session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000009
-[02:15:04]:  - session/7D9616F763A8761F/A7ILQP2JNLUJ/0000000008
-[02:15:04]:  - session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000020
-[02:15:04]:  - session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000019
-[02:15:04]:  - session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000018
-[02:15:04]:  - session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000017
-[02:15:04]:  - session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000016
-[02:15:04]:  - session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000015
-[02:15:04]:  - session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000014
-[02:15:04]:  - session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000013
-[02:15:04]:  - session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000012
-[02:15:04]:  - session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000011
-[02:15:04]:  - session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000010
-[02:15:04]:  - session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000009
-[02:15:04]:  - session/7D9616F763A8761F/A7IVJ8I9DEBE/0000000008
-[02:15:04]:  - session/7D9616F763A8761F/A7N2GGM69JAM/0000000020
-[02:15:04]:  - session/7D9616F763A8761F/A7N2GGM69JAM/0000000019
-[02:15:04]:  - session/7D9616F763A8761F/A7N2GGM69JAM/0000000018
-[02:15:04]:  - session/7D9616F763A8761F/A7N2GGM69JAM/0000000017
-[02:15:04]:  - session/7D9616F763A8761F/A7N2GGM69JAM/0000000016
-[02:15:04]:  - session/7D9616F763A8761F/A7N2GGM69JAM/0000000015
-[02:15:04]:  - session/7D9616F763A8761F/A7N2GGM69JAM/0000000014
-[02:15:04]:  - session/7D9616F763A8761F/A7N2GGM69JAM/0000000013
-[02:15:04]:  - session/7D9616F763A8761F/A7N2GGM69JAM/0000000012
-[02:15:04]:  - session/7D9616F763A8761F/A7N2GGM69JAM/0000000011
-[02:15:04]:  - session/7D9616F763A8761F/A7N2GGM69JAM/0000000010
-[02:15:04]:  - session/7D9616F763A8761F/A7N2GGM69JAM/0000000009
-[02:15:04]:  - session/7D9616F763A8761F/A7N2GGM69JAM/0000000008
-[02:15:04]:    51 file(s) removed
-[02:15:04]: Removing server from lobby
-[02:15:04]: [Shard] Stopping shard mode
-[02:15:04]: [Steam] SendUserDisconnect for ''
-[02:15:04]: Collecting garbage...
-[02:15:05]: lua_gc took 0.27 seconds
-[02:15:05]: ~ShardLuaProxy()
-[02:15:05]: ~cEventLeaderboardProxy()
-[02:15:05]: ~ItemServerLuaProxy()
-[02:15:05]: ~InventoryLuaProxy()
-[02:15:05]: ~NetworkLuaProxy()
-[02:15:05]: ~SimLuaProxy()
-[02:15:05]: Cancelling LuaQueryCallback handle [160]
-[02:15:05]: lua_close took 0.35 seconds
-[02:15:05]: CurlRequestManager::ClientThread::Main() complete
-[02:15:05]: HttpClient2 discarded 0 callbacks.
-[02:15:06]: Shutting down
+[00:00:08]: SUCCESS: Loaded modoverrides.lua	
+[00:00:08]: Registering Mods:
+[00:00:08]: No mods registered
+[00:00:08]: Event data unavailable: lavaarena_event_server/lavaarena_achievement_quest_defs
+[00:00:08]: LOADING LUA SUCCESS
+[00:00:08]: PlayerDeaths could not load morgue	
+[00:00:08]: PlayerHistory could not load player_history	
+[00:00:08]: ServerPreferences could not load server_preferences	
+[00:00:08]: ConsoleScreenSettings could not load consolescreen	
+[00:00:08]: bloom_enabled	true	
+[00:00:08]: OnFilesLoaded()	
+[00:00:08]: OnUpdatePurchaseStateComplete	
+[00:00:08]: Loading world: session/4BDD4007BCA8D71C/0000000006	
+[00:00:08]: Save file is at version 5.23	
+[00:00:08]: Klump load on boot started.	
+[00:00:08]: Klump files loaded: 	0	
+[00:00:08]: 	Unload FE	
+[00:00:08]: 	Unload FE done	
+[00:00:10]: 	LOAD BE	
+[00:00:26]: 	LOAD BE: done	
+[00:00:26]: Begin Session: 4BDD4007BCA8D71C
+[00:00:26]: saving to server_temp/server_save	
+[00:00:26]: OVERRIDE: setting	healthpenalty	to	always	
+[00:00:26]: OVERRIDE: setting	wanderingtrader_enabled	to	always	
+[00:00:26]: OVERRIDE: setting	lessdamagetaken	to	none	
+[00:00:26]: MiniMapComponent::AddAtlas( minimap/minimap_data1.xml )
+[00:00:26]: MiniMapComponent::AddAtlas( minimap/minimap_data2.xml )
+[00:00:26]: Loading 19 new character(s)	
+[00:00:28]: Total 19 character(s) loaded	
+[00:00:28]: Loading Nav Grid	
+[00:00:28]: World generated on build 739495 with save version: 5.23, using seed: 2003338558	
+[00:00:28]: setting 	summerlength	15	
+[00:00:28]: setting 	cavemoonphase	quarter	
+[00:00:28]: setting 	iscavefullmoon	false	
+[00:00:28]: setting 	isnightmaredawn	false	
+[00:00:28]: setting 	elapseddaysinseason	2	
+[00:00:28]: setting 	isfullmoon	false	
+[00:00:28]: setting 	moisture	362.55163574219	
+[00:00:28]: setting 	springlength	20	
+[00:00:28]: setting 	islunarhailing	false	
+[00:00:28]: setting 	isnightmarewild	false	
+[00:00:28]: setting 	nightmaretimeinphase	0	
+[00:00:28]: setting 	precipitationrate	0	
+[00:00:28]: setting 	israining	false	
+[00:00:28]: setting 	iswet	false	
+[00:00:28]: setting 	isnewmoon	false	
+[00:00:28]: setting 	iscavewaxingmoon	true	
+[00:00:28]: setting 	iswinter	false	
+[00:00:28]: setting 	isnightmarewarn	false	
+[00:00:28]: setting 	cavephase	night	
+[00:00:28]: setting 	temperature	23.099056607025	
+[00:00:28]: setting 	isacidraining	false	
+[00:00:28]: setting 	lunarhailrate	0	
+[00:00:28]: setting 	season	autumn	
+[00:00:28]: setting 	wetness	0	
+[00:00:28]: setting 	timeinphase	0.81656058629354	
+[00:00:28]: setting 	iscaveday	false	
+[00:00:28]: setting 	moistureceil	522.18054199219	
+[00:00:28]: setting 	isday	false	
+[00:00:28]: setting 	winterlength	15	
+[00:00:28]: setting 	remainingdaysinseason	18	
+[00:00:28]: setting 	issnowcovered	false	
+[00:00:28]: setting 	isalterawake	false	
+[00:00:28]: setting 	isnightmarecalm	false	
+[00:00:28]: setting 	isnight	true	
+[00:00:28]: setting 	isdusk	false	
+[00:00:28]: setting 	isspring	false	
+[00:00:28]: setting 	isautumn	true	
+[00:00:28]: setting 	issnowing	false	
+[00:00:28]: setting 	lunarhaillevel	0	
+[00:00:28]: setting 	pop	0.69430322769019	
+[00:00:28]: setting 	snowlevel	0	
+[00:00:28]: setting 	iswaxingmoon	true	
+[00:00:28]: setting 	autumnlength	20	
+[00:00:28]: setting 	phase	night	
+[00:00:28]: setting 	nightmaretime	0	
+[00:00:28]: setting 	iscavedusk	false	
+[00:00:28]: setting 	cycles	2	
+[00:00:28]: setting 	nightmarephase	none	
+[00:00:28]: setting 	seasonprogress	0.55	
+[00:00:28]: setting 	moonphase	quarter	
+[00:00:28]: setting 	iscavenight	true	
+[00:00:28]: setting 	iscavenewmoon	false	
+[00:00:28]: setting 	issummer	false	
+[00:00:28]: setting 	precipitation	none	
+[00:00:28]: setting 	time	0.97707007328669	
+[00:00:28]: OVERRIDE: setting	ghostenabled	to	none	
+[00:00:28]: OVERRIDE: setting	basicresource_regrowth	to	none	
+[00:00:28]: OVERRIDE: setting	portalresurection	to	always	
+[00:00:28]: OVERRIDE: setting	spawnmode	to	fixed	
+[00:00:28]: OVERRIDE: setting	ghostsanitydrain	to	always	
+[00:00:32]: Reconstructing topology	
+[00:00:32]: 	...Sorting points	
+[00:00:32]: 	...Sorting edges	
+[00:00:32]: 	...Connecting nodes	
+[00:00:32]: 	...Validating connections	
+[00:00:32]: 	...Housekeeping	
+[00:00:32]: 	...Done!	
+[00:00:32]: 1 uploads added to server. From server_temp
+[00:00:32]: About to start a shard with these settings:
+[00:00:32]:   ShardName: Master
+[00:00:32]:   ShardID: 1
+[00:00:32]:   ShardRole: MASTER
+[00:00:32]:   MasterHost: (null)
+[00:00:32]:   MasterBind: 127.0.0.1
+[00:00:32]:   MasterPort: 10888
+[00:00:32]: [Shard] Starting master server
+[00:00:32]: [Warning] Could not confirm port 10888 is open in the firewall. 
+[00:00:32]: [Shard] Shard server started on port: 10888
+[00:00:32]: [IPC] Signal 'DST_Master_Ready' opened  #0000000000000AB4
+[00:00:32]: [IPC] Sending signal... #0000000000000AB4
+[00:00:32]: Telling Client our new session identifier: 4BDD4007BCA8D71C
+[00:00:32]: Check for write access: TRUE
+[00:00:32]: Check for read access: TRUE
+[00:00:32]: Available disk space for save files: 115176 MB
+[00:00:32]: ModIndex: Load sequence finished successfully.	
+[00:00:32]: Reset() returning
+[00:00:33]: Validating portal[9] <-> 2337268065[9] (inactive)	
+[00:00:33]: Validating portal[3] <-> 2337268065[3] (inactive)	
+[00:00:33]: Validating portal[6] <-> 2337268065[6] (inactive)	
+[00:00:33]: Validating portal[5] <-> 2337268065[5] (inactive)	
+[00:00:33]: Validating portal[8] <-> 2337268065[8] (inactive)	
+[00:00:33]: Validating portal[oceanwhirlbigportal] <-> 2337268065[oceanwhirlbigportal] (inactive)	
+[00:00:33]: Validating portal[7] <-> 2337268065[7] (inactive)	
+[00:00:33]: Validating portal[2] <-> 2337268065[2] (inactive)	
+[00:00:33]: Validating portal[10] <-> 2337268065[10] (inactive)	
+[00:00:33]: Validating portal[4] <-> 2337268065[4] (inactive)	
+[00:00:33]: Validating portal[1] <-> 2337268065[1] (inactive)	
+[00:00:33]: Server registered via geo DNS in ap-southeast-1
+[00:00:33]: Sim paused
+[00:00:34]: [Shard] Secondary shard Caves(2337268065) connected: [LAN] 127.0.0.1
+[00:00:35]: [Shard] Secondary Caves(2337268065) ready!
+[00:00:35]: World 2337268065(Caves) is now connected	
+[00:00:35]: [SyncWorldSettings] Sending master world option ghostsanitydrain = always to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Sending master world option darkness = default to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Sending master world option resettime = default to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Sending master world option hunger = default to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Sending master world option healthpenalty = always to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Sending master world option temperaturedamage = default to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Sending master world option spawnmode = fixed to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Sending master world option shadowcreatures = default to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Sending master world option ghostenabled = none to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Sending master world option brightmarecreatures = default to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Sending master world option lessdamagetaken = none to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Sending master world option portalresurection = always to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Sending master world option basicresource_regrowth = none to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Sending master world option krampus = default to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Sending master world option dropeverythingondespawn = default to secondary shards.	
+[00:00:35]: Validating portal[9] <-> 2337268065[9] (disabled)	
+[00:00:35]: Validating portal[3] <-> 2337268065[3] (active)	
+[00:00:35]: Validating portal[6] <-> 2337268065[6] (disabled)	
+[00:00:35]: Validating portal[5] <-> 2337268065[5] (disabled)	
+[00:00:35]: Validating portal[8] <-> 2337268065[8] (disabled)	
+[00:00:35]: Validating portal[oceanwhirlbigportal] <-> 2337268065[oceanwhirlbigportal] (active)	
+[00:00:35]: Validating portal[7] <-> 2337268065[7] (disabled)	
+[00:00:35]: Validating portal[2] <-> 2337268065[2] (disabled)	
+[00:00:35]: Validating portal[10] <-> 2337268065[10] (disabled)	
+[00:00:35]: Validating portal[4] <-> 2337268065[4] (disabled)	
+[00:00:35]: Validating portal[1] <-> 2337268065[1] (disabled)	
+[00:00:35]: [SyncWorldSettings] Resyncing master world option ghostsanitydrain = always to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Resyncing master world option darkness = default to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Resyncing master world option resettime = default to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Resyncing master world option hunger = default to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Resyncing master world option healthpenalty = always to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Resyncing master world option temperaturedamage = default to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Resyncing master world option spawnmode = fixed to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Resyncing master world option shadowcreatures = default to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Resyncing master world option ghostenabled = none to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Resyncing master world option brightmarecreatures = default to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Resyncing master world option lessdamagetaken = none to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Resyncing master world option portalresurection = always to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Resyncing master world option basicresource_regrowth = none to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Resyncing master world option krampus = default to secondary shards.	
+[00:00:35]: [SyncWorldSettings] Resyncing master world option dropeverythingondespawn = default to secondary shards.	
+[00:00:36]: New incoming connection 127.0.0.1|51153 <6912600181615933331>
+[00:00:36]: Client connected from [LAN] 127.0.0.1|51153 <6912600181615933331>
+[00:00:36]: [ClientObject] Added (pre-auth) on server: guid=6912600181615933331
+[00:00:36]: ValidateGameSessionToken GUID<6912600181615933331>
+[00:00:37]: Client authenticated: (KU_ueGiPCrM) tarcio594
+[00:00:37]: [Steam] Authenticated host '76561198195325685'
+[00:00:39]: There is no active event to validate against.
+[00:00:39]: [Shard] Read save location file for (KU_ueGiPCrM)
+[00:00:39]: [ClientObject] Initialized (authenticated) on server: guid=6912600181615933331 userid=KU_ueGiPCrM netid=76561198195325685 admin=1
+[00:01:03]: [P2P] Session request for '76561198351064892'
+[00:01:05]: Resuming user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000006
+[00:01:05]: User ID	KU_ueGiPCrM	assigned ownership to entity	120293 - wolfgang	
+[00:01:05]: Spawning player at: [Load] (-54.58, 0.00, -11.07)	
+[00:01:05]: Sim unpaused
+[00:01:18]: [P2P] Connection failed for '76561198351064892' because of error code 4(The connection timed out because the target user didn't respond.).
+[00:01:40]: [P2P] Create session: 207.81.163.187|1 '76561198351064892'
+[00:01:40]: [P2P] Received from 207.81.163.187|1 '76561198351064892'
+[00:01:40]: [P2P] Sent to 207.81.163.187|1 '76561198351064892'
+[00:01:49]: New incoming connection 207.81.163.187|1 <6401970811657482054>
+[00:01:49]: Client connected from 207.81.163.187|1 <6401970811657482054>
+[00:01:49]: [ClientObject] Added (pre-auth) on server: guid=6401970811657482054
+[00:01:49]: ValidateGameSessionToken GUID<6401970811657482054>
+[00:01:50]: Client authenticated: (KU_LTP5EzVJ) johnpork
+[00:01:50]: [Steam] SendUserConnectAndAuthenticate for '76561198351064892'
+[00:01:50]: [Steam] Authenticated client '76561198351064892'
+[00:01:53]: There is no active event to validate against.
+[00:01:53]: [Shard] Read save location file for (KU_LTP5EzVJ)
+[00:01:53]: [ClientObject] Initialized (authenticated) on server: guid=6401970811657482054 userid=KU_LTP5EzVJ netid=76561198351064892 admin=0
+[00:02:21]: Resuming user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000006
+[00:02:21]: User ID	KU_LTP5EzVJ	assigned ownership to entity	121060 - walter	
+[00:02:21]: Unlocking loaded Woby for 121060 - walter	
+[00:02:21]: Spawning player at: [Load] (-58.22, 0.00, -11.18)	
+[00:03:52]: Rate limiting RPCs from	121060 - walter	KU_LTP5EzVJ	last one being ID	48	
+[00:03:53]: [P2P] Session request for '76561198418728030'
+[00:03:55]: [P2P] Create session: 207.81.163.188|1 '76561198418728030'
+[00:03:55]: [P2P] Received from 207.81.163.188|1 '76561198418728030'
+[00:03:55]: [P2P] Sent to 207.81.163.188|1 '76561198418728030'
+[00:03:55]: New incoming connection 207.81.163.188|1 <2008167974714362386>
+[00:03:55]: Client connected from 207.81.163.188|1 <2008167974714362386>
+[00:03:55]: [ClientObject] Added (pre-auth) on server: guid=2008167974714362386
+[00:03:55]: ValidateGameSessionToken GUID<2008167974714362386>
+[00:03:56]: Client authenticated: (KU_bwUNCuIB) profile profile
+[00:03:56]: [Steam] SendUserConnectAndAuthenticate for '76561198418728030'
+[00:03:56]: [Steam] Authenticated client '76561198418728030'
+[00:03:58]: There is no active event to validate against.
+[00:03:58]: [Shard] Read save location file for (KU_bwUNCuIB)
+[00:03:58]: [ClientObject] Initialized (authenticated) on server: guid=2008167974714362386 userid=KU_bwUNCuIB netid=76561198418728030 admin=0
+[00:04:10]: Rate limiting RPCs from	121060 - walter	KU_LTP5EzVJ	last one being ID	48	
+[00:04:22]: Resuming user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000006
+[00:04:22]: User ID	KU_bwUNCuIB	assigned ownership to entity	121377 - winona	
+[00:04:22]: Spawning player at: [Load] (-54.23, 0.00, -9.47)	
+[00:05:27]: [Steam] SendUserDisconnect for '76561198351064892'
+[00:05:27]: Connection lost to 207.81.163.187|1 <6401970811657482054>
+[00:05:27]: [Shard] (KU_LTP5EzVJ) disconnected from Master(1)
+[00:05:28]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000007
+[00:05:42]: [P2P] Connection failed for '76561198351064892' because of error code 4(The connection timed out because the target user didn't respond.).
+[00:06:03]: [P2P] Received from 207.81.163.187|1 '76561198351064892'
+[00:06:03]: [P2P] Sent to 207.81.163.187|1 '76561198351064892'
+[00:06:26]: [P2P] Received from 207.81.163.187|1 '76561198351064892'
+[00:06:26]: [P2P] Sent to 207.81.163.187|1 '76561198351064892'
+[00:06:46]: [P2P] Connection failed for '76561198351064892' because of error code 4(The connection timed out because the target user didn't respond.).
+[00:07:26]: [P2P] Received from 207.81.163.187|1 '76561198351064892'
+[00:07:26]: [P2P] Sent to 207.81.163.187|1 '76561198351064892'
+[00:07:30]: New incoming connection 207.81.163.187|1 <18220440485133466643>
+[00:07:30]: Client connected from 207.81.163.187|1 <18220440485133466643>
+[00:07:30]: [ClientObject] Added (pre-auth) on server: guid=18220440485133466643
+[00:07:30]: ValidateGameSessionToken GUID<18220440485133466643>
+[00:07:31]: Client authenticated: (KU_LTP5EzVJ) johnpork
+[00:07:31]: [Steam] SendUserConnectAndAuthenticate for '76561198351064892'
+[00:07:32]: [Steam] Authenticated client '76561198351064892'
+[00:07:34]: There is no active event to validate against.
+[00:07:34]: [Shard] Read save location file for (KU_LTP5EzVJ)
+[00:07:34]: [ClientObject] Initialized (authenticated) on server: guid=18220440485133466643 userid=KU_LTP5EzVJ netid=76561198351064892 admin=0
+[00:07:58]: Resuming user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000007
+[00:07:58]: User ID	KU_LTP5EzVJ	assigned ownership to entity	122645 - walter	
+[00:07:58]: Unlocking loaded Woby for 122645 - walter	
+[00:07:58]: Spawning player at: [Load] (98.89, 0.00, 155.54)	
+[00:09:13]: Rate limiting RPCs from	122645 - walter	KU_LTP5EzVJ	last one being ID	48	
+[00:09:17]: Available disk space for save files: 115172 MB
+[00:09:18]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000007
+[00:09:18]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000007
+[00:09:18]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000007
+[00:09:18]: Serializing world: session/4BDD4007BCA8D71C/0000000007
+[00:11:31]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000008
+[00:11:36]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000008
+[00:11:37]: Resuming user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000008
+[00:11:58]: Rate limiting RPCs from	122645 - walter	KU_LTP5EzVJ	last one being ID	48	
+[00:12:06]: Spawn request: winona from profile profile
+[00:12:06]: Skin request: () () () () ()
+[00:12:06]: Skill Selection request: 0
+[00:12:06]: User ID	KU_bwUNCuIB	assigned ownership to entity	124171 - winona	
+[00:12:06]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[00:12:06]: Enabling Spawn Protection for	124171 - winona	
+[00:12:06]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000008
+[00:12:31]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000008
+[00:12:37]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000008
+[00:12:37]: Resuming user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000008
+[00:12:41]: Spawn request: walter from johnpork
+[00:12:41]: Skin request: () (body_winona_gladiator) (hand_waxwell_yule) () (feet_wx78_magma)
+[00:12:41]: Skill Selection request: 131174
+[00:12:41]: User ID	KU_LTP5EzVJ	assigned ownership to entity	124278 - walter	
+[00:12:41]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[00:12:41]: Enabling Spawn Protection for	124278 - walter	
+[00:12:41]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000008
+[00:12:42]: Unlocking Woby for 124278 - walter	
+[00:16:06]: Activating portal[3] to 2337268065 by 124278 - walter	
+[00:16:06]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000008
+[00:16:06]: [Shard] Migration request: (KU_LTP5EzVJ) to Caves(2337268065)
+[00:16:06]: [Shard] Begin migration #1 for (KU_LTP5EzVJ)
+[00:16:06]: [Shard] #1 Master(1) -> Caves(2337268065)
+[00:16:06]: [Shard] #1 <- session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000008
+[00:16:06]: [Shard] Writing save location file for (KU_LTP5EzVJ)
+[00:16:06]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:16:07]: [Steam] SendUserDisconnect for '76561198351064892'
+[00:16:07]: [Shard] (KU_LTP5EzVJ) disconnected from Master(1)
+[00:16:20]: [Shard] Completed migration #1 for player (KU_LTP5EzVJ)
+[00:17:18]: Available disk space for save files: 115199 MB
+[00:17:18]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000008
+[00:17:18]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000008
+[00:17:18]: Serializing world: session/4BDD4007BCA8D71C/0000000008
+[00:18:34]: [Shard] (KU_LTP5EzVJ) disconnected from Caves(2337268065)
+[00:19:08]: [P2P] Received from 207.81.163.187|1 '76561198351064892'
+[00:19:08]: [P2P] Sent to 207.81.163.187|1 '76561198351064892'
+[00:19:14]: New incoming connection 207.81.163.187|1 <4917939412976985747>
+[00:19:14]: Client connected from 207.81.163.187|1 <4917939412976985747>
+[00:19:14]: [ClientObject] Added (pre-auth) on server: guid=4917939412976985747
+[00:19:14]: ValidateGameSessionToken GUID<4917939412976985747>
+[00:19:14]: Client authenticated: (KU_LTP5EzVJ) johnpork
+[00:19:14]: [Steam] SendUserConnectAndAuthenticate for '76561198351064892'
+[00:19:15]: [Steam] Authenticated client '76561198351064892'
+[00:19:17]: There is no active event to validate against.
+[00:19:17]: [Shard] Read save location file for (KU_LTP5EzVJ)
+[00:19:17]: [Shard] Forwarding player to Caves(2337268065)
+[00:19:17]: [Shard] Begin migration #2 for (KU_LTP5EzVJ)
+[00:19:17]: [Shard] #2 Master(1) -> Caves(2337268065)
+[00:19:17]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:19:17]: [Steam] SendUserDisconnect for '76561198351064892'
+[00:19:17]: [Shard] (KU_LTP5EzVJ) disconnected from Master(1)
+[00:19:37]: [Shard] Completed migration #2 for player (KU_LTP5EzVJ)
+[00:19:46]: Validating portal[7] <-> 2337268065[7] (active)	
+[00:19:47]: Activating portal[7] to 2337268065 by 124171 - winona	
+[00:19:47]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000009
+[00:19:47]: [Shard] Migration request: (KU_bwUNCuIB) to Caves(2337268065)
+[00:19:47]: [Shard] Begin migration #3 for (KU_bwUNCuIB)
+[00:19:47]: [Shard] #3 Master(1) -> Caves(2337268065)
+[00:19:47]: [Shard] #3 <- session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000009
+[00:19:47]: [Shard] Writing save location file for (KU_bwUNCuIB)
+[00:19:47]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[00:19:47]: [Steam] SendUserDisconnect for '76561198418728030'
+[00:19:47]: [Shard] (KU_bwUNCuIB) disconnected from Master(1)
+[00:19:56]: [Shard] Completed migration #3 for player (KU_bwUNCuIB)
+[00:22:10]: [Shard] Begin migration #4 for (KU_bwUNCuIB)
+[00:22:10]: [Shard] #4 Caves(2337268065) -> Master(1)
+[00:22:10]: [Shard] #4 -> session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000009
+[00:22:10]: [Shard] Received migration #4 data for (KU_bwUNCuIB)
+[00:22:10]: [Shard] Writing save location file for (KU_bwUNCuIB)
+[00:22:10]: [Shard] (KU_bwUNCuIB) disconnected from Caves(2337268065)
+[00:22:14]: [P2P] Received from 207.81.163.188|1 '76561198418728030'
+[00:22:14]: [P2P] Sent to 207.81.163.188|1 '76561198418728030'
+[00:22:15]: New incoming connection 207.81.163.188|1 <4690795271443659491>
+[00:22:15]: Client connected from 207.81.163.188|1 <4690795271443659491>
+[00:22:15]: [ClientObject] Added (pre-auth) on server: guid=4690795271443659491
+[00:22:15]: ValidateGameSessionToken GUID<4690795271443659491>
+[00:22:16]: Client authenticated: (KU_bwUNCuIB) profile profile
+[00:22:16]: [Steam] SendUserConnectAndAuthenticate for '76561198418728030'
+[00:22:16]: [Steam] Authenticated client '76561198418728030'
+[00:22:16]: [Shard] Completed incoming migration #4 for (KU_bwUNCuIB)
+[00:22:16]: [ClientObject] Initialized (authenticated) on server: guid=4690795271443659491 userid=KU_bwUNCuIB netid=76561198418728030 admin=0
+[00:22:16]: [Shard] Completed migration #4 for player (KU_bwUNCuIB)
+[00:22:30]: Resuming user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000009
+[00:22:30]: User ID	KU_bwUNCuIB	assigned ownership to entity	128240 - winona	
+[00:22:30]: Migrating prefab winona will spawn close to portal ID: 7	
+[00:22:30]: Spawning player at: [Load] (-336.71, 0.00, 77.79)	
+[00:23:38]: [Shard] Begin migration #5 for (KU_LTP5EzVJ)
+[00:23:38]: [Shard] #5 Caves(2337268065) -> Master(1)
+[00:23:38]: [Shard] #5 -> session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000009
+[00:23:38]: [Shard] Received migration #5 data for (KU_LTP5EzVJ)
+[00:23:38]: [Shard] Writing save location file for (KU_LTP5EzVJ)
+[00:23:38]: [Shard] (KU_LTP5EzVJ) disconnected from Caves(2337268065)
+[00:23:51]: [P2P] Received from 207.81.163.187|1 '76561198351064892'
+[00:23:51]: [P2P] Sent to 207.81.163.187|1 '76561198351064892'
+[00:23:52]: New incoming connection 207.81.163.187|1 <10427172707769676269>
+[00:23:52]: Client connected from 207.81.163.187|1 <10427172707769676269>
+[00:23:52]: [ClientObject] Added (pre-auth) on server: guid=10427172707769676269
+[00:23:52]: ValidateGameSessionToken GUID<10427172707769676269>
+[00:23:53]: Client authenticated: (KU_LTP5EzVJ) johnpork
+[00:23:53]: [Steam] SendUserConnectAndAuthenticate for '76561198351064892'
+[00:23:53]: [Steam] Authenticated client '76561198351064892'
+[00:23:53]: [Shard] Completed incoming migration #5 for (KU_LTP5EzVJ)
+[00:23:53]: [ClientObject] Initialized (authenticated) on server: guid=10427172707769676269 userid=KU_LTP5EzVJ netid=76561198351064892 admin=0
+[00:23:53]: [Shard] Completed migration #5 for player (KU_LTP5EzVJ)
+[00:24:08]: Resuming user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000009
+[00:24:08]: User ID	KU_LTP5EzVJ	assigned ownership to entity	130054 - walter	
+[00:24:08]: Unlocking loaded Woby for 130054 - walter	
+[00:24:08]: Migrating prefab walter will spawn close to portal ID: 10	
+[00:24:08]: Spawning player at: [Load] (-230.71, 0.00, 341.63)	
+[00:24:08]: Validating portal[10] <-> 2337268065[10] (active)	
+[00:25:18]: Available disk space for save files: 115191 MB
+[00:25:18]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000009
+[00:25:18]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000009
+[00:25:18]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000009
+[00:25:19]: Serializing world: session/4BDD4007BCA8D71C/0000000009
+[00:30:06]: [200] Account Communication Success (6)
+[00:30:06]: Received (KU_ueGiPCrM) from TokenPurpose
+[00:33:19]: Available disk space for save files: 115184 MB
+[00:33:19]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000010
+[00:33:19]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000010
+[00:33:19]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000010
+[00:33:19]: Serializing world: session/4BDD4007BCA8D71C/0000000010
+[00:41:19]: Available disk space for save files: 115178 MB
+[00:41:19]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000011
+[00:41:19]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000011
+[00:41:19]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000011
+[00:41:20]: Serializing world: session/4BDD4007BCA8D71C/0000000011
+[00:44:04]: Deleting user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000012
+[00:44:09]: Deleting user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000012
+[00:44:09]: Resuming user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000012
+[00:44:15]: Spawn request: wilson from tarcio594
+[00:44:15]: Skin request: () () () () ()
+[00:44:15]: Skill Selection request: 29593
+[00:44:15]: User ID	KU_ueGiPCrM	assigned ownership to entity	140583 - wilson	
+[00:44:15]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[00:44:15]: Enabling Spawn Protection for	140583 - wilson	
+[00:44:15]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000012
+[00:47:04]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000012
+[00:47:09]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000012
+[00:47:09]: Resuming user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000012
+[00:47:49]: Spawn request: wathgrithr from profile profile
+[00:47:49]: Skin request: () () () () ()
+[00:47:49]: Skill Selection request: 0
+[00:47:49]: User ID	KU_bwUNCuIB	assigned ownership to entity	142990 - wathgrithr	
+[00:47:49]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[00:47:49]: Enabling Spawn Protection for	142990 - wathgrithr	
+[00:47:49]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000012
+[00:49:20]: Available disk space for save files: 115178 MB
+[00:49:20]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000012
+[00:49:20]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000012
+[00:49:20]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000012
+[00:49:20]: Serializing world: session/4BDD4007BCA8D71C/0000000012
+[00:57:20]: Available disk space for save files: 115182 MB
+[00:57:20]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000013
+[00:57:20]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000013
+[00:57:20]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000013
+[00:57:21]: Serializing world: session/4BDD4007BCA8D71C/0000000013
+[01:00:06]: [200] Account Communication Success (6)
+[01:00:06]: Received (KU_ueGiPCrM) from TokenPurpose
+[01:05:21]: Available disk space for save files: 115177 MB
+[01:05:21]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000014
+[01:05:21]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000014
+[01:05:21]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000014
+[01:05:21]: Serializing world: session/4BDD4007BCA8D71C/0000000014
+[01:09:50]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000015
+[01:09:55]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000015
+[01:09:55]: Resuming user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000015
+[01:10:01]: Spawn request: winona from profile profile
+[01:10:01]: Skin request: () () () () ()
+[01:10:01]: Skill Selection request: 4194304
+[01:10:01]: User ID	KU_bwUNCuIB	assigned ownership to entity	152671 - winona	
+[01:10:01]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[01:10:01]: Enabling Spawn Protection for	152671 - winona	
+[01:10:01]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000015
+[01:13:21]: Available disk space for save files: 115174 MB
+[01:13:21]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000015
+[01:13:21]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000015
+[01:13:21]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000015
+[01:13:22]: Serializing world: session/4BDD4007BCA8D71C/0000000015
+[01:15:32]: Validating portal[4] <-> 2337268065[4] (active)	
+[01:15:43]: Activating portal[4] to 2337268065 by 152671 - winona	
+[01:15:43]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000016
+[01:15:43]: [Shard] Migration request: (KU_bwUNCuIB) to Caves(2337268065)
+[01:15:43]: [Shard] Begin migration #6 for (KU_bwUNCuIB)
+[01:15:43]: [Shard] #6 Master(1) -> Caves(2337268065)
+[01:15:43]: [Shard] #6 <- session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000016
+[01:15:43]: [Shard] Writing save location file for (KU_bwUNCuIB)
+[01:15:43]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[01:15:43]: [Steam] SendUserDisconnect for '76561198418728030'
+[01:15:43]: [Shard] (KU_bwUNCuIB) disconnected from Master(1)
+[01:15:52]: [Shard] Completed migration #6 for player (KU_bwUNCuIB)
+[01:19:21]: [Steam] SendUserDisconnect for '76561198351064892'
+[01:19:21]: Connection lost to 207.81.163.187|1 <10427172707769676269>
+[01:19:21]: [Shard] (KU_LTP5EzVJ) disconnected from Master(1)
+[01:19:22]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000016
+[01:21:14]: [Shard] Begin migration #7 for (KU_bwUNCuIB)
+[01:21:14]: [Shard] #7 Caves(2337268065) -> Master(1)
+[01:21:14]: [Shard] #7 -> session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000016
+[01:21:14]: [Shard] Received migration #7 data for (KU_bwUNCuIB)
+[01:21:14]: [Shard] Writing save location file for (KU_bwUNCuIB)
+[01:21:14]: [Shard] (KU_bwUNCuIB) disconnected from Caves(2337268065)
+[01:21:18]: [P2P] Connection failed for '76561198351064892' because of error code 4(The connection timed out because the target user didn't respond.).
+[01:21:21]: [P2P] Received from 207.81.163.188|1 '76561198418728030'
+[01:21:21]: [P2P] Sent to 207.81.163.188|1 '76561198418728030'
+[01:21:21]: New incoming connection 207.81.163.188|1 <448414255737291653>
+[01:21:21]: Client connected from 207.81.163.188|1 <448414255737291653>
+[01:21:21]: [ClientObject] Added (pre-auth) on server: guid=448414255737291653
+[01:21:21]: ValidateGameSessionToken GUID<448414255737291653>
+[01:21:22]: Available disk space for save files: 115167 MB
+[01:21:22]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000016
+[01:21:22]: Serializing world: session/4BDD4007BCA8D71C/0000000016
+[01:21:22]: Client authenticated: (KU_bwUNCuIB) profile profile
+[01:21:22]: [Steam] SendUserConnectAndAuthenticate for '76561198418728030'
+[01:21:22]: [Steam] Authenticated client '76561198418728030'
+[01:21:22]: [Shard] Completed incoming migration #7 for (KU_bwUNCuIB)
+[01:21:22]: [ClientObject] Initialized (authenticated) on server: guid=448414255737291653 userid=KU_bwUNCuIB netid=76561198418728030 admin=0
+[01:21:22]: [Shard] Completed migration #7 for player (KU_bwUNCuIB)
+[01:21:35]: Resuming user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000016
+[01:21:35]: User ID	KU_bwUNCuIB	assigned ownership to entity	157507 - winona	
+[01:21:35]: Migrating prefab winona will spawn close to portal ID: 4	
+[01:21:35]: Spawning player at: [Load] (111.95, 0.00, -280.96)	
+[01:21:40]: [P2P] Connection failed for '76561198351064892' because of error code 4(The connection timed out because the target user didn't respond.).
+[01:22:02]: [P2P] Received from 207.81.163.187|1 '76561198351064892'
+[01:22:02]: [P2P] Sent to 207.81.163.187|1 '76561198351064892'
+[01:24:16]: [P2P] Received from 207.81.163.187|1 '76561198351064892'
+[01:24:16]: [P2P] Sent to 207.81.163.187|1 '76561198351064892'
+[01:24:17]: New incoming connection 207.81.163.187|1 <13426280165681976176>
+[01:24:17]: Client connected from 207.81.163.187|1 <13426280165681976176>
+[01:24:17]: [ClientObject] Added (pre-auth) on server: guid=13426280165681976176
+[01:24:17]: ValidateGameSessionToken GUID<13426280165681976176>
+[01:24:17]: Client authenticated: (KU_LTP5EzVJ) johnpork
+[01:24:17]: [Steam] SendUserConnectAndAuthenticate for '76561198351064892'
+[01:24:18]: [Steam] Authenticated client '76561198351064892'
+[01:24:20]: There is no active event to validate against.
+[01:24:20]: [Shard] Read save location file for (KU_LTP5EzVJ)
+[01:24:20]: [ClientObject] Initialized (authenticated) on server: guid=13426280165681976176 userid=KU_LTP5EzVJ netid=76561198351064892 admin=0
+[01:24:45]: Resuming user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000016
+[01:24:45]: User ID	KU_LTP5EzVJ	assigned ownership to entity	158216 - walter	
+[01:24:45]: Unlocking loaded Woby for 158216 - walter	
+[01:24:45]: Spawning player at: [Load] (-49.27, 0.00, -9.85)	
+[01:25:12]: [Steam] SendUserDisconnect for '76561198351064892'
+[01:25:12]: Connection lost to 207.81.163.187|1 <13426280165681976176>
+[01:25:12]: [Shard] (KU_LTP5EzVJ) disconnected from Master(1)
+[01:25:12]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000017
+[01:25:22]: [P2P] Connection failed for '76561198351064892' because of error code 4(The connection timed out because the target user didn't respond.).
+[01:25:51]: [P2P] Received from 207.81.163.187|1 '76561198351064892'
+[01:25:51]: [P2P] Sent to 207.81.163.187|1 '76561198351064892'
+[01:26:13]: [P2P] Received from 207.81.163.187|1 '76561198351064892'
+[01:26:13]: [P2P] Sent to 207.81.163.187|1 '76561198351064892'
+[01:26:24]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000017
+[01:26:30]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000017
+[01:26:30]: Resuming user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000017
+[01:27:05]: [P2P] Received from 207.81.163.187|1 '76561198351064892'
+[01:27:05]: [P2P] Sent to 207.81.163.187|1 '76561198351064892'
+[01:27:27]: New incoming connection 207.81.163.187|1 <17216930993361961306>
+[01:27:27]: Client connected from 207.81.163.187|1 <17216930993361961306>
+[01:27:27]: [ClientObject] Added (pre-auth) on server: guid=17216930993361961306
+[01:27:27]: ValidateGameSessionToken GUID<17216930993361961306>
+[01:27:28]: Client authenticated: (KU_LTP5EzVJ) johnpork
+[01:27:28]: [Steam] SendUserConnectAndAuthenticate for '76561198351064892'
+[01:27:29]: [Steam] Authenticated client '76561198351064892'
+[01:27:31]: There is no active event to validate against.
+[01:27:31]: [Shard] Read save location file for (KU_LTP5EzVJ)
+[01:27:31]: [ClientObject] Initialized (authenticated) on server: guid=17216930993361961306 userid=KU_LTP5EzVJ netid=76561198351064892 admin=0
+[01:27:49]: Spawn request: winona from profile profile
+[01:27:49]: Skin request: () () () () ()
+[01:27:49]: Skill Selection request: 4456448
+[01:27:49]: User ID	KU_bwUNCuIB	assigned ownership to entity	159376 - winona	
+[01:27:49]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[01:27:49]: Enabling Spawn Protection for	159376 - winona	
+[01:27:49]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000017
+[01:27:55]: Resuming user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000017
+[01:27:55]: User ID	KU_LTP5EzVJ	assigned ownership to entity	159410 - walter	
+[01:27:55]: Unlocking loaded Woby for 159410 - walter	
+[01:27:55]: Spawning player at: [Load] (-49.27, 0.00, -9.85)	
+[01:29:22]: Available disk space for save files: 115156 MB
+[01:29:22]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000017
+[01:29:22]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000017
+[01:29:22]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000017
+[01:29:23]: Serializing world: session/4BDD4007BCA8D71C/0000000017
+[01:30:06]: [200] Account Communication Success (6)
+[01:30:06]: Received (KU_ueGiPCrM) from TokenPurpose
+[01:31:03]: Rate limiting RPCs from	159376 - winona	KU_bwUNCuIB	last one being ID	63	
+[01:31:39]: Deleting user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000018
+[01:31:44]: Deleting user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000018
+[01:31:45]: Resuming user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000018
+[01:31:48]: Spawn request: wilson from tarcio594
+[01:31:48]: Skin request: () () () () ()
+[01:31:48]: Skill Selection request: 62361
+[01:31:48]: User ID	KU_ueGiPCrM	assigned ownership to entity	160493 - wilson	
+[01:31:48]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[01:31:48]: Enabling Spawn Protection for	160493 - wilson	
+[01:31:48]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000018
+[01:31:55]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000018
+[01:32:00]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000018
+[01:32:00]: Resuming user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000018
+[01:32:11]: Spawn request: walter from johnpork
+[01:32:11]: Skin request: () (body_winona_gladiator) (hand_waxwell_yule) () (feet_wx78_magma)
+[01:32:11]: Skill Selection request: 196710
+[01:32:11]: User ID	KU_LTP5EzVJ	assigned ownership to entity	160575 - walter	
+[01:32:11]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[01:32:11]: Enabling Spawn Protection for	160575 - walter	
+[01:32:11]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000018
+[01:32:11]: Unlocking Woby for 160575 - walter	
+[01:32:47]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000018
+[01:32:53]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000018
+[01:32:53]: Resuming user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000018
+[01:32:59]: Spawn request: wathgrithr from johnpork
+[01:32:59]: Skin request: () () () () ()
+[01:32:59]: Skill Selection request: 0
+[01:32:59]: User ID	KU_LTP5EzVJ	assigned ownership to entity	161078 - wathgrithr	
+[01:32:59]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[01:32:59]: Enabling Spawn Protection for	161078 - wathgrithr	
+[01:32:59]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000018
+[01:33:05]: Deleting user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000018
+[01:33:11]: Deleting user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000018
+[01:33:11]: Resuming user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000018
+[01:33:14]: Spawn request: wilson from tarcio594
+[01:33:14]: Skin request: () () () () ()
+[01:33:14]: Skill Selection request: 62361
+[01:33:14]: User ID	KU_ueGiPCrM	assigned ownership to entity	161152 - wilson	
+[01:33:14]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[01:33:14]: Enabling Spawn Protection for	161152 - wilson	
+[01:33:14]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000018
+[01:37:22]: Available disk space for save files: 115149 MB
+[01:37:23]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000018
+[01:37:23]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000018
+[01:37:23]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000018
+[01:37:23]: Serializing world: session/4BDD4007BCA8D71C/0000000018
+[01:37:28]: Rate limiting RPCs from	159376 - winona	KU_bwUNCuIB	last one being ID	48	
+[01:37:31]: Rate limiting RPCs from	159376 - winona	KU_bwUNCuIB	last one being ID	48	
+[01:37:42]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000019
+[01:37:48]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000019
+[01:37:48]: Resuming user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000019
+[01:37:56]: Spawn request: winona from profile profile
+[01:37:56]: Skin request: () () () () ()
+[01:37:56]: Skill Selection request: 4456448
+[01:37:56]: User ID	KU_bwUNCuIB	assigned ownership to entity	162997 - winona	
+[01:37:56]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[01:37:56]: Enabling Spawn Protection for	162997 - winona	
+[01:37:56]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000019
+[01:41:14]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000019
+[01:41:19]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000019
+[01:41:19]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000019
+[01:41:19]: Resuming user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000019
+[01:41:23]: Spawn request: winona from profile profile
+[01:41:23]: Skin request: () () () () ()
+[01:41:23]: Skill Selection request: 4456448
+[01:41:23]: User ID	KU_bwUNCuIB	assigned ownership to entity	163891 - winona	
+[01:41:23]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[01:41:23]: Enabling Spawn Protection for	163891 - winona	
+[01:41:23]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000019
+[01:41:24]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000019
+[01:41:24]: Resuming user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000019
+[01:41:31]: Spawn request: walter from johnpork
+[01:41:31]: Skin request: () (body_winona_gladiator) (hand_waxwell_yule) () (feet_wx78_magma)
+[01:41:31]: Skill Selection request: 196710
+[01:41:31]: User ID	KU_LTP5EzVJ	assigned ownership to entity	163993 - walter	
+[01:41:32]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[01:41:32]: Enabling Spawn Protection for	163993 - walter	
+[01:41:32]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000019
+[01:41:32]: Unlocking Woby for 163993 - walter	
+[01:42:35]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000019
+[01:42:40]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000019
+[01:42:40]: Resuming user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000019
+[01:42:56]: Spawn request: wathgrithr from johnpork
+[01:42:56]: Skin request: () () () () ()
+[01:42:56]: Skill Selection request: 0
+[01:42:56]: User ID	KU_LTP5EzVJ	assigned ownership to entity	164792 - wathgrithr	
+[01:42:56]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[01:42:56]: Enabling Spawn Protection for	164792 - wathgrithr	
+[01:42:56]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000019
+[01:44:48]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000019
+[01:44:53]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000019
+[01:44:54]: Resuming user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000019
+[01:45:01]: Spawn request: winona from profile profile
+[01:45:01]: Skin request: () () () () ()
+[01:45:01]: Skill Selection request: 4456448
+[01:45:01]: User ID	KU_bwUNCuIB	assigned ownership to entity	166375 - winona	
+[01:45:01]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[01:45:01]: Enabling Spawn Protection for	166375 - winona	
+[01:45:01]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000019
+[01:45:21]: Rate limiting RPCs from	166375 - winona	KU_bwUNCuIB	last one being ID	48	
+[01:45:23]: Available disk space for save files: 115144 MB
+[01:45:23]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000019
+[01:45:23]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000019
+[01:45:23]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000019
+[01:45:23]: Serializing world: session/4BDD4007BCA8D71C/0000000019
+[01:46:13]: [Steam] SendUserDisconnect for '76561198418728030'
+[01:46:13]: Connection lost to 207.81.163.188|1 <448414255737291653>
+[01:46:13]: [Shard] (KU_bwUNCuIB) disconnected from Master(1)
+[01:46:13]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000020
+[01:46:20]: [P2P] Connection failed for '76561198418728030' because of error code 4(The connection timed out because the target user didn't respond.).
+[01:47:11]: [P2P] Received from 207.81.163.188|1 '76561198418728030'
+[01:47:11]: [P2P] Sent to 207.81.163.188|1 '76561198418728030'
+[01:47:20]: New incoming connection 207.81.163.188|1 <5805151675490870612>
+[01:47:20]: Client connected from 207.81.163.188|1 <5805151675490870612>
+[01:47:20]: [ClientObject] Added (pre-auth) on server: guid=5805151675490870612
+[01:47:20]: ValidateGameSessionToken GUID<5805151675490870612>
+[01:47:21]: Client authenticated: (KU_bwUNCuIB) profile profile
+[01:47:21]: [Steam] SendUserConnectAndAuthenticate for '76561198418728030'
+[01:47:22]: [Steam] Authenticated client '76561198418728030'
+[01:47:24]: There is no active event to validate against.
+[01:47:24]: [Shard] Read save location file for (KU_bwUNCuIB)
+[01:47:24]: [ClientObject] Initialized (authenticated) on server: guid=5805151675490870612 userid=KU_bwUNCuIB netid=76561198418728030 admin=0
+[01:47:38]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000020
+[01:47:43]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000020
+[01:47:43]: Resuming user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000020
+[01:47:46]: Resuming user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000020
+[01:47:46]: User ID	KU_bwUNCuIB	assigned ownership to entity	167090 - winona	
+[01:47:46]: Spawning player at: [Load] (45.02, 0.00, -174.88)	
+[01:47:49]: Spawn request: wathgrithr from johnpork
+[01:47:49]: Skin request: () () () () ()
+[01:47:49]: Skill Selection request: 0
+[01:47:49]: User ID	KU_LTP5EzVJ	assigned ownership to entity	167103 - wathgrithr	
+[01:47:49]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[01:47:49]: Enabling Spawn Protection for	167103 - wathgrithr	
+[01:47:49]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000020
+[01:52:13]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000020
+[01:52:18]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000020
+[01:52:19]: Resuming user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000020
+[01:52:27]: Spawn request: wathgrithr from profile profile
+[01:52:27]: Skin request: () () () () ()
+[01:52:27]: Skill Selection request: 0
+[01:52:27]: User ID	KU_bwUNCuIB	assigned ownership to entity	168765 - wathgrithr	
+[01:52:27]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[01:52:27]: Enabling Spawn Protection for	168765 - wathgrithr	
+[01:52:27]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000020
+[01:53:23]: Available disk space for save files: 115139 MB
+[01:53:24]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000020
+[01:53:24]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000020
+[01:53:24]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000020
+[01:53:24]: Serializing world: session/4BDD4007BCA8D71C/0000000020
+[01:56:50]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000021
+[01:56:55]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000021
+[01:56:55]: Resuming user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000021
+[01:57:00]: Spawn request: wathgrithr from johnpork
+[01:57:00]: Skin request: () () () () ()
+[01:57:00]: Skill Selection request: 4
+[01:57:00]: User ID	KU_LTP5EzVJ	assigned ownership to entity	170607 - wathgrithr	
+[01:57:00]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[01:57:00]: Enabling Spawn Protection for	170607 - wathgrithr	
+[01:57:00]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000021
+[01:57:13]: Deleting user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000021
+[01:57:18]: Deleting user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000021
+[01:57:18]: Resuming user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000021
+[01:57:22]: Spawn request: wilson from tarcio594
+[01:57:22]: Skin request: () () () () ()
+[01:57:22]: Skill Selection request: 62361
+[01:57:22]: User ID	KU_ueGiPCrM	assigned ownership to entity	170864 - wilson	
+[01:57:22]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[01:57:22]: Enabling Spawn Protection for	170864 - wilson	
+[01:57:22]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000021
+[01:59:47]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000021
+[01:59:52]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000021
+[01:59:53]: Resuming user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000021
+[02:00:06]: [200] Account Communication Success (6)
+[02:00:06]: Received (KU_ueGiPCrM) from TokenPurpose
+[02:00:30]: Spawn request: wathgrithr from johnpork
+[02:00:30]: Skin request: () () () () ()
+[02:00:30]: Skill Selection request: 4
+[02:00:30]: User ID	KU_LTP5EzVJ	assigned ownership to entity	172465 - wathgrithr	
+[02:00:30]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[02:00:30]: Enabling Spawn Protection for	172465 - wathgrithr	
+[02:00:30]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000021
+[02:01:24]: Available disk space for save files: 115129 MB
+[02:01:24]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000021
+[02:01:24]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000021
+[02:01:24]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000021
+[02:01:24]: Serializing world: session/4BDD4007BCA8D71C/0000000021
+[02:05:46]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000022
+[02:05:51]: Deleting user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000022
+[02:05:51]: Resuming user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000022
+[02:05:56]: Spawn request: wathgrithr from johnpork
+[02:05:56]: Skin request: () () () () ()
+[02:05:56]: Skill Selection request: 4
+[02:05:56]: User ID	KU_LTP5EzVJ	assigned ownership to entity	174013 - wathgrithr	
+[02:05:56]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[02:05:56]: Enabling Spawn Protection for	174013 - wathgrithr	
+[02:05:56]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000022
+[02:09:24]: Available disk space for save files: 115128 MB
+[02:09:25]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000022
+[02:09:25]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000022
+[02:09:25]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000022
+[02:09:25]: Serializing world: session/4BDD4007BCA8D71C/0000000022
+[02:17:25]: Available disk space for save files: 115129 MB
+[02:17:25]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000023
+[02:17:25]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000023
+[02:17:25]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000023
+[02:17:25]: Serializing world: session/4BDD4007BCA8D71C/0000000023
+[02:20:53]: Rate limiting RPCs from	168765 - wathgrithr	KU_bwUNCuIB	last one being ID	52	
+[02:21:09]: Rate limiting RPCs from	168765 - wathgrithr	KU_bwUNCuIB	last one being ID	48	
+[02:25:25]: Available disk space for save files: 115121 MB
+[02:25:26]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000024
+[02:25:26]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000024
+[02:25:26]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000024
+[02:25:26]: Serializing world: session/4BDD4007BCA8D71C/0000000024
+[02:25:30]: Could not find anim [spawn] in bank [FROMNUM]
+[02:25:30]: Could not find anim [spawn] in bank [FROMNUM]
+[02:30:06]: [200] Account Communication Success (6)
+[02:30:06]: Received (KU_ueGiPCrM) from TokenPurpose
+[02:31:09]: [Steam] SendUserDisconnect for '76561198418728030'
+[02:31:09]: Connection lost to 207.81.163.188|1 <5805151675490870612>
+[02:31:09]: [Shard] (KU_bwUNCuIB) disconnected from Master(1)
+[02:31:10]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000025
+[02:31:34]: [P2P] Received from 207.81.163.188|1 '76561198418728030'
+[02:31:34]: [P2P] Sent to 207.81.163.188|1 '76561198418728030'
+[02:31:41]: New incoming connection 207.81.163.188|1 <2297724177898310941>
+[02:31:41]: Client connected from 207.81.163.188|1 <2297724177898310941>
+[02:31:41]: [ClientObject] Added (pre-auth) on server: guid=2297724177898310941
+[02:31:41]: ValidateGameSessionToken GUID<2297724177898310941>
+[02:31:42]: Client authenticated: (KU_bwUNCuIB) profile profile
+[02:31:42]: [Steam] SendUserConnectAndAuthenticate for '76561198418728030'
+[02:31:42]: [Steam] Authenticated client '76561198418728030'
+[02:31:44]: There is no active event to validate against.
+[02:31:44]: [Shard] Read save location file for (KU_bwUNCuIB)
+[02:31:44]: [ClientObject] Initialized (authenticated) on server: guid=2297724177898310941 userid=KU_bwUNCuIB netid=76561198418728030 admin=0
+[02:32:07]: Resuming user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000025
+[02:32:07]: User ID	KU_bwUNCuIB	assigned ownership to entity	182953 - wathgrithr	
+[02:32:07]: Spawning player at: [Load] (-280.85, 0.00, 3.25)	
+[02:33:26]: Available disk space for save files: 115104 MB
+[02:33:26]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000025
+[02:33:26]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000025
+[02:33:26]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000025
+[02:33:26]: Serializing world: session/4BDD4007BCA8D71C/0000000025
+[02:34:20]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000026
+[02:34:26]: Deleting user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000026
+[02:34:26]: Resuming user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000026
+[02:34:42]: Spawn request: wathgrithr from profile profile
+[02:34:42]: Skin request: () () () () ()
+[02:34:42]: Skill Selection request: 1024
+[02:34:42]: User ID	KU_bwUNCuIB	assigned ownership to entity	183929 - wathgrithr	
+[02:34:42]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[02:34:42]: Enabling Spawn Protection for	183929 - wathgrithr	
+[02:34:42]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000026
+[02:36:50]: Activating portal[3] to 2337268065 by 174013 - wathgrithr	
+[02:36:50]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000026
+[02:36:50]: [Shard] Migration request: (KU_LTP5EzVJ) to Caves(2337268065)
+[02:36:50]: [Shard] Begin migration #8 for (KU_LTP5EzVJ)
+[02:36:50]: [Shard] #8 Master(1) -> Caves(2337268065)
+[02:36:50]: [Shard] #8 <- session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000026
+[02:36:50]: [Shard] Writing save location file for (KU_LTP5EzVJ)
+[02:36:50]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[02:36:50]: [Steam] SendUserDisconnect for '76561198351064892'
+[02:36:50]: [Shard] (KU_LTP5EzVJ) disconnected from Master(1)
+[02:36:55]: Deleting user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000026
+[02:37:00]: Deleting user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000026
+[02:37:00]: Resuming user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000026
+[02:37:04]: Spawn request: wilson from tarcio594
+[02:37:04]: Skin request: () () () () ()
+[02:37:04]: Skill Selection request: 390041
+[02:37:04]: User ID	KU_ueGiPCrM	assigned ownership to entity	184455 - wilson	
+[02:37:04]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[02:37:04]: Enabling Spawn Protection for	184455 - wilson	
+[02:37:04]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000026
+[02:37:04]: [Shard] Completed migration #8 for player (KU_LTP5EzVJ)
+[02:38:30]: [Shard] (KU_LTP5EzVJ) disconnected from Caves(2337268065)
+[02:38:37]: [P2P] Connection failed for '76561198351064892' because of error code 4(The connection timed out because the target user didn't respond.).
+[02:39:10]: Rate limiting RPCs from	183929 - wathgrithr	KU_bwUNCuIB	last one being ID	48	
+[02:39:25]: [P2P] Received from 207.81.163.187|1 '76561198351064892'
+[02:39:25]: [P2P] Sent to 207.81.163.187|1 '76561198351064892'
+[02:39:42]: [P2P] Received from 207.81.163.187|1 '76561198351064892'
+[02:39:42]: [P2P] Sent to 207.81.163.187|1 '76561198351064892'
+[02:39:42]: New incoming connection 207.81.163.187|1 <7382840376842240437>
+[02:39:42]: Client connected from 207.81.163.187|1 <7382840376842240437>
+[02:39:42]: [ClientObject] Added (pre-auth) on server: guid=7382840376842240437
+[02:39:42]: ValidateGameSessionToken GUID<7382840376842240437>
+[02:39:43]: Client authenticated: (KU_LTP5EzVJ) johnpork
+[02:39:43]: [Steam] SendUserConnectAndAuthenticate for '76561198351064892'
+[02:39:43]: [Steam] Authenticated client '76561198351064892'
+[02:39:45]: There is no active event to validate against.
+[02:39:45]: [Shard] Read save location file for (KU_LTP5EzVJ)
+[02:39:45]: [Shard] Forwarding player to Caves(2337268065)
+[02:39:45]: [Shard] Begin migration #9 for (KU_LTP5EzVJ)
+[02:39:45]: [Shard] #9 Master(1) -> Caves(2337268065)
+[02:39:45]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[02:39:45]: [Steam] SendUserDisconnect for '76561198351064892'
+[02:39:45]: [Shard] (KU_LTP5EzVJ) disconnected from Master(1)
+[02:39:52]: [Steam] SendUserDisconnect for '76561198418728030'
+[02:39:52]: Connection lost to 207.81.163.188|1 <2297724177898310941>
+[02:39:52]: [Shard] (KU_bwUNCuIB) disconnected from Master(1)
+[02:39:52]: Serializing user: session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000026
+[02:39:56]: [Shard] Completed migration #9 for player (KU_LTP5EzVJ)
+[02:39:58]: [P2P] Connection failed for '76561198418728030' because of error code 4(The connection timed out because the target user didn't respond.).
+[02:40:22]: [Shard] Begin migration #10 for (KU_LTP5EzVJ)
+[02:40:22]: [Shard] #10 Caves(2337268065) -> Master(1)
+[02:40:22]: [Shard] #10 -> session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000026
+[02:40:22]: [Shard] Received migration #10 data for (KU_LTP5EzVJ)
+[02:40:22]: [Shard] Writing save location file for (KU_LTP5EzVJ)
+[02:40:22]: [Shard] (KU_LTP5EzVJ) disconnected from Caves(2337268065)
+[02:40:29]: [P2P] Received from 207.81.163.187|1 '76561198351064892'
+[02:40:29]: [P2P] Sent to 207.81.163.187|1 '76561198351064892'
+[02:40:29]: New incoming connection 207.81.163.187|1 <9053515065154756247>
+[02:40:29]: Client connected from 207.81.163.187|1 <9053515065154756247>
+[02:40:29]: [ClientObject] Added (pre-auth) on server: guid=9053515065154756247
+[02:40:29]: ValidateGameSessionToken GUID<9053515065154756247>
+[02:40:30]: Client authenticated: (KU_LTP5EzVJ) johnpork
+[02:40:30]: [Steam] SendUserConnectAndAuthenticate for '76561198351064892'
+[02:40:30]: [Steam] Authenticated client '76561198351064892'
+[02:40:30]: [Shard] Completed incoming migration #10 for (KU_LTP5EzVJ)
+[02:40:30]: [ClientObject] Initialized (authenticated) on server: guid=9053515065154756247 userid=KU_LTP5EzVJ netid=76561198351064892 admin=0
+[02:40:30]: [Shard] Completed migration #10 for player (KU_LTP5EzVJ)
+[02:40:46]: Resuming user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000026
+[02:40:46]: User ID	KU_LTP5EzVJ	assigned ownership to entity	186421 - wathgrithr	
+[02:40:46]: Migrating prefab wathgrithr will spawn close to portal ID: 3	
+[02:40:46]: Spawning player at: [Load] (-31.60, 0.00, -45.19)	
+[02:41:26]: Available disk space for save files: 115099 MB
+[02:41:27]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000026
+[02:41:27]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000026
+[02:41:27]: Serializing world: session/4BDD4007BCA8D71C/0000000026
+[02:45:02]: Rate limiting RPCs from	186421 - wathgrithr	KU_LTP5EzVJ	last one being ID	48	
+[02:49:27]: Available disk space for save files: 115074 MB
+[02:49:28]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000027
+[02:49:28]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000027
+[02:49:28]: Serializing world: session/4BDD4007BCA8D71C/0000000027
+[02:49:52]: [P2P] Session timed out for '76561198418728030'
+[02:49:52]: [P2P] Remove session: 207.81.163.188|1 '76561198418728030'
+[02:52:13]: Deleting user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000028
+[02:52:18]: Deleting user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000028
+[02:52:19]: Resuming user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000028
+[02:52:22]: Spawn request: wilson from tarcio594
+[02:52:22]: Skin request: () () () () ()
+[02:52:22]: Skill Selection request: 390041
+[02:52:22]: User ID	KU_ueGiPCrM	assigned ownership to entity	188473 - wilson	
+[02:52:22]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[02:52:22]: Enabling Spawn Protection for	188473 - wilson	
+[02:52:22]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000028
+[02:54:37]: Activating portal[3] to 2337268065 by 186421 - wathgrithr	
+[02:54:37]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000028
+[02:54:37]: [Shard] Migration request: (KU_LTP5EzVJ) to Caves(2337268065)
+[02:54:37]: [Shard] Begin migration #11 for (KU_LTP5EzVJ)
+[02:54:37]: [Shard] #11 Master(1) -> Caves(2337268065)
+[02:54:37]: [Shard] #11 <- session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000028
+[02:54:37]: [Shard] Writing save location file for (KU_LTP5EzVJ)
+[02:54:37]: CloseConnectionWithReason: ID_DST_SHARD_SILENT_DISCONNECT
+[02:54:38]: [Steam] SendUserDisconnect for '76561198351064892'
+[02:54:38]: [Shard] (KU_LTP5EzVJ) disconnected from Master(1)
+[02:54:53]: [Shard] Completed migration #11 for player (KU_LTP5EzVJ)
+[02:57:13]: [Shard] Begin migration #12 for (KU_LTP5EzVJ)
+[02:57:13]: [Shard] #12 Caves(2337268065) -> Master(1)
+[02:57:13]: [Shard] #12 -> session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000028
+[02:57:13]: [Shard] Received migration #12 data for (KU_LTP5EzVJ)
+[02:57:13]: [Shard] Writing save location file for (KU_LTP5EzVJ)
+[02:57:13]: [Shard] (KU_LTP5EzVJ) disconnected from Caves(2337268065)
+[02:57:24]: [P2P] Received from 207.81.163.187|1 '76561198351064892'
+[02:57:24]: [P2P] Sent to 207.81.163.187|1 '76561198351064892'
+[02:57:25]: New incoming connection 207.81.163.187|1 <10138820136127113639>
+[02:57:25]: Client connected from 207.81.163.187|1 <10138820136127113639>
+[02:57:25]: [ClientObject] Added (pre-auth) on server: guid=10138820136127113639
+[02:57:25]: ValidateGameSessionToken GUID<10138820136127113639>
+[02:57:26]: Client authenticated: (KU_LTP5EzVJ) johnpork
+[02:57:26]: [Steam] SendUserConnectAndAuthenticate for '76561198351064892'
+[02:57:26]: [Steam] Authenticated client '76561198351064892'
+[02:57:26]: [Shard] Completed incoming migration #12 for (KU_LTP5EzVJ)
+[02:57:26]: [ClientObject] Initialized (authenticated) on server: guid=10138820136127113639 userid=KU_LTP5EzVJ netid=76561198351064892 admin=0
+[02:57:26]: [Shard] Completed migration #12 for player (KU_LTP5EzVJ)
+[02:57:28]: Available disk space for save files: 115071 MB
+[02:57:28]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000028
+[02:57:29]: Serializing world: session/4BDD4007BCA8D71C/0000000028
+[02:57:41]: Resuming user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000028
+[02:57:41]: User ID	KU_LTP5EzVJ	assigned ownership to entity	189882 - wathgrithr	
+[02:57:41]: Migrating prefab wathgrithr will spawn close to portal ID: 10	
+[02:57:41]: Spawning player at: [Load] (-230.84, 0.00, 341.73)	
+[03:00:07]: [200] Account Communication Success (6)
+[03:00:07]: Received (KU_ueGiPCrM) from TokenPurpose
+[03:03:52]: Rate limiting RPCs from	189882 - wathgrithr	KU_LTP5EzVJ	last one being ID	48	
+[03:04:18]: [Steam] SendUserDisconnect for '76561198351064892'
+[03:04:18]: Connection lost to 207.81.163.187|1 <10138820136127113639>
+[03:04:18]: [Shard] (KU_LTP5EzVJ) disconnected from Master(1)
+[03:04:19]: Serializing user: session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000029
+[03:04:45]: [P2P] Received from 207.81.163.187|1 '76561198351064892'
+[03:05:02]: [P2P] Connection failed for '76561198351064892' because of error code 4(The connection timed out because the target user didn't respond.).
+[03:05:17]: [P2P] Connection failed for '76561198351064892' because of error code 4(The connection timed out because the target user didn't respond.).
+[03:05:29]: Available disk space for save files: 115061 MB
+[03:05:29]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000029
+[03:05:29]: Serializing world: session/4BDD4007BCA8D71C/0000000029
+[03:05:32]: [P2P] Connection failed for '76561198351064892' because of error code 4(The connection timed out because the target user didn't respond.).
+[03:06:21]: [P2P] Received from 207.81.163.187|1 '76561198351064892'
+[03:06:21]: [P2P] Sent to 207.81.163.187|1 '76561198351064892'
+[03:06:48]: [P2P] Connection failed for '76561198351064892' because of error code 4(The connection timed out because the target user didn't respond.).
+[03:08:03]: [P2P] Connection failed for '76561198351064892' because of error code 4(The connection timed out because the target user didn't respond.).
+[03:08:18]: [P2P] Connection failed for '76561198351064892' because of error code 4(The connection timed out because the target user didn't respond.).
+[03:13:29]: Available disk space for save files: 115053 MB
+[03:13:29]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000030
+[03:13:30]: Serializing world: session/4BDD4007BCA8D71C/0000000030
+[03:15:42]: Deleting user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000031
+[03:15:47]: Deleting user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000031
+[03:15:47]: Sim paused
+[03:15:47]: Resuming user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000031
+[03:15:51]: Spawn request: wilson from tarcio594
+[03:15:51]: Skin request: () () () () ()
+[03:15:51]: Skill Selection request: 390041
+[03:15:51]: User ID	KU_ueGiPCrM	assigned ownership to entity	194484 - wilson	
+[03:15:51]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[03:15:51]: Enabling Spawn Protection for	194484 - wilson	
+[03:15:51]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000031
+[03:15:51]: Sim unpaused
+[03:16:23]: [P2P] Session timed out for '76561198351064892'
+[03:16:23]: [P2P] Remove session: 207.81.163.187|1 '76561198351064892'
+[03:16:56]: Deleting user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000031
+[03:17:01]: Deleting user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000031
+[03:17:01]: Sim paused
+[03:17:01]: Resuming user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000031
+[03:17:04]: Spawn request: wilson from tarcio594
+[03:17:04]: Skin request: () () () () ()
+[03:17:04]: Skill Selection request: 390041
+[03:17:04]: User ID	KU_ueGiPCrM	assigned ownership to entity	194743 - wilson	
+[03:17:04]: Spawning player at: [Fixed] (-54.00, 0.00, -18.00)	
+[03:17:04]: Enabling Spawn Protection for	194743 - wilson	
+[03:17:04]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000031
+[03:17:04]: Sim unpaused
+[03:20:25]: Server Autopaused	
+[03:20:28]: Server Unpaused	
+[03:20:28]: Server Autopaused	
+[03:20:29]: Server Unpaused	
+[03:20:31]: Server Autopaused	
+[03:20:32]: Server Unpaused	
+[03:20:33]: [Steam] SendUserDisconnect for '76561198195325685'
+[03:20:33]: [Shard] (KU_ueGiPCrM) disconnected from Master(1)
+[03:20:33]: [IPC] Received shutdown signal.
+[03:20:33]: Available disk space for save files: 115052 MB
+[03:20:34]: Serializing user: session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000031
+[03:20:34]: Serializing world: session/4BDD4007BCA8D71C/0000000031
+[03:20:34]: Truncating to snapshot #31...
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000002
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000003
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000004
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000005
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000006
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000007
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000008
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000009
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000010
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000011
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000012
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000013
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000014
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000015
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000016
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000017
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000018
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000019
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000020
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000021
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000022
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000023
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000024
+[03:20:34]:  - session/4BDD4007BCA8D71C/0000000025
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000025
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000024
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000023
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000022
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000021
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000020
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000019
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000018
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000017
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000016
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000015
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000014
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000013
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000012
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000011
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000010
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000009
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000008
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000007
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000006
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000004
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/0000000003
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7IVJ8I9DEBE/0000000003
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000025
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000024
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000023
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000022
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000021
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000020
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000019
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000018
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000017
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000016
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000015
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000014
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000013
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000012
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000011
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000010
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000009
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000008
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000007
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000006
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000004
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7KNKUBJ714B/0000000003
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000025
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000024
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000023
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000022
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000021
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000020
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000019
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000018
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000017
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000016
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000015
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000014
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000013
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000012
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000011
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000010
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000009
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000008
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000007
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000006
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000005
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000004
+[03:20:34]:  - session/4BDD4007BCA8D71C/A7N2GGM69JAM/0000000003
+[03:20:34]:    92 file(s) removed
+[03:20:34]:  > session/4BDD4007BCA8D71C/A7ILQP2JNLUJ/savelocation
+[03:20:34]:    1 file(s) updated
+[03:20:34]: Removing server from lobby
+[03:20:34]: [Shard] Stopping shard mode
+[03:20:34]: [Steam] SendUserDisconnect for ''
+[03:20:34]: Collecting garbage...
+[03:20:35]: lua_gc took 0.36 seconds
+[03:20:35]: ~ShardLuaProxy()
+[03:20:35]: ~cEventLeaderboardProxy()
+[03:20:35]: ~ItemServerLuaProxy()
+[03:20:35]: ~InventoryLuaProxy()
+[03:20:35]: ~NetworkLuaProxy()
+[03:20:35]: ~SimLuaProxy()
+[03:20:35]: Cancelling LuaQueryCallback handle [381]
+[03:20:35]: lua_close took 0.42 seconds
+[03:20:35]: CurlRequestManager::ClientThread::Main() complete
+[03:20:35]: HttpClient2 discarded 0 callbacks.
+[03:20:35]: Shutting down
